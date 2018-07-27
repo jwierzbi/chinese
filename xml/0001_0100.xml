@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<characters>
+  <character>
+    <symbol>我</symbol>
+    <pinyin>wǒ</pinyin>
+    <meaning>I, me</meaning>
+  </character>
+  <character>
+    <symbol>的</symbol>
+    <pinyin>de</pinyin>
+    <meaning>possessive pronoun</meaning>
+  </character>
+  <character>
+    <symbol>你</symbol>
+    <pinyin>nǐ</pinyin>
+    <meaning>you</meaning>
+  </character>
+  <character>
+    <symbol>是</symbol>
+    <pinyin>shì</pinyin>
+    <meaning>to be; is</meaning>
+  </character>
+  <character>
+    <symbol>了</symbol>
+    <pinyin>le</pinyin>
+    <meaning>completed action pronoun</meaning>
+  </character>
+  <character>
+    <symbol>不</symbol>
+    <pinyin>bù</pinyin>
+    <meaning>bo; not</meaning>
+  </character>
+  <character>
+    <symbol>們</symbol>
+    <pinyin>plural pronoun</pinyin>
+    <meaning>men</meaning>
+  </character>
+  <character>
+    <symbol>這</symbol>
+    <pinyin>zhè</pinyin>
+    <meaning>this</meaning>
+  </character>
+  <character>
+    <symbol>一</symbol>
+    <pinyin>yī</pinyin>
+    <meaning>one; a</meaning>
+  </character>
+  <character>
+    <symbol>他</symbol>
+    <pinyin>tā</pinyin>
+    <meaning>he; him</meaning>
+  </character>
+  <character>
+    <symbol>麼</symbol>
+    <pinyin>me</pinyin>
+    <meaning>interrogative pronoun</meaning>
+  </character>
+  <character>
+    <symbol>在</symbol>
+    <pinyin>zài</pinyin>
+    <meaning>at</meaning>
+  </character>
+  <character>
+    <symbol>有</symbol>
+    <pinyin>yǒu</pinyin>
+    <meaning>to have; there is</meaning>
+  </character>
+  <character>
+    <symbol>個</symbol>
+    <pinyin>gè</pinyin>
+    <meaning>general measure word</meaning>
+  </character>
+  <character>
+    <symbol>好</symbol>
+    <pinyin>hǎo</pinyin>
+    <meaning>good; well</meaning>
+  </character>
+  <character>
+    <symbol>來</symbol>
+    <pinyin>lái</pinyin>
+    <meaning>to come</meaning>
+  </character>
+  <character>
+    <symbol>人</symbol>
+    <pinyin>rén</pinyin>
+    <meaning>man; person</meaning>
+  </character>
+  <character>
+    <symbol>那</symbol>
+    <pinyin>nà</pinyin>
+    <meaning>that</meaning>
+  </character>
+  <character>
+    <symbol>要</symbol>
+    <pinyin>yào</pinyin>
+    <meaning>to want; important</meaning>
+  </character>
+  <character>
+    <symbol>會</symbol>
+    <pinyin>huì</pinyin>
+    <meaning>can; will; to know</meaning>
+  </character>
+  <character>
+    <symbol>就</symbol>
+    <pinyin>jiù</pinyin>
+    <meaning>then; just (emp.)</meaning>
+  </character>
+  <character>
+    <symbol>什</symbol>
+    <pinyin>shén</pinyin>
+    <meaning>what</meaning>
+  </character>
+  <character>
+    <symbol>没</symbol>
+    <pinyin>méi</pinyin>
+    <meaning>not</meaning>
+  </character>
+  <character>
+    <symbol>到</symbol>
+    <pinyin>dào</pinyin>
+    <meaning>to arrive; until (time)</meaning>
+  </character>
+  <character>
+    <symbol>說</symbol>
+    <pinyin>shuō</pinyin>
+    <meaning>to speak</meaning>
+  </character>
+  <character>
+    <symbol>嗎</symbol>
+    <pinyin>ma</pinyin>
+    <meaning>question pronoun</meaning>
+  </character>
+  <character>
+    <symbol>為</symbol>
+    <pinyin>wèi</pinyin>
+    <meaning>because of; for</meaning>
+  </character>
+  <character>
+    <symbol>想</symbol>
+    <pinyin>xiǎng</pinyin>
+    <meaning>to think; to want</meaning>
+  </character>
+  <character>
+    <symbol>能</symbol>
+    <pinyin>néng</pinyin>
+    <meaning>to be able to</meaning>
+  </character>
+  <character>
+    <symbol>上</symbol>
+    <pinyin>shàng</pinyin>
+    <meaning>above; top</meaning>
+  </character>
+  <character>
+    <symbol>去</symbol>
+    <pinyin>qù</pinyin>
+    <meaning>to go</meaning>
+  </character>
+  <character>
+    <symbol>道</symbol>
+    <pinyin>dào</pinyin>
+    <meaning>way; method</meaning>
+  </character>
+  <character>
+    <symbol>她</symbol>
+    <pinyin>tā</pinyin>
+    <meaning>she</meaning>
+  </character>
+  <character>
+    <symbol>很</symbol>
+    <pinyin>hěn</pinyin>
+    <meaning>very</meaning>
+  </character>
+  <character>
+    <symbol>看</symbol>
+    <pinyin>kàn</pinyin>
+    <meaning>to see; to look at</meaning>
+  </character>
+  <character>
+    <symbol>可</symbol>
+    <pinyin>kě</pinyin>
+    <meaning>can; able to</meaning>
+  </character>
+  <character>
+    <symbol>知</symbol>
+    <pinyin>zhī</pinyin>
+    <meaning>to know</meaning>
+  </character>
+  <character>
+    <symbol>得</symbol>
+    <pinyin>de</pinyin>
+    <meaning>complement pronoun (V + 得 + Adverb)</meaning>
+  </character>
+  <character>
+    <symbol>過</symbol>
+    <pinyin>guo</pinyin>
+    <meaning>experienced action pronoun</meaning>
+  </character>
+  <character>
+    <symbol>吧</symbol>
+    <pinyin>ba</pinyin>
+    <meaning>…right?</meaning>
+  </character>
+  <character>
+    <symbol>還</symbol>
+    <pinyin>hái</pinyin>
+    <meaning>still; yet; to return</meaning>
+  </character>
+  <character>
+    <symbol>對</symbol>
+    <pinyin>duì</pinyin>
+    <meaning>correct; opposite</meaning>
+  </character>
+  <character>
+    <symbol>裡</symbol>
+    <pinyin>lǐ</pinyin>
+    <meaning>inside</meaning>
+  </character>
+  <character>
+    <symbol>以</symbol>
+    <pinyin>yǐ</pinyin>
+    <meaning>according to; by</meaning>
+  </character>
+  <character>
+    <symbol>都</symbol>
+    <pinyin>dōu</pinyin>
+    <meaning>all; both</meaning>
+  </character>
+  <character>
+    <symbol>事</symbol>
+    <pinyin>shì</pinyin>
+    <meaning>thing; item</meaning>
+  </character>
+  <character>
+    <symbol>子</symbol>
+    <pinyin>zǐ</pinyin>
+    <meaning>child</meaning>
+  </character>
+  <character>
+    <symbol>生</symbol>
+    <pinyin>shēng</pinyin>
+    <meaning>life; raw</meaning>
+  </character>
+  <character>
+    <symbol>時</symbol>
+    <pinyin>shí</pinyin>
+    <meaning>time</meaning>
+  </character>
+  <character>
+    <symbol>樣</symbol>
+    <pinyin>yàng</pinyin>
+    <meaning>manner</meaning>
+  </character>
+  <character>
+    <symbol>也</symbol>
+    <pinyin>yě</pinyin>
+    <meaning>also; too</meaning>
+  </character>
+  <character>
+    <symbol>和</symbol>
+    <pinyin>hé</pinyin>
+    <meaning>and</meaning>
+  </character>
+  <character>
+    <symbol>下</symbol>
+    <pinyin>xià</pinyin>
+    <meaning>below; down</meaning>
+  </character>
+  <character>
+    <symbol>真</symbol>
+    <pinyin>zhēn</pinyin>
+    <meaning>really; truly</meaning>
+  </character>
+  <character>
+    <symbol>現</symbol>
+    <pinyin>xiàn</pinyin>
+    <meaning>present</meaning>
+  </character>
+  <character>
+    <symbol>做</symbol>
+    <pinyin>zuò</pinyin>
+    <meaning>to do</meaning>
+  </character>
+  <character>
+    <symbol>大</symbol>
+    <pinyin>dà</pinyin>
+    <meaning>big</meaning>
+  </character>
+  <character>
+    <symbol>啊</symbol>
+    <pinyin>a</pinyin>
+    <meaning>ah!</meaning>
+  </character>
+  <character>
+    <symbol>怎</symbol>
+    <pinyin>zěn</pinyin>
+    <meaning>how</meaning>
+  </character>
+  <character>
+    <symbol>出</symbol>
+    <pinyin>chū</pinyin>
+    <meaning>to go out</meaning>
+  </character>
+  <character>
+    <symbol>點</symbol>
+    <pinyin>diǎn</pinyin>
+    <meaning>a dot; o'clock</meaning>
+  </character>
+  <character>
+    <symbol>起</symbol>
+    <pinyin>qǐ</pinyin>
+    <meaning>to rise</meaning>
+  </character>
+  <character>
+    <symbol>天</symbol>
+    <pinyin>tiān</pinyin>
+    <meaning>day; heaven</meaning>
+  </character>
+  <character>
+    <symbol>把</symbol>
+    <pinyin>bǎ</pinyin>
+    <meaning>direct object pronoun; to hold</meaning>
+  </character>
+  <character>
+    <symbol>開</symbol>
+    <pinyin>kāi</pinyin>
+    <meaning>to open; to start</meaning>
+  </character>
+  <character>
+    <symbol>讓</symbol>
+    <pinyin>ràng</pinyin>
+    <meaning>to allow; passive pronoun</meaning>
+  </character>
+  <character>
+    <symbol>給</symbol>
+    <pinyin>gěi</pinyin>
+    <meaning>to give; for; passive pronoun</meaning>
+  </character>
+  <character>
+    <symbol>但</symbol>
+    <pinyin>dàn</pinyin>
+    <meaning>but; yet</meaning>
+  </character>
+  <character>
+    <symbol>謝</symbol>
+    <pinyin>xiè</pinyin>
+    <meaning>to thank</meaning>
+  </character>
+  <character>
+    <symbol>著</symbol>
+    <pinyin>zhe</pinyin>
+    <meaning>action in progress pronoun</meaning>
+  </character>
+  <character>
+    <symbol>隻</symbol>
+    <pinyin>zhǐ</pinyin>
+    <meaning>only</meaning>
+  </character>
+  <character>
+    <symbol>些</symbol>
+    <pinyin>xiē</pinyin>
+    <meaning>some; few</meaning>
+  </character>
+  <character>
+    <symbol>如</symbol>
+    <pinyin>rú</pinyin>
+    <meaning>as; as if</meaning>
+  </character>
+  <character>
+    <symbol>家</symbol>
+    <pinyin>jiā</pinyin>
+    <meaning>home; family</meaning>
+  </character>
+  <character>
+    <symbol>後</symbol>
+    <pinyin>hòu</pinyin>
+    <meaning>behind; after</meaning>
+  </character>
+  <character>
+    <symbol>兒</symbol>
+    <pinyin>ér</pinyin>
+    <meaning>son</meaning>
+  </character>
+  <character>
+    <symbol>多</symbol>
+    <pinyin>duō</pinyin>
+    <meaning>many; much</meaning>
+  </character>
+  <character>
+    <symbol>意</symbol>
+    <pinyin>yì</pinyin>
+    <meaning>idea; meaning</meaning>
+  </character>
+  <character>
+    <symbol>别</symbol>
+    <pinyin>bié</pinyin>
+    <meaning>must not; other</meaning>
+  </character>
+  <character>
+    <symbol>所</symbol>
+    <pinyin>suǒ</pinyin>
+    <meaning>actually; place</meaning>
+  </character>
+  <character>
+    <symbol>話</symbol>
+    <pinyin>huà</pinyin>
+    <meaning>language; talk</meaning>
+  </character>
+  <character>
+    <symbol>小</symbol>
+    <pinyin>xiǎo</pinyin>
+    <meaning>small</meaning>
+  </character>
+  <character>
+    <symbol>自</symbol>
+    <pinyin>zì</pinyin>
+    <meaning>self</meaning>
+  </character>
+  <character>
+    <symbol>回</symbol>
+    <pinyin>huí</pinyin>
+    <meaning>to answer; to return</meaning>
+  </character>
+  <character>
+    <symbol>然</symbol>
+    <pinyin>rán</pinyin>
+    <meaning>correct</meaning>
+  </character>
+  <character>
+    <symbol>果</symbol>
+    <pinyin>guǒ</pinyin>
+    <meaning>fruit</meaning>
+  </character>
+  <character>
+    <symbol>發</symbol>
+    <pinyin>fā</pinyin>
+    <meaning>to send; to develop</meaning>
+  </character>
+  <character>
+    <symbol>見</symbol>
+    <pinyin>jiàn</pinyin>
+    <meaning>to see; to meet</meaning>
+  </character>
+  <character>
+    <symbol>心</symbol>
+    <pinyin>xīn</pinyin>
+    <meaning>heart</meaning>
+  </character>
+  <character>
+    <symbol>走</symbol>
+    <pinyin>zǒu</pinyin>
+    <meaning>to walk; away</meaning>
+  </character>
+  <character>
+    <symbol>定</symbol>
+    <pinyin>dìng</pinyin>
+    <meaning>to set</meaning>
+  </character>
+  <character>
+    <symbol>聽</symbol>
+    <pinyin>tīng</pinyin>
+    <meaning>to listen</meaning>
+  </character>
+  <character>
+    <symbol>覺</symbol>
+    <pinyin>jué</pinyin>
+    <meaning>to feel</meaning>
+  </character>
+  <character>
+    <symbol>太</symbol>
+    <pinyin>tài</pinyin>
+    <meaning>too (much)</meaning>
+  </character>
+  <character>
+    <symbol>該</symbol>
+    <pinyin>gāi</pinyin>
+    <meaning>should</meaning>
+  </character>
+  <character>
+    <symbol>當</symbol>
+    <pinyin>dāng</pinyin>
+    <meaning>to be; just at</meaning>
+  </character>
+  <character>
+    <symbol>經</symbol>
+    <pinyin>jīng</pinyin>
+    <meaning>pass through</meaning>
+  </character>
+  <character>
+    <symbol>媽</symbol>
+    <pinyin>mā</pinyin>
+    <meaning>mum</meaning>
+  </character>
+  <character>
+    <symbol>用</symbol>
+    <pinyin>yòng</pinyin>
+    <meaning>to use</meaning>
+  </character>
+  <character>
+    <symbol>打</symbol>
+    <pinyin>dǎ</pinyin>
+    <meaning>to hit</meaning>
+  </character>
+</characters>
