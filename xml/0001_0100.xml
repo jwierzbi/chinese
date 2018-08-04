@@ -1,130 +1,279 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <characters>
+<!-- 1 -->
   <character>
     <symbol>我</symbol>
     <pinyin>wǒ</pinyin>
     <meaning>I, me</meaning>
+    <note>Hand 手 holding a halberd 戈.</note>
+    <radical>戈</radical>
+    <components>
+      <component>手</component>
+      <component>戈</component>
+    </components>
   </character>
   <character>
     <symbol>的</symbol>
     <pinyin>de</pinyin>
     <meaning>possessive pronoun</meaning>
+    <note/>
+    <radical>白</radical>
+    <components>
+      <component>白</component>
+      <component>勺</component>
+    </components>
   </character>
   <character>
     <symbol>你</symbol>
     <pinyin>nǐ</pinyin>
     <meaning>you</meaning>
+    <note>亻 (person) suggests the meaning while 尔 provides the sound.</note>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>尔</component>
+    </components>
   </character>
   <character>
     <symbol>是</symbol>
     <pinyin>shì</pinyin>
     <meaning>to be; is</meaning>
+    <note>Speak 曰 straight 正.</note>
+    <radical>曰</radical>
+    <components>
+      <component>曰</component>
+      <component>正</component>
+    </components>
   </character>
   <character>
     <symbol>了</symbol>
     <pinyin>le</pinyin>
     <meaning>completed action pronoun</meaning>
+    <note/>
+    <radical>亅</radical>
+    <components/>
   </character>
   <character>
     <symbol>不</symbol>
     <pinyin>bù</pinyin>
     <meaning>bo; not</meaning>
+    <note/>
+    <radical>一</radical>
+    <components>
+      <component>丆</component>
+      <component>卜</component>
+    </components>
   </character>
   <character>
     <symbol>們</symbol>
-    <pinyin>plural pronoun</pinyin>
-    <meaning>men</meaning>
+    <pinyin>men</pinyin>
+    <meaning>plural pronoun</meaning>
+    <note>亻 suggests the meaning while 門 provides the sound.</note>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>門</component>
+    </components>
   </character>
   <character>
     <symbol>這</symbol>
     <pinyin>zhè</pinyin>
     <meaning>this</meaning>
+    <note/>
+    <radical>辵</radical>
+    <components>
+      <component>辶</component>
+      <component>言</component>
+    </components>
   </character>
   <character>
     <symbol>一</symbol>
     <pinyin>yī</pinyin>
     <meaning>one; a</meaning>
+    <note>Represents digit 1.</note>
+    <radical>一</radical>
+    <components/>
   </character>
   <character>
     <symbol>他</symbol>
     <pinyin>tā</pinyin>
     <meaning>he; him</meaning>
+    <note/>
+    <radical>人</radical>
+    <note>亻 suggests the meaning while 也 provides the sound.</note>
+    <components>
+      <component>亻</component>
+      <component>也</component>
+    </components>
   </character>
+<!-- 11 -->
   <character>
     <symbol>麼</symbol>
     <pinyin>me</pinyin>
     <meaning>interrogative pronoun</meaning>
+    <note/>
+    <radical>麻</radical>
+    <components>
+      <component>麻</component>
+      <component>幺</component>
+    </components>
   </character>
   <character>
     <symbol>在</symbol>
     <pinyin>zài</pinyin>
     <meaning>at</meaning>
+    <note/>
+    <radical>土</radical>
+    <components>
+      <component>亻</component>
+      <component>土</component>
+    </components>
   </character>
   <character>
     <symbol>有</symbol>
     <pinyin>yǒu</pinyin>
     <meaning>to have; there is</meaning>
+    <note/>
+    <radical>月</radical>
+    <components>
+      <component>月</component>
+    </components>
   </character>
   <character>
     <symbol>個</symbol>
     <pinyin>gè</pinyin>
     <meaning>general measure word</meaning>
+    <note>亻 suggests the meaning, 固 provides the sound</note>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>固</component>
+    </components>
   </character>
   <character>
     <symbol>好</symbol>
     <pinyin>hǎo</pinyin>
     <meaning>good; well</meaning>
+    <note>Woman 女 with a child 子 is good thing.</note>
+    <radical>女</radical>
+    <components>
+      <component>女</component>
+      <component>子</component>
+    </components>
   </character>
   <character>
     <symbol>來</symbol>
     <pinyin>lái</pinyin>
     <meaning>to come</meaning>
-  </character>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>木</component>
+      <component>从</component>
+    </components>
+  </character>                                                                                                                                                                                                                                              
   <character>
     <symbol>人</symbol>
     <pinyin>rén</pinyin>
     <meaning>man; person</meaning>
+    <note>Picture of a man walking on two legs.</note>
+    <radical>人</radical>
+    <components>
+      <component>人</component>
+    </components>
   </character>
   <character>
     <symbol>那</symbol>
     <pinyin>nà</pinyin>
     <meaning>that</meaning>
+    <note/>
+    <radical>邑</radical>
+    <components>
+      <component>二</component>
+      <component>丨</component>
+    </components>
   </character>
   <character>
     <symbol>要</symbol>
     <pinyin>yào</pinyin>
     <meaning>to want; important</meaning>
+    <note/>
+    <radical>西</radical>
+    <components>
+      <component>覀</component>
+      <component>女</component>
+    </components>
   </character>
   <character>
     <symbol>會</symbol>
     <pinyin>huì</pinyin>
     <meaning>can; will; to know</meaning>
+    <note/>
+    <radical>曰</radical>
+    <components>
+      <component>日</component>
+      <component>亼</component>
+      <component>丷</component>
+      <component>口</component>
+      <component>丨</component>
+    </components>
   </character>
+<!-- 21 -->
   <character>
     <symbol>就</symbol>
     <pinyin>jiù</pinyin>
     <meaning>then; just (emp.)</meaning>
+    <note/>
+    <radical>尢</radical>
+    <components>
+      <component>京</component>
+      <component>尤</component>
+    </components>
   </character>
   <character>
     <symbol>什</symbol>
     <pinyin>shén</pinyin>
     <meaning>what</meaning>
+    <note></note>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>十</component>
+    </components>
   </character>
   <character>
     <symbol>没</symbol>
     <pinyin>méi</pinyin>
     <meaning>not</meaning>
+    <note/>
+    <radical>水</radical>
+    <components>
+      <component>氵</component>
+      <component>又</component>
+    </components>
   </character>
   <character>
     <symbol>到</symbol>
     <pinyin>dào</pinyin>
     <meaning>to arrive; until (time)</meaning>
+    <note>至 suggests the meaning, 刂 provides the sound</note>
+    <radical>刀</radical>
+    <components>
+      <component>至</component>
+      <component>刂</component>
+    </components>
   </character>
   <character>
     <symbol>說</symbol>
     <pinyin>shuō</pinyin>
     <meaning>to speak</meaning>
+    <note>Word 言 exchanged 兌.</note>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>兌</component>
+    </components>
   </character>
   <character>
     <symbol>嗎</symbol>

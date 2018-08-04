@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="radicals">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="radical" minOccurs="1" maxOccurs="214">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="number">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:minInclusive value="1"/>
+                    <xs:maxInclusive value="214"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="symbol" type="xs:string"/>
+              <xs:element name="pinyin" type="xs:string"/>
+              <xs:element name="meaning" type="xs:string"/>
+              <xs:element name="strokes">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:minInclusive value="1"/>
+                    <xs:maxInclusive value="17"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="variants">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="variant" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

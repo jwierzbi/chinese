@@ -10,28 +10,64 @@
 # http://www.javaranch.com/journal/200409/CreatingMultipleLanguagePDFusingApacheFOP.html
 # http://www.sagehill.net/docbookxsl/SpecialChars.html
 
+
+VERBOSE ?= 0
+
+ifeq ($(VERBOSE),1)
+QUIET=
+OUTPUT=
+else
+QUIET=@
+endif
+
+# tools
+
+ECHO = @echo
+RM = $(QUIET)rm
+MKDIR = $(QUIET)mkdir
+XSLTPROC = $(QUIET)xsltproc
+FOP = $(QUIET)fop
+GEN = $(QUIET)tools/gen_docbook.py
+GEN2 = $(QUIET)tools/gen_article.py
+
+# config
+
 RELEASE ?= 0
 
 OUTDIR := out
 TARGET := characters.pdf
-SOURCE := characters.xml
 
-# ifeq ($(RELEASE),1)
+SOURCES := \
+	0001_0100.xml \
+	radicals.xml
+
 PARAMS := --stringparam draft.mode no
-# else
-# PARAMS := --stringparam draft.mode yes
-# endif
 
 .PHONY = all
-all: pdf
+all: $(OUTDIR) $(OUTDIR)/$(TARGET)
 
-pdf: xml/$(SOURCE)
-#	mkdir -p $(OUTDIR)
+$(OUTDIR)/$(TARGET): $(OUTDIR)/$(TARGET:.pdf=.fo)
+	$(ECHO) "FOP $@"
+	$(FOP) -c config/fop.xml -fo $< -pdf $@
+
+$(OUTDIR)/$(TARGET:.pdf=.fo): $(OUTDIR)/$(TARGET:.pdf=.xml)
 #	--stringparam symbol.font.family Arial --stringparam body.fontset "Arial"
 #	xsltproc --output book.fo /usr/share/xml/docbook/stylesheet/docbook-xsl-ns/fo/docbook.xsl calibration.xml
-	xsltproc $(PARAMS) --output $(OUTDIR)/$(SOURCE:.xml=.fo) config/wrapper.xml xml/$(SOURCE)
-	fop -c config/fop.xml -fo $(OUTDIR)/$(SOURCE:.xml=.fo) -pdf $(OUTDIR)/$(TARGET)
+	$(XSLTPROC) $(PARAMS) --output $@ config/wrapper.xml $<
+
+$(OUTDIR)/$(TARGET:.pdf=.xml): $(addprefix $(OUTDIR)/,$(SOURCES))
+	$(ECHO) "GEN2 $@"
+	$(GEN2) -o $@ $^
+
+# .SECONDARY:
+$(OUTDIR)/%.xml: xml/%.xml
+	$(ECHO) GEN $@
+	$(GEN) -i $< -o $@
+
+$(OUTDIR):
+	$(MKDIR) out
 
 .PHONY = clean
 clean:
-	rm -rf out
+	$(ECHO) "removing out directory"
+	$(RM) -rf out
