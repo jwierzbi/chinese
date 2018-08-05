@@ -279,151 +279,336 @@
     <symbol>嗎</symbol>
     <pinyin>ma</pinyin>
     <meaning>question pronoun</meaning>
+    <note>女 suggests the meaning, 馬 provides the sound</note>
+    <radical>女</radical>
+    <components>
+      <component>女</component>
+      <component>馬</component>
+    </components>
   </character>
   <character>
     <symbol>為</symbol>
     <pinyin>wèi</pinyin>
     <meaning>because of; for</meaning>
+    <note/>
+    <radical>火</radical>
+    <components>
+      <component>灬</component>
+      <component>丶</component>
+    </components>
   </character>
   <character>
     <symbol>想</symbol>
     <pinyin>xiǎng</pinyin>
     <meaning>to think; to want</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>相</component>
+      <component>心</component>
+    </components>
   </character>
   <character>
     <symbol>能</symbol>
     <pinyin>néng</pinyin>
     <meaning>to be able to</meaning>
+    <note>### why meat??? ###</note>
+    <radical>肉</radical>
+    <components>
+      <component>䏍</component>
+      <component>匕</component>
+    </components>
   </character>
   <character>
     <symbol>上</symbol>
     <pinyin>shàng</pinyin>
     <meaning>above; top</meaning>
+    <note>pointing up</note>
+    <radical>一</radical>
+    <components>
+      <component>一</component>
+    </components>
   </character>
+<!-- 31 -->
   <character>
     <symbol>去</symbol>
     <pinyin>qù</pinyin>
     <meaning>to go</meaning>
+    <note/>
+    <radical>厶</radical>
+    <components>
+      <component>土</component>
+      <component>厶</component>
+    </components>
   </character>
   <character>
     <symbol>道</symbol>
     <pinyin>dào</pinyin>
     <meaning>way; method</meaning>
+    <note/>
+    <radical>辵</radical>
+    <components>
+      <component>辶</component>
+      <component>首</component>
+    </components>
   </character>
   <character>
     <symbol>她</symbol>
     <pinyin>tā</pinyin>
     <meaning>she</meaning>
+    <note>亻 suggests the meaning while 也 provides the sound.</note>
+    <radical>女</radical>
+    <components>
+      <component>女</component>
+      <component>也</component>
+    </components>
   </character>
   <character>
     <symbol>很</symbol>
     <pinyin>hěn</pinyin>
     <meaning>very</meaning>
+    <note/>
+    <radical>彳</radical>
+    <components>
+      <component>彳</component>
+      <component>艮</component>
+    </components>
   </character>
   <character>
     <symbol>看</symbol>
     <pinyin>kàn</pinyin>
     <meaning>to see; to look at</meaning>
+    <note>Hand 手 over the eye 目 looking into the distance.</note>
+    <radical>目</radical>
+    <components>
+      <component></component>
+      <component>目</component>
+    </components>
   </character>
   <character>
     <symbol>可</symbol>
     <pinyin>kě</pinyin>
     <meaning>can; able to</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>丁</component>
+      <component>口</component>
+    </components>
   </character>
   <character>
     <symbol>知</symbol>
     <pinyin>zhī</pinyin>
     <meaning>to know</meaning>
+    <note>Speak 口 like and arrow 矢.</note>
+    <radical>矢</radical>
+    <components>
+      <component>矢</component>
+      <component>口</component>
+    </components>
   </character>
   <character>
     <symbol>得</symbol>
     <pinyin>de</pinyin>
     <meaning>complement pronoun (V + 得 + Adverb)</meaning>
+    <note/>
+    <radical>彳</radical>
+    <components>
+      <component>彳</component>
+      <component>㝵</component>
+    </components>
   </character>
   <character>
     <symbol>過</symbol>
     <pinyin>guo</pinyin>
     <meaning>experienced action pronoun</meaning>
+    <note/>
+    <radical>辵</radical>
+    <components>
+      <component>辶</component>
+      <component>咼</component>
+    </components>
   </character>
   <character>
     <symbol>吧</symbol>
     <pinyin>ba</pinyin>
     <meaning>…right?</meaning>
+    <note></note>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>巴</component>
+    </components>
   </character>
+<!-- 41 -->
   <character>
     <symbol>還</symbol>
     <pinyin>hái</pinyin>
     <meaning>still; yet; to return</meaning>
+    <note/>
+    <radical>辵</radical>
+    <components>
+      <component>辶</component>
+      <component>睘</component>
+    </components>
   </character>
   <character>
     <symbol>對</symbol>
     <pinyin>duì</pinyin>
     <meaning>correct; opposite</meaning>
+    <note/>
+    <radical>寸</radical>
+    <components>
+      <component>寸</component>
+      <component>业</component>
+      <component>羊</component>
+    </components>
   </character>
   <character>
     <symbol>裡</symbol>
     <pinyin>lǐ</pinyin>
     <meaning>inside</meaning>
+    <note/>
+    <radical>衣</radical>
+    <components>
+      <component>衤</component>
+      <component>里</component>
+    </components>
   </character>
   <character>
     <symbol>以</symbol>
     <pinyin>yǐ</pinyin>
     <meaning>according to; by</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>人</component>
+      <component>乚</component>
+      <component>丶</component>
+    </components>
   </character>
   <character>
     <symbol>都</symbol>
     <pinyin>dōu</pinyin>
     <meaning>all; both</meaning>
+    <note/>
+    <radical>邑</radical>
+    <components>
+      <component>者</component>
+    </components>
   </character>
   <character>
     <symbol>事</symbol>
     <pinyin>shì</pinyin>
     <meaning>thing; item</meaning>
+    <note/>
+    <radical>亅</radical>
+    <components>
+      <component>亅</component>
+      <component>十</component>
+      <component>中</component>
+    </components>
   </character>
   <character>
     <symbol>子</symbol>
     <pinyin>zǐ</pinyin>
     <meaning>child</meaning>
+    <note>Picture of a baby with outstretched arms, legs still hidden by
+    by a blanket.</note>
+    <radical>子</radical>
+    <components>
+      <component>了</component>
+      <component>一</component>
+    </components>
   </character>
   <character>
     <symbol>生</symbol>
     <pinyin>shēng</pinyin>
     <meaning>life; raw</meaning>
+    <note/>
+    <radical>生</radical>
+    <components>
+      <component>#???#</component>
+      <component>丿</component>
+    </components>
   </character>
   <character>
     <symbol>時</symbol>
     <pinyin>shí</pinyin>
     <meaning>time</meaning>
+    <note/>
+    <radical>日</radical>
+    <components>
+      <component>日</component>
+      <component>寺</component>
+    </components>
   </character>
   <character>
     <symbol>樣</symbol>
     <pinyin>yàng</pinyin>
     <meaning>manner</meaning>
+    <note/>
+    <radical>木</radical>
+    <components>
+      <component>木</component>
+      <component>羕</component>
+    </components>
   </character>
+<!-- 51 -->
   <character>
     <symbol>也</symbol>
     <pinyin>yě</pinyin>
     <meaning>also; too</meaning>
+    <note/>
+    <radical>乙</radical>
+    <components>
+      <component>乚</component>
+      <component>丨</component>
+    </components>
   </character>
   <character>
     <symbol>和</symbol>
     <pinyin>hé</pinyin>
     <meaning>and</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>禾</component>
+      <component>口</component>
+    </components>
   </character>
   <character>
     <symbol>下</symbol>
     <pinyin>xià</pinyin>
     <meaning>below; down</meaning>
+    <note>Pointing down.</note>
+    <radical>一</radical>
+    <components>
+      <component>一</component>
+      <component>卜</component>
+    </components>
   </character>
   <character>
     <symbol>真</symbol>
     <pinyin>zhēn</pinyin>
     <meaning>really; truly</meaning>
+    <note/>
+    <radical>目</radical>
+    <components>
+      <component>十</component>
+      <component>具</component>
+    </components>
   </character>
   <character>
     <symbol>現</symbol>
     <pinyin>xiàn</pinyin>
     <meaning>present</meaning>
+    <note/>
+    <radical>玉</radical>
+    <components>
+      <component>王</component>
+      <component>見</component>
+    </components>
   </character>
   <character>
     <symbol>做</symbol>
@@ -450,6 +635,7 @@
     <pinyin>chū</pinyin>
     <meaning>to go out</meaning>
   </character>
+<!-- 61 -->
   <character>
     <symbol>點</symbol>
     <pinyin>diǎn</pinyin>

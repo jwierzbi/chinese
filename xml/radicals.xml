@@ -21,6 +21,17 @@
     <variants/>
   </radical>
   <radical>
+    <number>5</number>
+    <symbol>乙</symbol>
+    <pinyin>yǐ</pinyin>
+    <meaning>second</meaning>
+    <strokes>1</strokes>
+    <variants>
+      <variant>乚</variant>
+      <variant>乛</variant>
+    </variants>
+  </radical>
+  <radical>
     <number>6</number>
     <symbol>亅</symbol>
     <pinyin>gōu</pinyin>
@@ -49,10 +60,50 @@
     </variants>
   </radical>
   <radical>
+    <number>28</number>
+    <symbol>厶</symbol>
+    <pinyin>sī</pinyin>
+    <meaning>private</meaning>
+    <strokes>2</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>30</number>
+    <symbol>口</symbol>
+    <pinyin>kǒu</pinyin>
+    <meaning>mouth</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>32</number>
     <symbol>土</symbol>
     <pinyin>tǔ</pinyin>
     <meaning>earth</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>38</number>
+    <symbol>女</symbol>
+    <pinyin>nǚ</pinyin>
+    <meaning>woman</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>39</number>
+    <symbol>子</symbol>
+    <pinyin>zǐ</pinyin>
+    <meaning>child</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>41</number>
+    <symbol>寸</symbol>
+    <pinyin>cùn</pinyin>
+    <meaning>inch</meaning>
     <strokes>3</strokes>
     <variants/>
   </radical>
@@ -64,6 +115,24 @@
     <strokes>3</strokes>
     <variants>
       <variant>尣</variant>
+    </variants>
+  </radical>
+  <radical>
+    <number>60</number>
+    <symbol>彳</symbol>
+    <pinyin>chì</pinyin>
+    <meaning>step</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>61</number>
+    <symbol>心</symbol>
+    <pinyin>xīn</pinyin>
+    <meaning>heart</meaning>
+    <strokes>4</strokes>
+    <variants>
+      <variant>忄</variant>
     </variants>
   </radical>
   <radical>
@@ -101,6 +170,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>75</number>
+    <symbol>木</symbol>
+    <pinyin>mù</pinyin>
+    <meaning>tree</meaning>
+    <strokes>4</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>85</number>
     <symbol>水</symbol>
     <pinyin>shuǐ</pinyin>
@@ -111,12 +188,74 @@
     </variants>
   </radical>
   <radical>
+    <number>86</number>
+    <symbol>火</symbol>
+    <pinyin>huǒ</pinyin>
+    <meaning>fire</meaning>
+    <strokes>4</strokes>
+    <variants>
+      <variant>灬</variant>
+    </variants>
+  </radical>
+  <radical>
+    <number>96</number>
+    <symbol>玉</symbol>
+    <pinyin>yù</pinyin>
+    <meaning>jade</meaning>
+    <strokes>5</strokes>
+    <variants>
+      <variant>王</variant>
+    </variants>
+  </radical>
+  <radical>
+    <number>100</number>
+    <symbol>生</symbol>
+    <pinyin>shēng</pinyin>
+    <meaning>life</meaning>
+    <strokes>5</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>106</number>
     <symbol>白</symbol>
     <pinyin>bái</pinyin>
     <meaning>white</meaning>
     <strokes>5</strokes>
     <variants/>
+  </radical>
+  <radical>
+    <number>109</number>
+    <symbol>目</symbol>
+    <pinyin>mù</pinyin>
+    <meaning>eye</meaning>
+    <strokes>5</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>111</number>
+    <symbol>矢</symbol>
+    <pinyin>shǐ</pinyin>
+    <meaning>arrow</meaning>
+    <strokes>5</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>130</number>
+    <symbol>肉</symbol>
+    <pinyin>ròu</pinyin>
+    <meaning>meat</meaning>
+    <strokes>6</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>145</number>
+    <symbol>衣</symbol>
+    <pinyin>yī</pinyin>
+    <meaning>clothes</meaning>
+    <strokes>6</strokes>
+    <variants>
+      <variant>衤</variant>
+    </variants>
   </radical>
   <radical>
     <number>146</number>
