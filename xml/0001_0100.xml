@@ -614,78 +614,168 @@
     <symbol>做</symbol>
     <pinyin>zuò</pinyin>
     <meaning>to do</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>故</component>
+    </components>
   </character>
   <character>
     <symbol>大</symbol>
     <pinyin>dà</pinyin>
     <meaning>big</meaning>
+    <note>A man with outstretched arms to make himself look big.</note>
+    <radical>大</radical>
+    <components>
+      <component>人</component>
+      <component>一</component>
+    </components>
   </character>
   <character>
     <symbol>啊</symbol>
     <pinyin>a</pinyin>
     <meaning>ah!</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>阿</component>
+    </components>
   </character>
   <character>
     <symbol>怎</symbol>
     <pinyin>zěn</pinyin>
     <meaning>how</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>乍</component>
+      <component>心</component>
+    </components>
   </character>
   <character>
     <symbol>出</symbol>
     <pinyin>chū</pinyin>
     <meaning>to go out</meaning>
+    <note/>
+    <radical>凵</radical>
+    <components>
+      <component>山</component>
+    </components>
   </character>
 <!-- 61 -->
   <character>
     <symbol>點</symbol>
     <pinyin>diǎn</pinyin>
     <meaning>a dot; o'clock</meaning>
+    <note/>
+    <radical>黑</radical>
+    <components>
+      <component>黑</component>
+      <component>占</component>
+    </components>
   </character>
   <character>
     <symbol>起</symbol>
     <pinyin>qǐ</pinyin>
     <meaning>to rise</meaning>
+    <note/>
+    <radical>走</radical>
+    <components>
+      <component>走</component>
+      <component>己</component>
+    </components>
   </character>
   <character>
     <symbol>天</symbol>
     <pinyin>tiān</pinyin>
     <meaning>day; heaven</meaning>
+    <note>Space above man.</note>
+    <radical>大</radical>
+    <components>
+      <component>一</component>
+      <component>大</component>
+    </components>
   </character>
   <character>
     <symbol>把</symbol>
     <pinyin>bǎ</pinyin>
     <meaning>direct object pronoun; to hold</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+      <component>扌</component>
+      <component>巴</component>
+    </components>
   </character>
   <character>
     <symbol>開</symbol>
     <pinyin>kāi</pinyin>
     <meaning>to open; to start</meaning>
+    <note>Open 开 the door 門.</note>
+    <radical>門</radical>
+    <components>
+      <component>門</component>
+      <component>开</component>
+    </components>
   </character>
   <character>
     <symbol>讓</symbol>
     <pinyin>ràng</pinyin>
     <meaning>to allow; passive pronoun</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>襄</component>
+    </components>
   </character>
   <character>
     <symbol>給</symbol>
     <pinyin>gěi</pinyin>
     <meaning>to give; for; passive pronoun</meaning>
+    <note/>
+    <radical>糸</radical>
+    <components>
+      <component>糹</component>
+      <component>合</component>
+    </components>
   </character>
   <character>
     <symbol>但</symbol>
     <pinyin>dàn</pinyin>
     <meaning>but; yet</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>旦</component>
+    </components>
   </character>
   <character>
     <symbol>謝</symbol>
     <pinyin>xiè</pinyin>
     <meaning>to thank</meaning>
+    <note/>
+    <radical></radical>
+    <components>
+      <component>言</component>
+      <component>射</component>
+    </components>
   </character>
   <character>
     <symbol>著</symbol>
     <pinyin>zhe</pinyin>
     <meaning>action in progress pronoun</meaning>
+    <note/>
+    <radical>艸</radical>
+    <components>
+      <component>艹</component>
+      <component>者</component>
+    </components>
   </character>
+<!-- 71 -->
   <character>
     <symbol>隻</symbol>
     <pinyin>zhǐ</pinyin>

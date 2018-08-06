@@ -50,6 +50,14 @@
     </variants>
   </radical>
   <radical>
+    <number>17</number>
+    <symbol>凵</symbol>
+    <pinyin>qǔ</pinyin>
+    <meaning>open box</meaning>
+    <strokes>2</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>18</number>
     <symbol>刀</symbol>
     <pinyin>dāo</pinyin>
@@ -80,6 +88,14 @@
     <symbol>土</symbol>
     <pinyin>tǔ</pinyin>
     <meaning>earth</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>37</number>
+    <symbol>大</symbol>
+    <pinyin>dà</pinyin>
+    <meaning>big</meaning>
     <strokes>3</strokes>
     <variants/>
   </radical>
@@ -240,12 +256,32 @@
     <variants/>
   </radical>
   <radical>
+    <number>120</number>
+    <symbol>糸</symbol>
+    <pinyin>sī</pinyin>
+    <meaning>silk</meaning>
+    <strokes>6</strokes>
+    <variants>
+      <variant>糹</variant>
+    </variants>
+  </radical>
+  <radical>
     <number>130</number>
     <symbol>肉</symbol>
     <pinyin>ròu</pinyin>
     <meaning>meat</meaning>
     <strokes>6</strokes>
     <variants/>
+  </radical>
+  <radical>
+    <number>140</number>
+    <symbol>艸</symbol>
+    <pinyin>cǎo</pinyin>
+    <meaning>grass</meaning>
+    <strokes>6</strokes>
+    <variants>
+      <variant>艹</variant>
+    </variants>
   </radical>
   <radical>
     <number>145</number>
@@ -278,6 +314,14 @@
     </variants>
   </radical>
   <radical>
+    <number>156</number>
+    <symbol>走</symbol>
+    <pinyin>zǒu</pinyin>
+    <meaning>walk</meaning>
+    <strokes>7</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>162</number>
     <symbol>辵</symbol>
     <pinyin>chuò</pinyin>
@@ -298,11 +342,29 @@
     </variants>
   </radical>
   <radical>
+    <number>169</number>
+    <symbol>門</symbol>
+    <pinyin>mén</pinyin>
+    <meaning>gate</meaning>
+    <strokes>8</strokes>
+    <variants>
+      <variant></variant>
+    </variants>
+  </radical>
+  <radical>
     <number>200</number>
     <symbol>麻</symbol>
     <pinyin>má</pinyin>
     <meaning>hemp</meaning>
     <strokes>11</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>203</number>
+    <symbol>黑</symbol>
+    <pinyin>hēi</pinyin>
+    <meaning>black</meaning>
+    <strokes>12</strokes>
     <variants/>
   </radical>
 </radicals>
