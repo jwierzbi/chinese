@@ -40,6 +40,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>7</number>
+    <symbol>二</symbol>
+    <pinyin>èr</pinyin>
+    <meaning>two</meaning>
+    <strokes>2</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>9</number>
     <symbol>人</symbol>
     <pinyin>rén</pinyin>
@@ -48,6 +56,14 @@
     <variants>
       <variant>亻</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>10</number>
+    <symbol>儿</symbol>
+    <pinyin>ér</pinyin>
+    <meaning>legs</meaning>
+    <strokes>2</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>17</number>
@@ -84,10 +100,26 @@
     <variants/>
   </radical>
   <radical>
+    <number>31</number>
+    <symbol>囗</symbol>
+    <pinyin>wéi</pinyin>
+    <meaning>enclosure</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>32</number>
     <symbol>土</symbol>
     <pinyin>tǔ</pinyin>
     <meaning>earth</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>36</number>
+    <symbol>夕</symbol>
+    <pinyin>xī</pinyin>
+    <meaning>night</meaning>
     <strokes>3</strokes>
     <variants/>
   </radical>
@@ -116,10 +148,26 @@
     <variants/>
   </radical>
   <radical>
+    <number>40</number>
+    <symbol>宀</symbol>
+    <pinyin>gài</pinyin>
+    <meaning>roof</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>41</number>
     <symbol>寸</symbol>
     <pinyin>cùn</pinyin>
     <meaning>inch</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>42</number>
+    <symbol>小</symbol>
+    <pinyin>small</pinyin>
+    <meaning>xiǎo</meaning>
     <strokes>3</strokes>
     <variants/>
   </radical>
@@ -156,6 +204,14 @@
     <symbol>戈</symbol>
     <pinyin>gē</pinyin>
     <meaning>spear</meaning>
+    <strokes>4</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>63</number>
+    <symbol>戶</symbol>
+    <pinyin>hù</pinyin>
+    <meaning>door</meaning>
     <strokes>4</strokes>
     <variants/>
   </radical>
@@ -270,6 +326,14 @@
     <symbol>肉</symbol>
     <pinyin>ròu</pinyin>
     <meaning>meat</meaning>
+    <strokes>6</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>132</number>
+    <symbol>自</symbol>
+    <pinyin>zì</pinyin>
+    <meaning>oneself</meaning>
     <strokes>6</strokes>
     <variants/>
   </radical>

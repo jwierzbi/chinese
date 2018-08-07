@@ -777,79 +777,169 @@
   </character>
 <!-- 71 -->
   <character>
-    <symbol>隻</symbol>
+    <symbol>只</symbol>
     <pinyin>zhǐ</pinyin>
     <meaning>only</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>八</component>
+    </components>
   </character>
   <character>
     <symbol>些</symbol>
     <pinyin>xiē</pinyin>
     <meaning>some; few</meaning>
+    <note/>
+    <radical>二</radical>
+    <components>
+      <component>此</component>
+      <component>二</component>
+    </components>
   </character>
   <character>
     <symbol>如</symbol>
     <pinyin>rú</pinyin>
     <meaning>as; as if</meaning>
+    <note/>
+    <radical>女</radical>
+    <components>
+      <component>女</component>
+      <component>口</component>
+    </components>
   </character>
   <character>
     <symbol>家</symbol>
     <pinyin>jiā</pinyin>
     <meaning>home; family</meaning>
+    <note>Pig 豕 in a under a roof 宀 (in a house).</note>
+    <radical>宀</radical>
+    <components>
+      <component>宀</component>
+      <component>豕</component>
+    </components>
   </character>
   <character>
     <symbol>後</symbol>
     <pinyin>hòu</pinyin>
     <meaning>behind; after</meaning>
+    <note/>
+    <radical>彳</radical>
+    <components>
+      <component>彳</component>
+      <component>幺</component>
+      <component>夂</component>
+    </components>
   </character>
   <character>
     <symbol>兒</symbol>
     <pinyin>ér</pinyin>
     <meaning>son</meaning>
+    <note/>
+    <radical>儿</radical>
+    <components>
+      <component>臼</component>
+      <component>儿</component>
+    </components>
   </character>
   <character>
     <symbol>多</symbol>
     <pinyin>duō</pinyin>
     <meaning>many; much</meaning>
+    <note/>
+    <radical>夕</radical>
+    <components>
+      <component>夕</component>
+    </components>
   </character>
   <character>
     <symbol>意</symbol>
     <pinyin>yì</pinyin>
     <meaning>idea; meaning</meaning>
+    <note>Sound/speech 音 on the mind 心.</note>
+    <radical>心</radical>
+    <components>
+      <component>音</component>
+      <component>心</component>
+    </components>
   </character>
   <character>
     <symbol>别</symbol>
     <pinyin>bié</pinyin>
     <meaning>must not; other</meaning>
+    <note/>
+    <radical>刀</radical>
+    <components>
+      <component>刂</component>
+      <component>口</component>
+    </components>
   </character>
   <character>
     <symbol>所</symbol>
     <pinyin>suǒ</pinyin>
     <meaning>actually; place</meaning>
+    <note/>
+    <radical>戶</radical>
+    <components>
+      <component>戶</component>
+      <component>斤</component>
+    </components>
   </character>
+<!-- 81 -->
   <character>
     <symbol>話</symbol>
     <pinyin>huà</pinyin>
     <meaning>language; talk</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>舌</component>
+    </components>
   </character>
   <character>
     <symbol>小</symbol>
     <pinyin>xiǎo</pinyin>
     <meaning>small</meaning>
+    <note/>
+    <radical>小</radical>
+    <components>
+      <component>亅</component>
+      <component>八</component>
+    </components>
   </character>
   <character>
     <symbol>自</symbol>
     <pinyin>zì</pinyin>
     <meaning>self</meaning>
+    <note>Picture of a nose.</note>
+    <radical>自</radical>
+    <components>
+      <component>目</component>
+      <component>丿</component>
+    </components>
   </character>
   <character>
     <symbol>回</symbol>
     <pinyin>huí</pinyin>
     <meaning>to answer; to return</meaning>
+    <note/>
+    <radical>囗</radical>
+    <components>
+      <component>囗</component>
+    </components>
   </character>
   <character>
     <symbol>然</symbol>
     <pinyin>rán</pinyin>
     <meaning>correct</meaning>
+    <note/>
+    <radical>火</radical>
+    <components>
+      <component>肰</component>
+      <component>灬</component>
+    </components>
   </character>
   <character>
     <symbol>果</symbol>
