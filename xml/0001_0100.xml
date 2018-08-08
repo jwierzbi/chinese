@@ -172,7 +172,7 @@
       <component>木</component>
       <component>从</component>
     </components>
-  </character>                                                                                                                                                                                                                                              
+  </character>
   <character>
     <symbol>人</symbol>
     <pinyin>rén</pinyin>
@@ -945,75 +945,163 @@
     <symbol>果</symbol>
     <pinyin>guǒ</pinyin>
     <meaning>fruit</meaning>
+    <note>Picture of a fruit on a tree</note>
+    <radical>木</radical>
+    <components>
+      <component>田</component>
+      <component>木</component>
+    </components>
   </character>
   <character>
     <symbol>發</symbol>
     <pinyin>fā</pinyin>
     <meaning>to send; to develop</meaning>
+    <note/>
+    <radical>癶</radical>
+    <components>
+      <component>癶</component>
+      <component>弓</component>
+      <component>殳</component>
+    </components>
   </character>
   <character>
     <symbol>見</symbol>
     <pinyin>jiàn</pinyin>
     <meaning>to see; to meet</meaning>
+    <note/>
+    <radical>見</radical>
+    <components>
+      <component>目</component>
+      <component>儿</component>
+    </components>
   </character>
   <character>
     <symbol>心</symbol>
     <pinyin>xīn</pinyin>
     <meaning>heart</meaning>
+    <note/>
+    <radical>心</radical>
+    <components/>
   </character>
   <character>
     <symbol>走</symbol>
     <pinyin>zǒu</pinyin>
     <meaning>to walk; away</meaning>
+    <note/>
+    <radical>走</radical>
+    <components>
+      <component>土</component>
+      <component>龰</component>
+    </components>
   </character>
+<!-- 91 -->
   <character>
     <symbol>定</symbol>
     <pinyin>dìng</pinyin>
     <meaning>to set</meaning>
+    <note/>
+    <radical>宀</radical>
+    <components>
+      <component>宀</component>
+    </components>
   </character>
   <character>
     <symbol>聽</symbol>
     <pinyin>tīng</pinyin>
     <meaning>to listen</meaning>
+    <note/>
+    <radical>耳</radical>
+    <components>
+      <component>耳</component>
+      <component>王</component>
+    </components>
   </character>
   <character>
     <symbol>覺</symbol>
     <pinyin>jué</pinyin>
     <meaning>to feel</meaning>
+    <note/>
+    <radical>見</radical>
+    <components>
+      <component>見</component>
+    </components>
   </character>
   <character>
     <symbol>太</symbol>
     <pinyin>tài</pinyin>
     <meaning>too (much)</meaning>
+    <note/>
+    <radical>大</radical>
+    <components>
+      <component>大</component>
+      <component>丶</component>
+    </components>
   </character>
   <character>
     <symbol>該</symbol>
     <pinyin>gāi</pinyin>
     <meaning>should</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>亥</component>
+    </components>
   </character>
   <character>
     <symbol>當</symbol>
     <pinyin>dāng</pinyin>
     <meaning>to be; just at</meaning>
+    <note/>
+    <radical>田</radical>
+    <components>
+      <component>田</component>
+      <component>龸</component>
+      <component>口</component>
+    </components>
   </character>
   <character>
     <symbol>經</symbol>
     <pinyin>jīng</pinyin>
     <meaning>pass through</meaning>
+    <note/>
+    <radical>糸</radical>
+    <components>
+      <component>糹</component>
+      <component>巠</component>
+    </components>
   </character>
   <character>
     <symbol>媽</symbol>
     <pinyin>mā</pinyin>
     <meaning>mum</meaning>
+    <note/>
+    <radical>女</radical>
+    <components>
+      <component>女</component>
+      <component>馬</component>
+    </components>
   </character>
   <character>
     <symbol>用</symbol>
     <pinyin>yòng</pinyin>
     <meaning>to use</meaning>
+    <note/>
+    <radical>用</radical>
+    <components>
+      <component>二</component>
+      <component>丨</component>
+    </components>
   </character>
   <character>
     <symbol>打</symbol>
     <pinyin>dǎ</pinyin>
     <meaning>to hit</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+      <component>扌</component>
+      <component>丁</component>
+    </components>
   </character>
 </characters>

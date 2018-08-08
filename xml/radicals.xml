@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<radicals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<radicals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="schemas/radicals.xsd">
   <!--<radical>
     <number></number>
@@ -288,6 +288,30 @@
     <variants/>
   </radical>
   <radical>
+    <number>101</number>
+    <symbol>用</symbol>
+    <pinyin>yòng</pinyin>
+    <meaning>use</meaning>
+    <strokes>5</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>102</number>
+    <symbol>田</symbol>
+    <pinyin>tián</pinyin>
+    <meaning>field</meaning>
+    <strokes>5</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>105</number>
+    <symbol>癶</symbol>
+    <pinyin>bō</pinyin>
+    <meaning>foot steps</meaning>
+    <strokes>5</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>106</number>
     <symbol>白</symbol>
     <pinyin>bái</pinyin>
@@ -320,6 +344,14 @@
     <variants>
       <variant>糹</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>128</number>
+    <symbol>耳</symbol>
+    <pinyin>ěr</pinyin>
+    <meaning>ear</meaning>
+    <strokes>6</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>130</number>
@@ -366,6 +398,14 @@
     <variants>
       <variant>覀</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>147</number>
+    <symbol>見</symbol>
+    <pinyin>jiàn</pinyin>
+    <meaning>see</meaning>
+    <strokes>7</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>149</number>
