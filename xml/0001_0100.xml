@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
-<characters>
+<characters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="schemas/characters.xsd">
 <!-- 1 -->
   <character>
     <symbol>我</symbol>
     <pinyin>wǒ</pinyin>
     <meaning>I, me</meaning>
-    <note>Hand 手 holding a halberd 戈.</note>
+    <note>Hand 扌 holding a halberd 戈.</note>
     <radical>戈</radical>
     <components>
-      <component>手</component>
+      <component>扌</component>
       <component>戈</component>
     </components>
   </character>
@@ -99,9 +100,8 @@
     <symbol>他</symbol>
     <pinyin>tā</pinyin>
     <meaning>he; him</meaning>
-    <note/>
-    <radical>人</radical>
     <note>亻 suggests the meaning while 也 provides the sound.</note>
+    <radical>人</radical>
     <components>
       <component>亻</component>
       <component>也</component>

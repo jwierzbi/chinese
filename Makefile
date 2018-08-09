@@ -39,6 +39,7 @@ TARGET := characters.pdf
 
 SOURCES := \
 	0001_0100.xml \
+	0101_0200.xml \
 	radicals.xml
 
 PARAMS := --stringparam draft.mode no

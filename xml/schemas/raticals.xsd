@@ -28,7 +28,8 @@
               <xs:element name="variants">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="variant" type="xs:string" minOccurs="0"/>
+                    <xs:element name="variant" type="xs:string"
+                                minOccurs="0" maxOccurs="unbounded"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>

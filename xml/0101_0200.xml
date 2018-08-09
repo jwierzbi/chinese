@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<characters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="schemas/characters.xsd">
+<!-- 101 -->
+  <character>
+    <symbol>地</symbol>
+    <pinyin>de</pinyin>
+    <meaning>-ly structural p.</meaning>
+    <note/>
+    <radical>土</radical>
+    <components>
+      <component>土</component>
+      <component>也</component>
+    </components>
+  </character>
+  <character>
+    <symbol>再</symbol>
+    <pinyin>zài</pinyin>
+    <meaning>again; then</meaning>
+    <note/>
+    <radical>冂</radical>
+    <components>
+      <component>一</component>
+      <component>冉</component>
+    </components>
+  </character>
+  <character>
+    <symbol>因</symbol>
+    <pinyin>yīn</pinyin>
+    <meaning>reason</meaning>
+    <note/>
+    <radical>囗</radical>
+    <components>
+      <component>囗</component>
+      <component>大</component>
+    </components>
+  </character>
+  <character>
+    <symbol>呢</symbol>
+    <pinyin>ne</pinyin>
+    <meaning>how about…?; continuing p.</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>尼</component>
+    </components>
+  </character>
+  <character>
+    <symbol>女</symbol>
+    <pinyin>nǚ</pinyin>
+    <meaning>female</meaning>
+    <note/>
+    <radical>女</radical>
+    <components>
+      <component>丆</component>
+    </components>
+  </character>
+  <character>
+    <symbol>告</symbol>
+    <pinyin>gào</pinyin>
+    <meaning>to tell</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+    </components>
+  </character>
+  <character>
+    <symbol>最</symbol>
+    <pinyin>zuì</pinyin>
+    <meaning>most; -est</meaning>
+    <note/>
+    <radical>冂</radical>
+    <components>
+      <component>日</component>
+      <component>取</component>
+    </components>
+  </character>
+  <character>
+    <symbol>手</symbol>
+    <pinyin>shǒu</pinyin>
+    <meaning>hand</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+      <component>丿</component>
+      <component>扌</component>
+    </components>
+  </character>
+  <character>
+    <symbol>前</symbol>
+    <pinyin>qián</pinyin>
+    <meaning>front</meaning>
+    <note/>
+    <radical>刀</radical>
+    <components>
+      <component>䒑</component>
+      <component>刖</component>
+    </components>
+  </character>
+  <character>
+    <symbol>找</symbol>
+    <pinyin>zhǎo</pinyin>
+    <meaning>to look for</meaning>
+    <note>Hand 扌 searching for halberd 戈.</note>
+    <radical>手</radical>
+    <components>
+      <component>扌</component>
+      <component>戈</component>
+    </components>
+  </character>
+<!-- 101 -->
+<!-- 111 -->
+<!-- 121 -->
+<!-- 131 -->
+<!-- 141 -->
+<!-- 151 -->
+<!-- 161 -->
+<!-- 171 -->
+<!-- 181 -->
+<!-- 191 -->
+</characters>
