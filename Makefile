@@ -1,9 +1,3 @@
-# html:
-#          xsltproc  \
-#             --output  myfile.html  \
-#             ../docbook-xsl-1.73.1/html/docbook.xsl  \
-#             myfile.xml
-
 # http://www.sagehill.net/docbookxsl/ParametersInFile.html
 # http://www.sagehill.net/docbookxsl/SpecialChars.html
 # http://stackoverflow.com/questions/2615002/how-to-generate-pdf-from-docbook-5-0
@@ -35,7 +29,7 @@ GEN2 = $(QUIET)tools/gen_article.py
 RELEASE ?= 0
 
 OUTDIR := out
-TARGET := characters.pdf
+TARGET := characters
 
 SOURCES := \
 	0001_0100.xml \
@@ -45,22 +39,28 @@ SOURCES := \
 PARAMS := --stringparam draft.mode no
 
 .PHONY = all
-all: $(OUTDIR) $(OUTDIR)/$(TARGET)
+all: pdf html
 
-$(OUTDIR)/$(TARGET): $(OUTDIR)/$(TARGET:.pdf=.fo)
+.PHONY = pdf
+pdf: $(OUTDIR) $(OUTDIR)/$(TARGET).pdf
+
+$(OUTDIR)/$(TARGET).pdf: $(OUTDIR)/$(TARGET).fo
 	$(ECHO) "FOP $@"
 	$(FOP) -c config/fop.xml -fo $< -pdf $@
 
-$(OUTDIR)/$(TARGET:.pdf=.fo): $(OUTDIR)/$(TARGET:.pdf=.xml)
-#	--stringparam symbol.font.family Arial --stringparam body.fontset "Arial"
-#	xsltproc --output book.fo /usr/share/xml/docbook/stylesheet/docbook-xsl-ns/fo/docbook.xsl calibration.xml
-	$(XSLTPROC) $(PARAMS) --output $@ config/wrapper.xml $<
+$(OUTDIR)/$(TARGET).fo: $(OUTDIR)/$(TARGET).xml
+	$(XSLTPROC) $(PARAMS) --output $@ config/pdf_wrapper.xml $<
 
-$(OUTDIR)/$(TARGET:.pdf=.xml): $(addprefix $(OUTDIR)/,$(SOURCES))
+.PHONY = html
+html: $(OUTDIR) $(OUTDIR)/$(TARGET).htm
+
+$(OUTDIR)/$(TARGET).htm: $(OUTDIR)/$(TARGET).xml
+	$(XSLTPROC) $(PARAMS) --output $@ config/html_wrapper.xml $<
+
+$(OUTDIR)/$(TARGET).xml: $(addprefix $(OUTDIR)/,$(SOURCES))
 	$(ECHO) "GEN2 $@"
 	$(GEN2) -o $@ $^
 
-# .SECONDARY:
 $(OUTDIR)/%.xml: xml/%.xml
 	$(ECHO) GEN $@
 	$(GEN) -i $< -o $@
