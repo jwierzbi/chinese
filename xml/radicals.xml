@@ -234,6 +234,14 @@
     </variants>
   </radical>
   <radical>
+    <number>72</number>
+    <symbol>日</symbol>
+    <pinyin>rì</pinyin>
+    <meaning>sun</meaning>
+    <strokes>4</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>73</number>
     <symbol>曰</symbol>
     <pinyin>yuē</pinyin>
@@ -254,6 +262,14 @@
     <symbol>木</symbol>
     <pinyin>mù</pinyin>
     <meaning>tree</meaning>
+    <strokes>4</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>78</number>
+    <symbol>歹</symbol>
+    <pinyin>dǎi</pinyin>
+    <meaning>death</meaning>
     <strokes>4</strokes>
     <variants/>
   </radical>
@@ -344,6 +360,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>118</number>
+    <symbol>竹</symbol>
+    <pinyin>zhú</pinyin>
+    <meaning>bamboo</meaning>
+    <strokes>6</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>120</number>
     <symbol>糸</symbol>
     <pinyin>sī</pinyin>
@@ -352,6 +376,14 @@
     <variants>
       <variant>糹</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>126</number>
+    <symbol>而</symbol>
+    <pinyin>ér</pinyin>
+    <meaning>and</meaning>
+    <strokes>6</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>128</number>
@@ -386,6 +418,14 @@
     <variants>
       <variant>艹</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>144</number>
+    <symbol>行</symbol>
+    <pinyin>xíng</pinyin>
+    <meaning>walk</meaning>
+    <strokes>6</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>145</number>

@@ -111,8 +111,115 @@
       <component>戈</component>
     </components>
   </character>
-<!-- 101 -->
 <!-- 111 -->
+  <character>
+    <symbol>行</symbol>
+    <pinyin>xíng</pinyin>
+    <meaning>to travel; OK!</meaning>
+    <note/>
+    <radical>行</radical>
+    <components>
+      <component>彳</component>
+      <component>亍</component>
+    </components>
+  </character>
+  <character>
+    <symbol>快</symbol>
+    <pinyin>kuài</pinyin>
+    <meaning>rapid; almost</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>忄</component>
+      <component>夬</component>
+    </components>
+  </character>
+  <character>
+    <symbol>而</symbol>
+    <pinyin>ér</pinyin>
+    <meaning>and; as well as</meaning>
+    <note/>
+    <radical>而</radical>
+    <components>
+      <component>丆</component>
+    </components>
+  </character>
+  <character>
+    <symbol>死</symbol>
+    <pinyin>sǐ</pinyin>
+    <meaning>to die</meaning>
+    <note/>
+    <radical>歹</radical>
+    <components>
+      <component>歹</component>
+      <component>匕</component>
+    </components>
+  </character>
+  <character>
+    <symbol>先</symbol>
+    <pinyin>xiān</pinyin>
+    <meaning>first; former</meaning>
+    <note/>
+    <radical>儿</radical>
+    <components>
+      <component>儿</component>
+    </components>
+  </character>
+  <character>
+    <symbol>像</symbol>
+    <pinyin>xiàng</pinyin>
+    <meaning>to be like; image</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>象</component>
+    </components>
+  </character>
+  <character>
+    <symbol>等</symbol>
+    <pinyin>děng</pinyin>
+    <meaning>rank; to wait for </meaning>
+    <note/>
+    <radical>竹</radical>
+    <components>
+      <component>寺</component>
+    </components>
+  </character>
+  <character>
+    <symbol>被</symbol>
+    <pinyin>bèi</pinyin>
+    <meaning>passive pronoun</meaning>
+    <note/>
+    <radical>衣</radical>
+    <components>
+      <component>衤</component>
+      <component>皮</component>
+    </components>
+  </character>
+  <character>
+    <symbol>從</symbol>
+    <pinyin>cóng</pinyin>
+    <meaning>from; to follow</meaning>
+    <note>One man 人 follows another 人 on foot 彳.</note>
+    <radical>彳</radical>
+    <components>
+      <component>彳</component>
+      <component>从</component>
+      <component>龰</component>
+    </components>
+  </character>
+  <character>
+    <symbol>明</symbol>
+    <pinyin>míng</pinyin>
+    <meaning>bright</meaning>
+    <note>Things that are bright: the sun 日 and the moon 月.</note>
+    <radical>日</radical>
+    <components>
+      <component>日</component>
+      <component>月</component>
+    </components>
+  </character>
 <!-- 121 -->
 <!-- 131 -->
 <!-- 141 -->
