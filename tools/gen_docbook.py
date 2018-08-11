@@ -2,37 +2,53 @@
 
 import sys
 import argparse
+# import json
 import xml.etree.ElementTree as ET
+from functools import reduce
+from collections import OrderedDict
+
+def is_list(element):
+    return bool(reduce(lambda x,y: x if x == y else None,
+                       [x.tag for x in element]))
+
+# FIXME: ugly but works for now
+def xml2dict(root, data=None):
+    if data == None:
+        data = list() if is_list(root) else OrderedDict()
+
+    for child in root:
+        if child: # has children
+            if is_list(child):
+                data[child.tag] = list()
+                xml2dict(child, data[child.tag])
+            else:
+                if isinstance(data, list):
+                    data.append(OrderedDict())
+                    xml2dict(child, data[-1])
+                else:
+                    data[child.tag] = OrderedDict()
+                    xml2dict(child, data[child.tag])
+        else:
+            if isinstance(data, list):
+                data.append(child.text)
+            else:
+                data[child.tag] = child.text
+
+    return data
 
 def read_input(filepath):
     root = ET.parse(filepath).getroot()
-    data = list()
+    data = xml2dict(root)
 
-    if root.tag == 'characters':
-        tags = ('symbol', 'pinyin', 'meaning', 'note', 'radical')
-    elif root.tag == 'radicals':
-        tags = ('number', 'symbol', 'pinyin', 'meaning', 'strokes')
-    else:
-        raise RuntimeError('invalid file format')
+    # json.dump(data, sys.stdout, indent=2)
 
-    for child in root:
-        assert child.tag == 'character' or child.tag == 'radical'
-
-        ch = dict()
-
-        for tag in tags:
-            el = child.find(tag)
-            if el != None and el.text:
-                ch[tag] = el.text
-
-        data.append(ch)
-
-    return {'type': root.tag, 'data': data}
+    return {root.tag: data}
 
 def add_subelement(root, tag, text=None, **kwargs):
     el = ET.SubElement(root, tag, kwargs)
     if text != None:
         el.text = text
+    return el
 
 def write_output(data, filepath):
     root = ET.Element('article')
@@ -42,30 +58,61 @@ def write_output(data, filepath):
     root.set('lang', 'en')
 
     sec = ET.SubElement(root, 'section')
-    title = ET.SubElement(sec, 'title')
-    title.text = filepath # FIXME: this should be a sensible title
+    # FIXME: this should be a sensible title
+    add_subelement(sec, 'title', filepath)
 
-    for el in data['data']:
-        subsec = ET.SubElement(sec, 'section')
+    table = add_subelement(sec, 'informaltable')
 
-        if data['type'] == 'characters':
-            add_subelement(subsec, 'title', el['symbol'])
-            add_subelement(subsec, 'para', 'pinyin: ' + el['pinyin'])
-            # FIXME: the feild should be mandatory
-            if 'radical' in el:
-                add_subelement(subsec, 'para', 'radical: ' + el['radical'])
-            add_subelement(subsec, 'para', 'meaning: ' + el['meaning'])
-            # FIXME: the feild should be mandatory
-            if 'note' in el:
-                add_subelement(subsec, 'para', 'note: ' + el['note'])
-        elif data['type'] == 'radicals':
-            add_subelement(subsec, 'title',
-                           '{} {}'.format(el['number'], el['symbol']))
-            add_subelement(subsec, 'para', 'strokes: ' + el['strokes'])
-            add_subelement(subsec, 'para', 'pinyin: ' + el['pinyin'])
-            add_subelement(subsec, 'para', 'meaning: ' + el['meaning'])
+    if 'characters' in data:
+        tgroup = add_subelement(table, 'tgroup', cols='6')
 
-    #ET.dump(root)
+        add_subelement(tgroup, 'colspec', colnum='1', colname='col1',
+                    colwidht='1*')
+        add_subelement(tgroup, 'colspec', colnum='2', colname='col2',
+                    colwidht='1.2*')
+        add_subelement(tgroup, 'colspec', colnum='3', colname='col3',
+                    colwidht='1*')
+        add_subelement(tgroup, 'colspec', colnum='3', colname='col3',
+                    colwidht='1.2*')
+        add_subelement(tgroup, 'colspec', colnum='4', colname='col4',
+                    colwidht='2*')
+        add_subelement(tgroup, 'colspec', colnum='5', colname='col5',
+                    colwidht='3*')
+
+        tbody = add_subelement(tgroup, 'tbody')
+
+        for el in data['characters']:
+            row = add_subelement(tbody, 'row')
+            add_subelement(row, 'entry', el['symbol'])
+            add_subelement(row, 'entry', el['pinyin'])
+            add_subelement(row, 'entry', el['radical'])
+            add_subelement(row, 'entry', ', '.join(el['components']) \
+                    if el['components'] else '')
+            add_subelement(row, 'entry', el['meaning'])
+            add_subelement(row, 'entry', el['note'] if 'note' in el else '')
+    elif 'radicals' in data:
+        tgroup = add_subelement(table, 'tgroup', cols='4')
+
+        add_subelement(tgroup, 'colspec', colnum='1', colname='col1',
+                    colwidht='1*')
+        add_subelement(tgroup, 'colspec', colnum='2', colname='col2',
+                    colwidht='1.2*')
+        add_subelement(tgroup, 'colspec', colnum='3', colname='col3',
+                    colwidht='1*')
+        add_subelement(tgroup, 'colspec', colnum='4', colname='col4',
+                    colwidht='3*')
+
+        tbody = add_subelement(tgroup, 'tbody')
+
+        for el in data['radicals']:
+            row = add_subelement(tbody, 'row')
+            add_subelement(row, 'entry',
+                            '{} {}'.format(el['number'], el['symbol']))
+            add_subelement(row, 'entry', el['strokes'])
+            add_subelement(row, 'entry', el['pinyin'])
+            add_subelement(row, 'entry', el['meaning'])
+
+    # ET.dump(root)
     tree = ET.ElementTree(root)
     tree.write(filepath, encoding='utf-8', xml_declaration=True)
 

@@ -9,7 +9,6 @@ VERBOSE ?= 0
 
 ifeq ($(VERBOSE),1)
 QUIET=
-OUTPUT=
 else
 QUIET=@
 endif
