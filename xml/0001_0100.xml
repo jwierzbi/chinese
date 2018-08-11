@@ -17,7 +17,7 @@
   <character>
     <symbol>的</symbol>
     <pinyin>de</pinyin>
-    <meaning>possessive pronoun</meaning>
+    <meaning>possessive particle</meaning>
     <note/>
     <radical>白</radical>
     <components>
@@ -50,7 +50,7 @@
   <character>
     <symbol>了</symbol>
     <pinyin>le</pinyin>
-    <meaning>completed action pronoun</meaning>
+    <meaning>completed action particle</meaning>
     <note/>
     <radical>亅</radical>
     <components/>
@@ -69,7 +69,7 @@
   <character>
     <symbol>們</symbol>
     <pinyin>men</pinyin>
-    <meaning>plural pronoun</meaning>
+    <meaning>plural particle</meaning>
     <note>亻 suggests the meaning while 門 provides the sound.</note>
     <radical>人</radical>
     <components>
@@ -111,7 +111,7 @@
   <character>
     <symbol>麼</symbol>
     <pinyin>me</pinyin>
-    <meaning>interrogative pronoun</meaning>
+    <meaning>interrogative particle</meaning>
     <note/>
     <radical>麻</radical>
     <components>
@@ -278,7 +278,7 @@
   <character>
     <symbol>嗎</symbol>
     <pinyin>ma</pinyin>
-    <meaning>question pronoun</meaning>
+    <meaning>question particle</meaning>
     <note>女 suggests the meaning, 馬 provides the sound</note>
     <radical>女</radical>
     <components>
@@ -409,7 +409,7 @@
   <character>
     <symbol>得</symbol>
     <pinyin>de</pinyin>
-    <meaning>complement pronoun (V + 得 + Adverb)</meaning>
+    <meaning>complement particle (V + 得 + Adverb)</meaning>
     <note/>
     <radical>彳</radical>
     <components>
@@ -420,7 +420,7 @@
   <character>
     <symbol>過</symbol>
     <pinyin>guo</pinyin>
-    <meaning>experienced action pronoun</meaning>
+    <meaning>experienced action particle</meaning>
     <note/>
     <radical>辵</radical>
     <components>
@@ -700,7 +700,7 @@
   <character>
     <symbol>把</symbol>
     <pinyin>bǎ</pinyin>
-    <meaning>direct object pronoun; to hold</meaning>
+    <meaning>direct object particle; to hold</meaning>
     <note/>
     <radical>手</radical>
     <components>
@@ -722,7 +722,7 @@
   <character>
     <symbol>讓</symbol>
     <pinyin>ràng</pinyin>
-    <meaning>to allow; passive pronoun</meaning>
+    <meaning>to allow; passive particle</meaning>
     <note/>
     <radical>言</radical>
     <components>
@@ -733,7 +733,7 @@
   <character>
     <symbol>給</symbol>
     <pinyin>gěi</pinyin>
-    <meaning>to give; for; passive pronoun</meaning>
+    <meaning>to give; for; passive particle</meaning>
     <note/>
     <radical>糸</radical>
     <components>
@@ -766,7 +766,7 @@
   <character>
     <symbol>著</symbol>
     <pinyin>zhe</pinyin>
-    <meaning>action in progress pronoun</meaning>
+    <meaning>action in progress particle</meaning>
     <note/>
     <radical>艸</radical>
     <components>

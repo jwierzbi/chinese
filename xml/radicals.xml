@@ -21,6 +21,25 @@
     <variants/>
   </radical>
   <radical>
+    <number>2</number>
+    <symbol>丨</symbol>
+    <pinyin>gǔn</pinyin>
+    <meaning>line</meaning>
+    <strokes>1</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>4</number>
+    <symbol>丿</symbol>
+    <pinyin>piě</pinyin>
+    <meaning>slash</meaning>
+    <strokes>1</strokes>
+    <variants>
+      <variant>乀</variant>
+      <variant>乁</variant>
+    </variants>
+  </radical>
+  <radical>
     <number>5</number>
     <symbol>乙</symbol>
     <pinyin>yǐ</pinyin>
@@ -188,6 +207,14 @@
     <variants>
       <variant>尣</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>49</number>
+    <symbol>己</symbol>
+    <pinyin>jǐ</pinyin>
+    <meaning>oneself</meaning>
+    <strokes>3</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>60</number>
@@ -474,6 +501,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>157</number>
+    <symbol>足</symbol>
+    <pinyin>zú</pinyin>
+    <meaning>foot</meaning>
+    <strokes>7</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>162</number>
     <symbol>辵</symbol>
     <pinyin>chuò</pinyin>
@@ -502,6 +537,14 @@
     <variants>
       <variant></variant>
     </variants>
+  </radical>
+  <radical>
+    <number>176</number>
+    <symbol>面</symbol>
+    <pinyin>miàn</pinyin>
+    <meaning>face</meaning>
+    <strokes>9</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>200</number>

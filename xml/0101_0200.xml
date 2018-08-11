@@ -6,7 +6,7 @@
   <character>
     <symbol>地</symbol>
     <pinyin>de</pinyin>
-    <meaning>-ly structural p.</meaning>
+    <meaning>-ly structural particle</meaning>
     <note/>
     <radical>土</radical>
     <components>
@@ -39,7 +39,7 @@
   <character>
     <symbol>呢</symbol>
     <pinyin>ne</pinyin>
-    <meaning>how about…?; continuing p.</meaning>
+    <meaning>how about…?; continuing particle</meaning>
     <note/>
     <radical>口</radical>
     <components>
@@ -189,7 +189,7 @@
   <character>
     <symbol>被</symbol>
     <pinyin>bèi</pinyin>
-    <meaning>passive pronoun</meaning>
+    <meaning>passive particle</meaning>
     <note/>
     <radical>衣</radical>
     <components>
@@ -221,6 +221,113 @@
     </components>
   </character>
 <!-- 121 -->
+  <character>
+    <symbol>中</symbol>
+    <pinyin>zhōng</pinyin>
+    <meaning>middle</meaning>
+    <note/>
+    <radical>丨</radical>
+    <components>
+      <component>口</component>
+      <component>丨</component>
+    </components>
+  </character>
+  <character>
+    <symbol>哦</symbol>
+    <pinyin>ó</pinyin>
+    <meaning>oh</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>我</component>
+    </components>
+  </character>
+  <character>
+    <symbol>情</symbol>
+    <pinyin>qíng</pinyin>
+    <meaning>emotion</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>忄</component>
+      <component>青</component>
+    </components>
+  </character>
+  <character>
+    <symbol>作</symbol>
+    <pinyin>zuò</pinyin>
+    <meaning>to do</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>乍</component>
+    </components>
+  </character>
+  <character>
+    <symbol>跟</symbol>
+    <pinyin>gēn</pinyin>
+    <meaning>with; to follow</meaning>
+    <note/>
+    <radical>足</radical>
+    <components>
+      <component>足</component>
+      <component>艮</component>
+    </components>
+  </character>
+  <character>
+    <symbol>面</symbol>
+    <pinyin>miàn</pinyin>
+    <meaning>face; aspect</meaning>
+    <note/>
+    <radical>面</radical>
+    <components>
+      <component>丆</component>
+      <component>囬</component>
+    </components>
+  </character>
+  <character>
+    <symbol>愬</symbol>
+    <pinyin>sù</pinyin>
+    <meaning>to tell; to complain</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>朔</component>
+      <component>心</component>
+    </components>
+  </character>
+  <character>
+    <symbol>愛</symbol>
+    <pinyin>ài</pinyin>
+    <meaning>to love</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>夂</component>
+      <component>冖</component>
+      <component>心</component>
+    </components>
+  </character>
+  <character>
+    <symbol>已</symbol>
+    <pinyin>yǐ</pinyin>
+    <meaning>already</meaning>
+    <note/>
+    <radical>己</radical>
+    <components>
+      <component>己</component>
+    </components>
+  </character>
+  <character>
+    <symbol>之</symbol>
+    <pinyin>zhī</pinyin>
+    <meaning>possessive particle</meaning>
+    <note/>
+    <radical>丿</radical>
+    <components/>
+  </character>
 <!-- 131 -->
 <!-- 141 -->
 <!-- 151 -->
