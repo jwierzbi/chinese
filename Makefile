@@ -16,17 +16,18 @@ endif
 # tools
 
 ECHO = @echo
+CAT = $(QUIET)cat
 RM = $(QUIET)rm
 MKDIR = $(QUIET)mkdir
 XSLTPROC = $(QUIET)xsltproc
 FOP = $(QUIET)fop
 GEN = $(QUIET)tools/gen_docbook.py
 GEN2 = $(QUIET)tools/gen_article.py
+GEN_ANKI = $(QUIET)tools/gen_ankideck.py
 
 # config
 
-RELEASE ?= 0
-
+SRCDIR := xml
 OUTDIR := out
 TARGET := characters
 
@@ -63,6 +64,17 @@ $(OUTDIR)/$(TARGET).xml: $(addprefix $(OUTDIR)/,$(SOURCES))
 $(OUTDIR)/%.xml: xml/%.xml
 	$(ECHO) GEN $@
 	$(GEN) -i $< -o $@
+
+.PHONY = anki
+anki: $(OUTDIR) $(OUTDIR)/anki_$(TARGET).txt
+
+$(OUTDIR)/anki_$(TARGET).txt: $(addprefix $(OUTDIR)/,$(SOURCES:.xml=.txt))
+	$(ECHO) Generating deck: $@
+	$(CAT) $^ > $@
+
+$(OUTDIR)/%.txt: $(SRCDIR)/%.xml
+	$(ECHO) GEN_ANKI $@
+	$(GEN_ANKI) -i $< -o $@
 
 $(OUTDIR):
 	$(MKDIR) out
