@@ -217,6 +217,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>51</number>
+    <symbol>干</symbol>
+    <pinyin>gān</pinyin>
+    <meaning>dry</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>60</number>
     <symbol>彳</symbol>
     <pinyin>chì</pinyin>
@@ -259,6 +267,14 @@
     <variants>
       <variant>扌</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>69</number>
+    <symbol>斤</symbol>
+    <pinyin>jīn</pinyin>
+    <meaning>axe</meaning>
+    <strokes>4</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>72</number>
@@ -529,6 +545,16 @@
     </variants>
   </radical>
   <radical>
+    <number>167</number>
+    <symbol>金</symbol>
+    <pinyin>jīn</pinyin>
+    <meaning>metal</meaning>
+    <strokes>5</strokes>
+    <variants>
+      <variant>钅</variant>
+    </variants>
+  </radical>
+  <radical>
     <number>169</number>
     <symbol>門</symbol>
     <pinyin>mén</pinyin>
@@ -537,6 +563,14 @@
     <variants>
       <variant></variant>
     </variants>
+  </radical>
+  <radical>
+    <number>173</number>
+    <symbol>雨</symbol>
+    <pinyin>yǔ</pinyin>
+    <meaning>rain</meaning>
+    <strokes>8</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>176</number>

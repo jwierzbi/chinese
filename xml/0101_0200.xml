@@ -329,6 +329,116 @@
     <components/>
   </character>
 <!-- 131 -->
+  <character>
+    <symbol>問</symbol>
+    <pinyin>wèn</pinyin>
+    <meaning>to ask</meaning>
+    <note>Asking 口 at the door 門.</note>
+    <radical>口</radical>
+    <components>
+        <component>門</component>
+        <component>口</component>
+    </components>
+  </character>
+  <character>
+    <symbol>錯</symbol>
+    <pinyin>cuò</pinyin>
+    <meaning>mistake; bad</meaning>
+    <note/>
+    <radical>金</radical>
+    <components>
+        <component>金</component>
+        <component>昔</component>
+    </components>
+  </character>
+  <character>
+    <symbol>孩</symbol>
+    <pinyin>hái</pinyin>
+    <meaning>child</meaning>
+    <note/>
+    <radical>子</radical>
+    <components>
+        <component>子</component>
+        <component>亥</component>
+    </components>
+  </character>
+  <character>
+    <symbol>斯</symbol>
+    <pinyin>sī</pinyin>
+    <meaning>this</meaning>
+    <note/>
+    <radical>斤</radical>
+    <components>
+        <component>其</component>
+        <component>斤</component>
+    </components>
+  </character>
+  <character>
+    <symbol>成</symbol>
+    <pinyin>chéng</pinyin>
+    <meaning>to become</meaning>
+    <note/>
+    <radical>戈</radical>
+    <components>
+        <component>万</component>
+        <component>戈</component>
+    </components>
+  </character>
+  <character>
+    <symbol>它</symbol>
+    <pinyin>tā</pinyin>
+    <meaning>it</meaning>
+    <note/>
+    <radical>宀</radical>
+    <components>
+        <component>宀</component>
+        <component>匕</component>
+    </components>
+  </character>
+  <character>
+    <symbol>感</symbol>
+    <pinyin>gǎn</pinyin>
+    <meaning>to feel; emotion</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+        <component>咸</component>
+        <component>心</component>
+    </components>
+  </character>
+  <character>
+    <symbol>幹</symbol>
+    <pinyin>gàn</pinyin>
+    <meaning>to do</meaning>
+    <note/>
+    <radical>干</radical>
+    <components>
+        <component>人</component>
+        <component>干</component>
+    </components>
+  </character>
+  <character>
+    <symbol>法</symbol>
+    <pinyin>fǎ</pinyin>
+    <meaning>law</meaning>
+    <note/>
+    <radical>水</radical>
+    <components>
+        <component>氵</component>
+        <component>去</component>
+    </components>
+  </character>
+  <character>
+    <symbol>電</symbol>
+    <pinyin>diàn</pinyin>
+    <meaning>electric</meaning>
+    <note/>
+    <radical>雨</radical>
+    <components>
+        <component>雨</component>
+        <component>电</component>
+    </components>
+  </character>
 <!-- 141 -->
 <!-- 151 -->
 <!-- 161 -->
