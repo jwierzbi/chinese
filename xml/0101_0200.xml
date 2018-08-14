@@ -440,6 +440,118 @@
     </components>
   </character>
 <!-- 141 -->
+  <character>
+    <symbol>間</symbol>
+    <pinyin>jiān</pinyin>
+    <meaning>between; room</meaning>
+    <note>Gap in the door 門 through which sun 日 can be seen.</note>
+    <radical>門</radical>
+    <components>
+        <component>門</component>
+        <component>日</component>
+    </components>
+  </character>
+  <character>
+    <symbol>哪</symbol>
+    <pinyin>nǎ</pinyin>
+    <meaning>which</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+        <component>口</component>
+        <component>那</component>
+    </components>
+  </character>
+  <character>
+    <symbol>西</symbol>
+    <pinyin>xī</pinyin>
+    <meaning>west</meaning>
+    <note/>
+    <radical>西</radical>
+    <components>
+        <component>兀</component>
+        <component>囗</component>
+    </components>
+  </character>
+  <character>
+    <symbol>己</symbol>
+    <pinyin>jǐ</pinyin>
+    <meaning>oneself</meaning>
+    <note/>
+    <radical>己</radical>
+    <components>
+        <component>乚</component>
+        <component>匚</component>
+    </components>
+  </character>
+  <character>
+    <symbol>候</symbol>
+    <pinyin>hòu</pinyin>
+    <meaning>to wait; season</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+        <component>亻</component>
+        <component>丨</component>
+        <component>矢</component>
+        <component>匚</component>
+    </components>
+  </character>
+  <character>
+    <symbol>次</symbol>
+    <pinyin>cì</pinyin>
+    <meaning>mw. for time</meaning>
+    <note/>
+    <radical>欠</radical>
+    <components>
+        <component>冫</component>
+        <component>欠</component>
+    </components>
+  </character>
+  <character>
+    <symbol>信</symbol>
+    <pinyin>xìn</pinyin>
+    <meaning>letter; to trust</meaning>
+    <note>A person's 人 word 言 is to be believed.</note>
+    <radical>人</radical>
+    <components>
+        <component>亻</component>
+        <component>言</component>
+    </components>
+  </character>
+  <character>
+    <symbol>懽</symbol>
+    <pinyin>huān</pinyin>
+    <meaning>joyous</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+        <component>忄</component>
+        <component>雚</component>
+    </components>
+  </character>
+  <character>
+    <symbol>正</symbol>
+    <pinyin>zhèng</pinyin>
+    <meaning>just (right); correct</meaning>
+    <note/>
+    <radical>止</radical>
+    <components>
+        <component>一</component>
+        <component>止</component>
+    </components>
+  </character>
+  <character>
+    <symbol>實</symbol>
+    <pinyin>shí</pinyin>
+    <meaning>real; honest</meaning>
+    <note/>
+    <radical>宀</radical>
+    <components>
+        <component>宀</component>
+        <component>貫</component>
+    </components>
+  </character>
 <!-- 151 -->
 <!-- 161 -->
 <!-- 171 -->
