@@ -520,7 +520,7 @@
     </components>
   </character>
   <character>
-    <symbol>懽</symbol>
+    <symbol>歡</symbol>
     <pinyin>huān</pinyin>
     <meaning>joyous</meaning>
     <note/>
@@ -553,6 +553,114 @@
     </components>
   </character>
 <!-- 151 -->
+  <character>
+    <symbol>關</symbol>
+    <pinyin>guān</pinyin>
+    <meaning>to shut; to close</meaning>
+    <note/>
+    <radical>門</radical>
+    <components>
+        <component>門</component>
+    </components>
+  </character>
+  <character>
+    <symbol>進</symbol>
+    <pinyin>jìn</pinyin>
+    <meaning>to enter</meaning>
+    <note/>
+    <radical>辵</radical>
+    <components>
+        <component>辶</component>
+        <component>隹</component>
+    </components>
+  </character>
+  <character>
+    <symbol>車</symbol>
+    <pinyin>chē</pinyin>
+    <meaning>vehicle</meaning>
+    <note>Picture of a car from above.</note>
+    <radical>車</radical>
+    <components>
+        <component>日</component>
+        <component>二</component>
+        <component>丨</component>
+    </components>
+  </character>
+  <character>
+    <symbol>年</symbol>
+    <pinyin>nián</pinyin>
+    <meaning>year</meaning>
+    <note/>
+    <radical>干</radical>
+    <components>
+        <component>㐄</component>
+    </components>
+  </character>
+  <character>
+    <symbol>喜</symbol>
+    <pinyin>xǐ</pinyin>
+    <meaning>to like</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+        <component>士</component>
+        <component>口</component>
+    </components>
+  </character>
+  <character>
+    <symbol>認</symbol>
+    <pinyin>rèn</pinyin>
+    <meaning>to recognize</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+        <component>言</component>
+        <component>忍</component>
+    </components>
+  </character>
+  <character>
+    <symbol>克</symbol>
+    <pinyin>kè</pinyin>
+    <meaning>gram; to overcome</meaning>
+    <note/>
+    <radical>儿</radical>
+    <components>
+        <component>古</component>
+        <component>儿</component>
+    </components>
+  </character>
+  <character>
+    <symbol>爸</symbol>
+    <pinyin>bà</pinyin>
+    <meaning>father</meaning>
+    <note/>
+    <radical>父</radical>
+    <components>
+        <component>父</component>
+        <component>巴</component>
+    </components>
+  </character>
+  <character>
+    <symbol>誰</symbol>
+    <pinyin>shéi / shuí</pinyin>
+    <meaning>who</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+        <component>言</component>
+        <component>隹</component>
+    </components>
+  </character>
+  <character>
+    <symbol>方</symbol>
+    <pinyin>fāng</pinyin>
+    <meaning>place; square</meaning>
+    <note/>
+    <radical>方</radical>
+    <components>
+        <component>亠</component>
+    </components>
+  </character>
 <!-- 161 -->
 <!-- 171 -->
 <!-- 181 -->
