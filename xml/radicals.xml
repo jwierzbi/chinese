@@ -85,6 +85,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>11</number>
+    <symbol>入</symbol>
+    <pinyin>rù</pinyin>
+    <meaning>enter</meaning>
+    <strokes>2</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>13</number>
     <symbol>冂</symbol>
     <pinyin>jiǒng</pinyin>
@@ -109,6 +117,14 @@
     <variants>
       <variant>刂</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>19</number>
+    <symbol>力</symbol>
+    <pinyin>lì</pinyin>
+    <meaning>power</meaning>
+    <strokes>2</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>28</number>
@@ -217,6 +233,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>50</number>
+    <symbol>巾</symbol>
+    <pinyin>jīn</pinyin>
+    <meaning>towel</meaning>
+    <strokes>3</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>51</number>
     <symbol>干</symbol>
     <pinyin>gān</pinyin>
@@ -266,6 +290,16 @@
     <strokes>4</strokes>
     <variants>
       <variant>扌</variant>
+    </variants>
+  </radical>
+  <radical>
+    <number>65</number>
+    <symbol>攴</symbol>
+    <pinyin>pū</pinyin>
+    <meaning>rap</meaning>
+    <strokes>4</strokes>
+    <variants>
+      <variant>攵</variant>
     </variants>
   </radical>
   <radical>
@@ -341,6 +375,22 @@
     <variants/>
   </radical>
   <radical>
+    <number>79</number>
+    <symbol>殳</symbol>
+    <pinyin>shū</pinyin>
+    <meaning>weapon</meaning>
+    <strokes>4</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>81</number>
+    <symbol>比</symbol>
+    <pinyin>bǐ</pinyin>
+    <meaning>compare</meaning>
+    <strokes>4</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>85</number>
     <symbol>水</symbol>
     <pinyin>shuǐ</pinyin>
@@ -358,6 +408,16 @@
     <strokes>4</strokes>
     <variants>
       <variant>灬</variant>
+    </variants>
+  </radical>
+  <radical>
+    <number>93</number>
+    <symbol>牛</symbol>
+    <pinyin>niú</pinyin>
+    <meaning>cow</meaning>
+    <strokes>4</strokes>
+    <variants>
+      <variant>牜</variant>
     </variants>
   </radical>
   <radical>
@@ -443,6 +503,22 @@
     <variants>
       <variant>糹</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>123</number>
+    <symbol>羊</symbol>
+    <pinyin>yáng</pinyin>
+    <meaning>sheep</meaning>
+    <strokes>6</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>125</number>
+    <symbol>老</symbol>
+    <pinyin>lǎo</pinyin>
+    <meaning>old</meaning>
+    <strokes>6</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>126</number>
@@ -610,6 +686,14 @@
     <pinyin>miàn</pinyin>
     <meaning>face</meaning>
     <strokes>9</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>181</number>
+    <symbol>頁</symbol>
+    <pinyin>yè</pinyin>
+    <meaning>page</meaning>
+    <strokes>6</strokes>
     <variants/>
   </radical>
   <radical>

@@ -662,7 +662,225 @@
     </components>
   </character>
 <!-- 161 -->
+  <character>
+    <symbol>老</symbol>
+    <pinyin>lǎo</pinyin>
+    <meaning>old (prefix)</meaning>
+    <note/>
+    <radical>老</radical>
+    <components>
+        <component>匕</component>
+    </components>
+  </character>
+  <character>
+    <symbol>應</symbol>
+    <pinyin>yīng</pinyin>
+    <meaning>should; ought to</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+        <!-- <component></component> -->
+        <component>心</component>
+    </components>
+  </character>
+  <character>
+    <symbol>比</symbol>
+    <pinyin>bǐ</pinyin>
+    <meaning>comparison particle</meaning>
+    <note/>
+    <radical>比</radical>
+    <components>
+        <component>匕</component>
+    </components>
+  </character>
+  <character>
+    <symbol>幫</symbol>
+    <pinyin>bāng</pinyin>
+    <meaning>to help</meaning>
+    <note/>
+    <radical>巾</radical>
+    <components>
+        <component>封</component>
+        <component>帛</component>
+    </components>
+  </character>
+  <character>
+    <symbol>無</symbol>
+    <pinyin>wú</pinyin>
+    <meaning>not to have; -less</meaning>
+    <note/>
+    <radical>火</radical>
+    <components>
+        <component>灬</component>
+        <component>卌</component>
+        <component>一</component>
+    </components>
+  </character>
+  <character>
+    <symbol>晚</symbol>
+    <pinyin>wǎn</pinyin>
+    <meaning>evening; late</meaning>
+    <note/>
+    <radical>日</radical>
+    <components>
+        <component>日</component>
+        <component>免</component>
+    </components>
+  </character>
+  <character>
+    <symbol>動</symbol>
+    <pinyin>dòng</pinyin>
+    <meaning>to move</meaning>
+    <note/>
+    <radical>力</radical>
+    <components>
+        <component>重</component>
+        <component>力</component>
+    </components>
+  </character>
+  <character>
+    <symbol>頭</symbol>
+    <pinyin>tóu</pinyin>
+    <meaning>head</meaning>
+    <note/>
+    <radical>頁</radical>
+    <components>
+        <component>豆</component>
+        <component>頁</component>
+    </components>
+  </character>
+  <character>
+    <symbol>機</symbol>
+    <pinyin>jī</pinyin>
+    <meaning>machine</meaning>
+    <note/>
+    <radical>木</radical>
+    <components>
+        <component>木</component>
+        <component>幾</component>
+    </components>
+  </character>
+  <character>
+    <symbol>分</symbol>
+    <pinyin>fēn</pinyin>
+    <meaning>to divide; fraction</meaning>
+    <note/>
+    <radical>刀</radical>
+    <components>
+        <component>八</component>
+        <component>刀</component>
+    </components>
+  </character>
 <!-- 171 -->
+  <character>
+    <symbol>特</symbol>
+    <pinyin>tè</pinyin>
+    <meaning>special; unique</meaning>
+    <note/>
+    <radical>牛</radical>
+    <components>
+        <component>牜</component>
+        <component>寺</component>
+    </components>
+  </character>
+  <character>
+    <symbol>相</symbol>
+    <pinyin>xiāng</pinyin>
+    <meaning>mutual; each other</meaning>
+    <note/>
+    <radical>目</radical>
+    <components>
+        <component>木</component>
+        <component>目</component>
+    </components>
+  </character>
+  <character>
+    <symbol>全</symbol>
+    <pinyin>quán</pinyin>
+    <meaning>all; whole</meaning>
+    <note/>
+    <radical>入</radical>
+    <components>
+        <component>人</component>
+        <component>王</component>
+    </components>
+  </character>
+  <character>
+    <symbol>殺</symbol>
+    <pinyin>shā</pinyin>
+    <meaning>to kill</meaning>
+    <note/>
+    <radical>殳</radical>
+    <components>
+        <component>杀</component>
+        <component>殳</component>
+    </components>
+  </character>
+  <character>
+    <symbol>需</symbol>
+    <pinyin>xū</pinyin>
+    <meaning>to need; to want</meaning>
+    <note/>
+    <radical>雨</radical>
+    <components>
+        <component>雨</component>
+        <component>而</component>
+    </components>
+  </character>
+  <character>
+    <symbol>放</symbol>
+    <pinyin>fàng</pinyin>
+    <meaning>to put</meaning>
+    <note/>
+    <radical>攴</radical>
+    <components>
+        <component>方</component>
+    </components>
+  </character>
+  <character>
+    <symbol>常</symbol>
+    <pinyin>cháng</pinyin>
+    <meaning>always; general</meaning>
+    <note/>
+    <radical>巾</radical>
+    <components>
+        <component>龸</component>
+        <component>吊</component>
+    </components>
+  </character>
+  <character>
+    <symbol>直</symbol>
+    <pinyin>zhí</pinyin>
+    <meaning>straight</meaning>
+    <note/>
+    <radical>目</radical>
+    <components>
+        <component>十</component>
+        <component>目</component>
+        <component>一</component>
+    </components>
+  </character>
+  <character>
+    <symbol>才</symbol>
+    <pinyin>cái</pinyin>
+    <meaning>just now; ability</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+        <component>丿</component>
+    </components>
+  </character>
+  <character>
+    <symbol>美</symbol>
+    <pinyin>měi</pinyin>
+    <meaning>beautiful</meaning>
+    <note/>
+    <radical>羊</radical>
+    <components>
+        <component>羊</component>
+        <component>大</component>
+    </components>
+  </character>
 <!-- 181 -->
 <!-- 191 -->
 </characters>
