@@ -882,5 +882,220 @@
     </components>
   </character>
 <!-- 181 -->
+  <character>
+    <symbol>於</symbol>
+    <pinyin>yú</pinyin>
+    <meaning>in; at; on</meaning>
+    <note/>
+    <radical>方</radical>
+    <components>
+        <component>方</component>
+        <component>仒</component>
+    </components>
+  </character>
+  <character>
+    <symbol>帶</symbol>
+    <pinyin>dài</pinyin>
+    <meaning>to bring; belt</meaning>
+    <note/>
+    <radical>巾</radical>
+    <components>
+        <component>儿</component>
+        <component>廿</component>
+        <component>冖</component>
+        <component>巾</component>
+    </components>
+  </character>
+  <character>
+    <symbol>今</symbol>
+    <pinyin>jīn</pinyin>
+    <meaning>today; now</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+        <component>亽</component>
+    </components>
+  </character>
+  <character>
+    <symbol>力</symbol>
+    <pinyin>lì</pinyin>
+    <meaning>power</meaning>
+    <note>Picture of a plow, a tool that requires strength.</note>
+    <radical>力</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>工</symbol>
+    <pinyin>work</pinyin>
+    <meaning>gōng</meaning>
+    <note/>
+    <radical>工</radical>
+    <components>
+        <component>一</component>
+        <component>丄</component>
+    </components>
+  </character>
+  <character>
+    <symbol>許</symbol>
+    <pinyin>xǔ</pinyin>
+    <meaning>to permit</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+        <component>言</component>
+        <component>午</component>
+    </components>
+  </character>
+  <character>
+    <symbol>東</symbol>
+    <pinyin>dōng</pinyin>
+    <meaning>east</meaning>
+    <note/>
+    <radical>木</radical>
+    <components>
+        <component>木</component>
+        <component>日</component>
+    </components>
+  </character>
+  <character>
+    <symbol>名</symbol>
+    <pinyin>míng</pinyin>
+    <meaning>name</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+        <component>夕</component>
+        <component>口</component>
+    </components>
+  </character>
+  <character>
+    <symbol>同</symbol>
+    <pinyin>tóng</pinyin>
+    <meaning>same; similar</meaning>
+    <note/>
+    <radical>口</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>長</symbol>
+    <pinyin>cháng</pinyin>
+    <meaning>long; length</meaning>
+    <note/>
+    <radical>長</radical>
+    <components>
+        <component>一</component>
+        <component>彐</component>
+        <component>乚</component>
+        <component>冫</component>
+    </components>
+  </character>
 <!-- 191 -->
+  <character>
+    <symbol>親</symbol>
+    <pinyin>qīn</pinyin>
+    <meaning>parent; relative</meaning>
+    <note/>
+    <radical>見</radical>
+    <components>
+        <component>亲</component>
+        <component>見</component>
+    </components>
+  </character>
+  <character>
+    <symbol>種</symbol>
+    <pinyin>zhǒng</pinyin>
+    <meaning>kind</meaning>
+    <note/>
+    <radical>禾</radical>
+    <components>
+        <component>禾</component>
+        <component>重</component>
+    </components>
+  </character>
+  <character>
+    <symbol>者</symbol>
+    <pinyin>zhě</pinyin>
+    <meaning>one who (is)</meaning>
+    <note/>
+    <radical>老</radical>
+    <components>
+        <component>日</component>
+    </components>
+  </character>
+  <character>
+    <symbol>嘿</symbol>
+    <pinyin>hēi</pinyin>
+    <meaning>hey</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+        <component>口</component>
+        <component>黑</component>
+    </components>
+  </character>
+  <character>
+    <symbol>白</symbol>
+    <pinyin>bái</pinyin>
+    <meaning>white; pure</meaning>
+    <note>Picture of a burning candle.</note>
+    <radical>白</radical>
+    <components>
+        <component>日</component>
+        <component>丿</component>
+    </components>
+  </character>
+  <character>
+    <symbol>學</symbol>
+    <pinyin>xué</pinyin>
+    <meaning>to learn</meaning>
+    <note/>
+    <radical>子</radical>
+    <components>
+        <component>子</component>
+    </components>
+  </character>
+  <character>
+    <symbol>安</symbol>
+    <pinyin>ān</pinyin>
+    <meaning>safe; calm</meaning>
+    <note>Woman under a roof.</note>
+    <radical>宀</radical>
+    <components>
+        <component>宀</component>
+        <component>女</component>
+    </components>
+  </character>
+  <character>
+    <symbol>尒</symbol>
+    <pinyin>ěr</pinyin>
+    <meaning>thus; thou</meaning>
+    <note/>
+    <radical>小</radical>
+    <components>
+        <component>人</component>
+        <component>小</component>
+    </components>
+  </character>
+  <character>
+    <symbol>叫</symbol>
+    <pinyin>jiào</pinyin>
+    <meaning>to call</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+        <component>口</component>
+        <component>丩</component>
+    </components>
+  </character>
+  <character>
+    <symbol>理</symbol>
+    <pinyin>lǐ</pinyin>
+    <meaning>essence; truth</meaning>
+    <note/>
+    <radical>玉</radical>
+    <components>
+        <component>王</component>
+        <component>里</component>
+    </components>
+  </character>
 </characters>
