@@ -66,17 +66,17 @@ def write_output(data, filepath):
     if 'characters' in data:
         tgroup = add_subelement(table, 'tgroup', cols='6')
 
-        add_subelement(tgroup, 'colspec', colnum='1', colname='col1',
+        add_subelement(tgroup, 'colspec', colnum='1', colname='char-col1',
                     colwidht='1*')
-        add_subelement(tgroup, 'colspec', colnum='2', colname='col2',
+        add_subelement(tgroup, 'colspec', colnum='2', colname='char-col2',
                     colwidht='1.2*')
-        add_subelement(tgroup, 'colspec', colnum='3', colname='col3',
+        add_subelement(tgroup, 'colspec', colnum='3', colname='char-col3',
                     colwidht='1*')
-        add_subelement(tgroup, 'colspec', colnum='3', colname='col3',
+        add_subelement(tgroup, 'colspec', colnum='4', colname='char-col4',
                     colwidht='1.2*')
-        add_subelement(tgroup, 'colspec', colnum='4', colname='col4',
+        add_subelement(tgroup, 'colspec', colnum='5', colname='char-col5',
                     colwidht='2*')
-        add_subelement(tgroup, 'colspec', colnum='5', colname='col5',
+        add_subelement(tgroup, 'colspec', colnum='6', colname='char-col6',
                     colwidht='3*')
 
         tbody = add_subelement(tgroup, 'tbody')
@@ -91,23 +91,25 @@ def write_output(data, filepath):
             add_subelement(row, 'entry', el['meaning'])
             add_subelement(row, 'entry', el['note'] if 'note' in el else '')
     elif 'radicals' in data:
-        tgroup = add_subelement(table, 'tgroup', cols='4')
+        tgroup = add_subelement(table, 'tgroup', cols='5')
 
-        add_subelement(tgroup, 'colspec', colnum='1', colname='col1',
+        add_subelement(tgroup, 'colspec', colnum='1', colname='rad-col1',
                     colwidht='1*')
-        add_subelement(tgroup, 'colspec', colnum='2', colname='col2',
+        add_subelement(tgroup, 'colspec', colnum='2', colname='rad-col2',
+                    colwidht='1*')
+        add_subelement(tgroup, 'colspec', colnum='3', colname='rad-col3',
                     colwidht='1.2*')
-        add_subelement(tgroup, 'colspec', colnum='3', colname='col3',
+        add_subelement(tgroup, 'colspec', colnum='4', colname='rad-col4',
                     colwidht='1*')
-        add_subelement(tgroup, 'colspec', colnum='4', colname='col4',
+        add_subelement(tgroup, 'colspec', colnum='5', colname='rad-col5',
                     colwidht='3*')
 
         tbody = add_subelement(tgroup, 'tbody')
 
         for el in data['radicals']:
             row = add_subelement(tbody, 'row')
-            add_subelement(row, 'entry',
-                            '{} {}'.format(el['number'], el['symbol']))
+            add_subelement(row, 'entry', el['number'])
+            add_subelement(row, 'entry', el['symbol'])
             add_subelement(row, 'entry', el['strokes'])
             add_subelement(row, 'entry', el['pinyin'])
             add_subelement(row, 'entry', el['meaning'])

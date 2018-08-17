@@ -17,6 +17,7 @@ endif
 
 ECHO = @echo
 CAT = $(QUIET)cat
+CP = $(QUIET)cp
 RM = $(QUIET)rm
 MKDIR = $(QUIET)mkdir
 XSLTPROC = $(QUIET)xsltproc
@@ -54,12 +55,16 @@ $(OUTDIR)/$(TARGET).fo: $(OUTDIR)/$(TARGET).xml
 .PHONY = html
 html: $(OUTDIR) $(OUTDIR)/$(TARGET).htm
 
-$(OUTDIR)/$(TARGET).htm: $(OUTDIR)/$(TARGET).xml
+$(OUTDIR)/$(TARGET).htm: $(OUTDIR)/$(TARGET).xml $(OUTDIR)/html_style.css
 	$(XSLTPROC) $(PARAMS) --output $@ config/html_wrapper.xml $<
 
 $(OUTDIR)/$(TARGET).xml: $(addprefix $(OUTDIR)/,$(SOURCES))
 	$(ECHO) "GEN2 $@"
 	$(GEN2) -o $@ $^
+
+$(OUTDIR)/%.css: config/%.css
+	$(ECHO) COPY $@
+	$(CP) $< $@
 
 $(OUTDIR)/%.xml: xml/%.xml
 	$(ECHO) GEN $@
