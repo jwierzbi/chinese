@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<characters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="schemas/characters.xsd">
+<!-- 201 -->
+  <character>
+    <symbol>本</symbol>
+    <pinyin>běn</pinyin>
+    <meaning>mw. for books; origin</meaning>
+    <note/>
+    <radical>木</radical>
+    <components>
+      <component>木</component>
+      <component>一</component>
+    </components>
+  </character>
+  <character>
+    <symbol>國</symbol>
+    <!-- <symbol>国</symbol> -->
+    <pinyin>guó</pinyin>
+    <meaning>country</meaning>
+    <note/>
+    <radical>囗</radical>
+    <components>
+      <component>囗</component>
+      <component>或</component>
+    </components>
+  </character>
+  <character>
+    <symbol>第</symbol>
+    <pinyin>dì</pinyin>
+    <meaning>ordinal #</meaning>
+    <note/>
+    <radical>竹</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>友</symbol>
+    <pinyin>yǒu</pinyin>
+    <meaning>friend</meaning>
+    <note/>
+    <radical>又</radical>
+    <components>
+      <component>又</component>
+    </components>
+  </character>
+  <character>
+    <symbol>高</symbol>
+    <pinyin>gāo</pinyin>
+    <meaning>high; tall</meaning>
+    <note>Picture of a tall building.</note>
+    <radical>高</radical>
+    <components>
+      <component>冋</component>
+      <component>亠</component>
+      <component>口 </component>
+    </components>
+  </character>
+  <character>
+    <symbol>兩</symbol>
+    <!-- <symbol>两</symbol> -->
+    <pinyin>liǎng</pinyin>
+    <meaning>two (used with mw.)</meaning>
+    <note/>
+    <radical>入</radical>
+    <components>
+      <component>一</component>
+      <component>巾</component>
+    </components>
+  </character>
+  <character>
+    <symbol>保</symbol>
+    <pinyin>bǎo</pinyin>
+    <meaning>to defend</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>呆</component>
+    </components>
+  </character>
+  <character>
+    <symbol>請</symbol>
+    <!-- <symbol>请</symbol> -->
+    <pinyin>qǐng</pinyin>
+    <meaning>to invite</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>青</component>
+    </components>
+  </character>
+  <character>
+    <symbol>非</symbol>
+    <pinyin>fēi</pinyin>
+    <meaning>not; oppose</meaning>
+    <note/>
+    <radical>非</radical>
+    <components>
+      <component>丨</component>
+      <component>三</component>
+    </components>
+  </character>
+  <character>
+    <symbol>重</symbol>
+    <pinyin>zhòng</pinyin>
+    <meaning>heavy; serious</meaning>
+    <note/>
+    <radical>里</radical>
+    <components>
+      <component>千</component>
+      <component>里</component>
+    </components>
+  </character>
+<!-- 211 -->
+  <character>
+    <symbol>完</symbol>
+    <pinyin>wán</pinyin>
+    <meaning>to finish; complete</meaning>
+    <note/>
+    <radical>宀</radical>
+    <components>
+      <component>宀</component>
+      <component>元</component>
+    </components>
+  </character>
+  <character>
+    <symbol>接</symbol>
+    <pinyin>jiē</pinyin>
+    <meaning>to receive; to join; to pick up</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+      <component>扌</component>
+      <component>妾</component>
+    </components>
+  </character>
+  <character>
+    <symbol>拿</symbol>
+    <pinyin>ná</pinyin>
+    <meaning>to take</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+      <component>合</component>
+      <component>手</component>
+    </components>
+  </character>
+  <character>
+    <symbol>望</symbol>
+    <pinyin>wàng</pinyin>
+    <meaning>to gaze; to hope</meaning>
+    <note>King 王 gazing at the moon 月.</note>
+    <radical>月</radical>
+    <components>
+      <component>王</component>
+      <component>亡</component>
+      <component>月</component>
+    </components>
+  </character>
+  <character>
+    <symbol>解</symbol>
+    <pinyin>jiě</pinyin>
+    <meaning>to divide; to explain</meaning>
+    <note>Separating horn from the cow using knife.</note>
+    <radical>角</radical>
+    <components>
+      <component>角</component>
+      <component>刀</component>
+      <component>牛</component>
+    </components>
+  </character>
+  <character>
+    <symbol>其</symbol>
+    <pinyin>qí</pinyin>
+    <meaning>his; hers; its</meaning>
+    <note/>
+    <radical>八</radical>
+    <components>
+      <component>甘</component>
+      <component>一</component>
+      <component>八</component>
+    </components>
+  </character>
+  <character>
+    <symbol>離</symbol>
+    <!-- <symbol>离</symbol> -->
+    <pinyin>lí</pinyin>
+    <meaning>to leave; (distance) from</meaning>
+    <note/>
+    <radical>隹</radical>
+    <components>
+      <component>离</component>
+      <component>隹</component>
+    </components>
+  </character>
+  <character>
+    <symbol>談</symbol>
+    <!-- <symbol>谈</symbol> -->
+    <pinyin>tán</pinyin>
+    <meaning>to chat</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>炎</component>
+    </components>
+  </character>
+  <character>
+    <symbol>又</symbol>
+    <pinyin>yòu</pinyin>
+    <meaning>again; also</meaning>
+    <note/>
+    <radical>又</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>新</symbol>
+    <pinyin>xīn</pinyin>
+    <meaning>new</meaning>
+    <note/>
+    <radical>斤</radical>
+    <components>
+      <component>亲</component>
+      <component>斤</component>
+    </components>
+  </character>
+<!-- 221 -->
+<!-- 231 -->
+<!-- 241 -->
+<!-- 251 -->
+<!-- 261 -->
+<!-- 271 -->
+<!-- 281 -->
+<!-- 291 -->
+</characters>

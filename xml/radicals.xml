@@ -93,6 +93,16 @@
     <variants/>
   </radical>
   <radical>
+    <number>12</number>
+    <symbol>八</symbol>
+    <pinyin>bā</pinyin>
+    <meaning>eight</meaning>
+    <strokes>2</strokes>
+    <variants>
+      <variant>丷</variant>
+    </variants>
+  </radical>
+  <radical>
     <number>13</number>
     <symbol>冂</symbol>
     <pinyin>jiǒng</pinyin>
@@ -131,6 +141,14 @@
     <symbol>厶</symbol>
     <pinyin>sī</pinyin>
     <meaning>private</meaning>
+    <strokes>2</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>29</number>
+    <symbol>又</symbol>
+    <pinyin>yòu</pinyin>
+    <meaning>again</meaning>
     <strokes>2</strokes>
     <variants/>
   </radical>
@@ -615,6 +633,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>148</number>
+    <symbol>角</symbol>
+    <pinyin>jiǎo</pinyin>
+    <meaning>horn</meaning>
+    <strokes>7</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>149</number>
     <symbol>言</symbol>
     <pinyin>yán</pinyin>
@@ -669,6 +695,14 @@
     </variants>
   </radical>
   <radical>
+    <number>166</number>
+    <symbol>里</symbol>
+    <pinyin>lǐ</pinyin>
+    <meaning>village</meaning>
+    <strokes>7</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>167</number>
     <symbol>金</symbol>
     <pinyin>jīn</pinyin>
@@ -697,10 +731,26 @@
     </variants>
   </radical>
   <radical>
+    <number>172</number>
+    <symbol>隹</symbol>
+    <pinyin>zhuī</pinyin>
+    <meaning>short-tailed bird</meaning>
+    <strokes>8</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>173</number>
     <symbol>雨</symbol>
     <pinyin>yǔ</pinyin>
     <meaning>rain</meaning>
+    <strokes>8</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>175</number>
+    <symbol>非</symbol>
+    <pinyin>wrong</pinyin>
+    <meaning>wrong</meaning>
     <strokes>8</strokes>
     <variants/>
   </radical>
@@ -718,6 +768,14 @@
     <pinyin>yè</pinyin>
     <meaning>page</meaning>
     <strokes>6</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>189</number>
+    <symbol>高</symbol>
+    <pinyin>gāo</pinyin>
+    <meaning>high</meaning>
+    <strokes>10</strokes>
     <variants/>
   </radical>
   <radical>
