@@ -115,6 +115,116 @@
   </character>
 <!-- 211 -->
   <character>
+    <symbol>公</symbol>
+    <pinyin>gōng</pinyin>
+    <meaning>public</meaning>
+    <note/>
+    <radical>八</radical>
+    <components>
+      <component>八</component>
+      <component>厶</component>
+    </components>
+  </character>
+  <character>
+    <symbol>記</symbol>
+    <!-- <symbol>记</symbol> -->
+    <pinyin>jì</pinyin>
+    <meaning>to record</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>己</component>
+    </components>
+  </character>
+  <character>
+    <symbol>身</symbol>
+    <pinyin>shēn</pinyin>
+    <meaning>body</meaning>
+    <note/>
+    <radical>身</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>受</symbol>
+    <pinyin>shòu</pinyin>
+    <meaning>to receive</meaning>
+    <note/>
+    <radical>又</radical>
+    <components>
+      <component>又</component>
+      <component>冖</component>
+    </components>
+  </character>
+  <character>
+    <symbol>住</symbol>
+    <pinyin>zhù</pinyin>
+    <meaning>to live; to reside</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>主</component>
+    </components>
+  </character>
+  <character>
+    <symbol>活</symbol>
+    <pinyin>huó</pinyin>
+    <meaning>to live; alive</meaning>
+    <note/>
+    <radical>水</radical>
+    <components>
+      <component>氵</component>
+      <component>舌</component>
+    </components>
+  </character>
+  <character>
+    <symbol>加</symbol>
+    <pinyin>jiā</pinyin>
+    <meaning>to add; plus</meaning>
+    <note/>
+    <radical>力</radical>
+    <components>
+      <component>力</component>
+      <component>口</component>
+    </components>
+  </character>
+  <character>
+    <symbol>何</symbol>
+    <pinyin>hé</pinyin>
+    <meaning>question word (what, how, why, which)</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>可</component>
+    </components>
+  </character>
+  <character>
+    <symbol>伙</symbol>
+    <pinyin>huǒ</pinyin>
+    <meaning>companion; buddy</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>火</component>
+    </components>
+  </character>
+  <character>
+    <symbol>題</symbol>
+    <!-- <symbol>题</symbol> -->
+    <pinyin>tí</pinyin>
+    <meaning>topic; subject</meaning>
+    <note/>
+    <radical>頁</radical>
+    <components>
+      <component>是</component>
+      <component>頁</component>
+    </components>
+  </character>
+<!-- 221 -->
+  <character>
     <symbol>完</symbol>
     <pinyin>wán</pinyin>
     <meaning>to finish; complete</meaning>
@@ -226,7 +336,6 @@
       <component>斤</component>
     </components>
   </character>
-<!-- 221 -->
 <!-- 231 -->
 <!-- 241 -->
 <!-- 251 -->
