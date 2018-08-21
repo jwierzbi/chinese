@@ -455,17 +455,119 @@
     </components>
   </character>
 <!-- 241 -->
-  <!-- <character>
-    <symbol></symbol>
-    <pinyin></pinyin>
-    <meaning></meaning>
+  <character>
+    <symbol>吃</symbol>
+    <pinyin>chī</pinyin>
+    <meaning>to eat</meaning>
     <note/>
-    <radical></radical>
+    <radical>口</radical>
     <components>
-      <component></component>
-      <component></component>
+      <component>口</component>
+      <component>乞</component>
     </components>
-  </character> -->
+  </character>
+  <character>
+    <symbol>始</symbol>
+    <pinyin>shǐ</pinyin>
+    <meaning>to begin</meaning>
+    <note/>
+    <radical>女</radical>
+    <components>
+      <component>女</component>
+      <component>台</component>
+    </components>
+  </character>
+  <character>
+    <symbol>結</symbol>
+    <!-- <symbol>结</symbol> -->
+    <pinyin>jié (jiē)</pinyin>
+    <meaning>to produce</meaning>
+    <note/>
+    <radical>糸</radical>
+    <components>
+      <component>糹</component>
+      <component>吉</component>
+    </components>
+  </character>
+  <character>
+    <symbol>利</symbol>
+    <pinyin>lì</pinyin>
+    <meaning>sharp; benefit</meaning>
+    <note/>
+    <radical>刀</radical>
+    <components>
+      <component>禾</component>
+      <component>刂</component>
+    </components>
+  </character>
+  <character>
+    <symbol>朋</symbol>
+    <pinyin>péng</pinyin>
+    <meaning>friend</meaning>
+    <note/>
+    <radical>月</radical>
+    <components>
+      <component>月</component>
+    </components>
+  </character>
+  <character>
+    <symbol>警</symbol>
+    <pinyin>jǐng</pinyin>
+    <meaning>police; to warn</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>敬</component>
+      <component>言</component>
+    </components>
+  </character>
+  <character>
+    <symbol>士</symbol>
+    <pinyin>shì</pinyin>
+    <meaning>scholar; soldier</meaning>
+    <note/>
+    <radical>士</radical>
+    <components>
+      <component>士</component>
+      <component>一</component>
+    </components>
+  </character>
+  <character>
+    <symbol>外</symbol>
+    <pinyin>wài</pinyin>
+    <meaning>outside; foreign</meaning>
+    <note/>
+    <radical>夕</radical>
+    <components>
+      <component>夕</component>
+      <component>卜</component>
+    </components>
+  </character>
+  <character>
+    <symbol>件</symbol>
+    <pinyin>jiàn</pinyin>
+    <meaning>mw. for events, things, clothes, etc.</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>午</component>
+    </components>
+  </character>
+  <character>
+    <symbol>難</symbol>
+    <!-- <symbol>难</symbol> -->
+    <pinyin>nán</pinyin>
+    <meaning>difficult</meaning>
+    <note/>
+    <radical>隹</radical>
+    <components>
+      <component>隹</component>
+      <component>廿</component>
+      <component>中</component>
+      <component>夫</component>
+    </components>
+  </character>
 <!-- 251 -->
 <!-- 261 -->
 <!-- 271 -->
