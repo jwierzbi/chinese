@@ -337,7 +337,135 @@
     </components>
   </character>
 <!-- 231 -->
+  <character>
+    <symbol>更</symbol>
+    <pinyin>gèng</pinyin>
+    <meaning>more</meaning>
+    <note/>
+    <radical>曰</radical>
+    <components>
+      <component>一</component>
+      <component>申</component>
+      <component>乂</component>
+    </components>
+  </character>
+  <character>
+    <symbol>錢</symbol>
+    <!-- <symbol>钱</symbol> -->
+    <pinyin>qián</pinyin>
+    <meaning>money</meaning>
+    <note/>
+    <radical>金</radical>
+    <components>
+      <component>金</component>
+      <component>戔</component>
+    </components>
+  </character>
+  <character>
+    <symbol>馬</symbol>
+    <!-- <symbol>马</symbol> -->
+    <pinyin>mǎ</pinyin>
+    <meaning>horse</meaning>
+    <note/>
+    <radical>馬</radical>
+    <components>
+      <component>灬</component>
+      <component>一</component>
+      <component>二</component>
+      <component>丨</component>
+    </components>
+  </character>
+  <character>
+    <symbol>思</symbol>
+    <pinyin>sī</pinyin>
+    <meaning>to think; to consider</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>田</component>
+      <component>心</component>
+    </components>
+  </character>
+  <character>
+    <symbol>部</symbol>
+    <pinyin>bù</pinyin>
+    <meaning>section; part</meaning>
+    <note/>
+    <radical>邑</radical>
+    <components>
+      <component>咅</component>
+    </components>
+  </character>
+  <character>
+    <symbol>場</symbol>
+    <!-- <symbol>场</symbol> -->
+    <pinyin>chǎng</pinyin>
+    <meaning>open area</meaning>
+    <note/>
+    <radical>土</radical>
+    <components>
+      <component>土</component>
+      <component>昜</component>
+    </components>
+  </character>
+  <character>
+    <symbol>嗯</symbol>
+    <pinyin>en</pinyin>
+    <meaning>approval interjection</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>恩</component>
+    </components>
+  </character>
+  <character>
+    <symbol>計</symbol>
+    <!-- <symbol>计</symbol> -->
+    <pinyin>jì</pinyin>
+    <meaning>to calculate; to plan</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>十</component>
+    </components>
+  </character>
+  <character>
+    <symbol>任</symbol>
+    <pinyin>rèn</pinyin>
+    <meaning>to appoint; office</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>壬</component>
+    </components>
+  </character>
+  <character>
+    <symbol>確</symbol>
+    <!-- <symbol>确</symbol> -->
+    <pinyin>què</pinyin>
+    <meaning>solid; real</meaning>
+    <note/>
+    <radical>石</radical>
+    <components>
+      <component>石</component>
+      <component>隺</component>
+    </components>
+  </character>
 <!-- 241 -->
+  <!-- <character>
+    <symbol></symbol>
+    <pinyin></pinyin>
+    <meaning></meaning>
+    <note/>
+    <radical></radical>
+    <components>
+      <component></component>
+      <component></component>
+    </components>
+  </character> -->
 <!-- 251 -->
 <!-- 261 -->
 <!-- 271 -->
