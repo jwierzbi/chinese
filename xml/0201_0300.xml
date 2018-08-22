@@ -569,7 +569,229 @@
     </components>
   </character>
 <!-- 251 -->
+  <character>
+    <symbol>位</symbol>
+    <pinyin>wèi</pinyin>
+    <meaning>mw. for people; seat</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>立</component>
+    </components>
+  </character>
+  <character>
+    <symbol>表</symbol>
+    <pinyin>biǎo</pinyin>
+    <meaning>exterior surface</meaning>
+    <note/>
+    <radical>衣</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>剛</symbol>
+    <!-- <symbol>刚</symbol> -->
+    <pinyin>gāng</pinyin>
+    <meaning>just (now); hard; strong</meaning>
+    <note/>
+    <radical>刀</radical>
+    <components>
+      <component>岡</component>
+      <component>刂</component>
+    </components>
+  </character>
+  <character>
+    <symbol>希</symbol>
+    <pinyin>xī</pinyin>
+    <meaning>rare; uncommon; watery; sparse</meaning>
+    <note/>
+    <radical>禾</radical>
+    <components>
+      <component>禾</component>
+      <component>希</component>
+    </components>
+  </character>
+  <character>
+    <symbol>查</symbol>
+    <pinyin>chá</pinyin>
+    <meaning>to research</meaning>
+    <note/>
+    <radical>木</radical>
+    <components>
+      <component>木</component>
+      <component>旦</component>
+    </components>
+  </character>
+  <character>
+    <symbol>拉</symbol>
+    <pinyin>lā</pinyin>
+    <meaning>to pull</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+      <component>扌</component>
+      <component>立</component>
+    </components>
+  </character>
+  <character>
+    <symbol>邊</symbol>
+    <!-- <symbol>边</symbol> -->
+    <pinyin>biān</pinyin>
+    <meaning>side; edge</meaning>
+    <note/>
+    <radical>辵</radical>
+    <components>
+      <component>辶</component>
+      <component>臱</component>
+    </components>
+  </character>
+  <character>
+    <symbol>或</symbol>
+    <pinyin>huò</pinyin>
+    <meaning>maybe; perhaps</meaning>
+    <note/>
+    <radical>戈</radical>
+    <components>
+      <component>戈</component>
+      <component>一</component>
+    </components>
+  </character>
+  <character>
+    <symbol>將</symbol>
+    <!-- <symbol>将</symbol> -->
+    <pinyin>jiāng</pinyin>
+    <meaning>will; shall</meaning>
+    <note/>
+    <radical>寸</radical>
+    <components>
+      <component>爿</component>
+      <component>月</component>
+      <component>寸</component>
+    </components>
+  </character>
+  <character>
+    <symbol>男</symbol>
+    <pinyin>nán</pinyin>
+    <meaning>male</meaning>
+    <note>People who work the field 田 with strength 力.</note>
+    <radical>田</radical>
+    <components>
+      <component>田</component>
+      <component>力</component>
+    </components>
+  </character>
 <!-- 261 -->
+  <character>
+    <symbol>准</symbol>
+    <pinyin>zhǔn</pinyin>
+    <meaning>to allow</meaning>
+    <note/>
+    <radical>冫</radical>
+    <components>
+      <component>冫</component>
+      <component>隹</component>
+    </components>
+  </character>
+  <character>
+    <symbol>變</symbol>
+    <!-- <symbol>变</symbol> -->
+    <pinyin>biàn</pinyin>
+    <meaning>to change</meaning>
+    <note/>
+    <radical>言</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>證</symbol>
+    <!-- <symbol>证</symbol> -->
+    <pinyin>zhèng</pinyin>
+    <meaning>proof; evidence</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>登</component>
+    </components>
+  </character>
+  <character>
+    <symbol>物</symbol>
+    <pinyin>wù</pinyin>
+    <meaning>thing; object</meaning>
+    <note/>
+    <radical>牛</radical>
+    <components>
+      <component>牛</component>
+      <component>勿</component>
+    </components>
+  </character>
+  <character>
+    <symbol>員</symbol>
+    <!-- <symbol>员</symbol> -->
+    <pinyin>yuán</pinyin>
+    <meaning>employee; member</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>貝</component>
+    </components>
+  </character>
+  <character>
+    <symbol>總</symbol>
+    <!-- <symbol>总</symbol> -->
+    <pinyin>zǒng</pinyin>
+    <meaning>always</meaning>
+    <note/>
+    <radical>糸</radical>
+    <components>
+      <component>糹</component>
+      <component>悤</component>
+    </components>
+  </character>
+  <character>
+    <symbol>噢</symbol>
+    <pinyin>ō</pinyin>
+    <meaning>moan sound; oh!</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>奥</component>
+    </components>
+  </character>
+  <character>
+    <symbol>系</symbol>
+    <pinyin>xì</pinyin>
+    <meaning>system; department; faculty</meaning>
+    <note/>
+    <radical>糸</radical>
+    <components>
+      <component>丿</component>
+      <component>糸</component>
+    </components>
+  </character>
+  <character>
+    <symbol>幾</symbol>
+    <!-- <symbol>几</symbol> -->
+    <pinyin>jǐ</pinyin>
+    <meaning>how many</meaning>
+    <note/>
+    <radical>幺</radical>
+    <components>
+      <component>人</component>
+      <component>戈</component>
+    </components>
+  </character>
+  <character>
+    <symbol>管</symbol>
+    <pinyin>guǎn</pinyin>
+    <meaning>to control</meaning>
+    <note/>
+    <radical>竹</radical>
+    <components>
+      <component>官</component>
+    </components>
+  </character>
 <!-- 271 -->
 <!-- 281 -->
 <!-- 291 -->
