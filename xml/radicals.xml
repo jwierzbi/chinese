@@ -29,6 +29,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>3</number>
+    <symbol>丶</symbol>
+    <pinyin>dot</pinyin>
+    <meaning>dot</meaning>
+    <strokes>1</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>4</number>
     <symbol>丿</symbol>
     <pinyin>piě</pinyin>
@@ -425,10 +433,28 @@
     <variants/>
   </radical>
   <radical>
+    <number>80</number>
+    <symbol>毋</symbol>
+    <pinyin>mǔ</pinyin>
+    <meaning>mother</meaning>
+    <strokes>4</strokes>
+    <variants>
+      <variant>母</variant>
+    </variants>
+  </radical>
+  <radical>
     <number>81</number>
     <symbol>比</symbol>
     <pinyin>bǐ</pinyin>
     <meaning>compare</meaning>
+    <strokes>4</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>84</number>
+    <symbol>气</symbol>
+    <pinyin>qì</pinyin>
+    <meaning>steam</meaning>
     <strokes>4</strokes>
     <variants/>
   </radical>
@@ -621,6 +647,14 @@
     </variants>
   </radical>
   <radical>
+    <number>141</number>
+    <symbol>虍</symbol>
+    <pinyin>hǔ</pinyin>
+    <meaning>tiger</meaning>
+    <strokes>6</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>144</number>
     <symbol>行</symbol>
     <pinyin>xíng</pinyin>
@@ -707,6 +741,14 @@
     <variants/>
   </radical>
   <radical>
+    <number>160</number>
+    <symbol>辛</symbol>
+    <pinyin>xīn</pinyin>
+    <meaning>bitter</meaning>
+    <strokes>7</strokes>
+    <variants/>
+  </radical>
+  <radical>
     <number>162</number>
     <symbol>辵</symbol>
     <pinyin>chuò</pinyin>
@@ -725,6 +767,14 @@
     <variants>
       <variant>阝</variant>
     </variants>
+  </radical>
+  <radical>
+    <number>164</number>
+    <symbol>酉</symbol>
+    <pinyin>yǒu</pinyin>
+    <meaning>wine</meaning>
+    <strokes>7</strokes>
+    <variants/>
   </radical>
   <radical>
     <number>166</number>
@@ -760,6 +810,16 @@
     <strokes>8</strokes>
     <variants>
       <variant></variant>
+    </variants>
+  </radical>
+  <radical>
+    <number>170</number>
+    <symbol>阜</symbol>
+    <pinyin>fù</pinyin>
+    <meaning>mound</meaning>
+    <strokes>8</strokes>
+    <variants>
+      <variant>阝</variant>
     </variants>
   </radical>
   <radical>
@@ -808,6 +868,14 @@
     <pinyin>mǎ</pinyin>
     <meaning>horse</meaning>
     <strokes>10</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>188</number>
+    <symbol>骨</symbol>
+    <pinyin>gǔ</pinyin>
+    <meaning>bone</meaning>
+    <strokes>9</strokes>
     <variants/>
   </radical>
   <radical>

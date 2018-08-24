@@ -793,6 +793,340 @@
     </components>
   </character>
 <!-- 271 -->
+  <character>
+    <symbol>玩</symbol>
+    <pinyin>wán</pinyin>
+    <meaning>to play</meaning>
+    <note/>
+    <radical>玉</radical>
+    <components>
+      <component>王</component>
+      <component>元</component>
+    </components>
+  </character>
+  <character>
+    <symbol>處</symbol>
+    <!-- <symbol>处</symbol> -->
+    <pinyin>chù</pinyin>
+    <meaning>place; location</meaning>
+    <note/>
+    <radical>虍</radical>
+    <components>
+      <component>虍</component>
+      <component>処</component>
+    </components>
+  </character>
+  <character>
+    <symbol>辦</symbol>
+    <!-- <symbol>办</symbol> -->
+    <pinyin>bàn</pinyin>
+    <meaning>to do; to manage</meaning>
+    <note/>
+    <radical>辛</radical>
+    <components>
+      <component>辡</component>
+      <component>力</component>
+    </components>
+  </character>
+  <character>
+    <symbol>主</symbol>
+    <pinyin>zhǔ</pinyin>
+    <meaning>master; host; main</meaning>
+    <note/>
+    <radical>丶</radical>
+    <components>
+      <component>王</component>
+      <component>丶</component>
+    </components>
+  </character>
+  <character>
+    <symbol>氣</symbol>
+    <!-- <symbol>气</symbol> -->
+    <pinyin>qì</pinyin>
+    <meaning>air; steam</meaning>
+    <note>Steam 气 rising from a bowl of rice 米.</note>
+    <radical>气</radical>
+    <components>
+      <component>气</component>
+      <component>米</component>
+    </components>
+  </character>
+  <character>
+    <symbol>每</symbol>
+    <pinyin>měi</pinyin>
+    <meaning>each; every</meaning>
+    <note/>
+    <radical>毋</radical>
+    <components>
+      <component>母</component>
+    </components>
+  </character>
+  <character>
+    <symbol>少</symbol>
+    <pinyin>shǎo</pinyin>
+    <meaning>few; little</meaning>
+    <note/>
+    <radical>小</radical>
+    <components>
+      <component>小</component>
+    </components>
+  </character>
+  <character>
+    <symbol>切</symbol>
+    <pinyin>qiē</pinyin>
+    <meaning>to cut; to slice</meaning>
+    <note/>
+    <radical>刀</radical>
+    <components>
+      <component>七</component>
+      <component>刀</component>
+    </components>
+  </character>
+  <character>
+    <symbol>失</symbol>
+    <pinyin>shī</pinyin>
+    <meaning>to lose; to fail</meaning>
+    <note/>
+    <radical>大</radical>
+    <components>
+      <component>夫</component>
+      <component>丿</component>
+    </components>
+  </character>
+  <character>
+    <symbol>算</symbol>
+    <pinyin>suàn</pinyin>
+    <meaning>to calculate; plan</meaning>
+    <note/>
+    <radical>竹</radical>
+    <components/>
+  </character>
 <!-- 281 -->
+  <character>
+    <symbol>性</symbol>
+    <pinyin>xìng</pinyin>
+    <meaning>nature; gender</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>忄</component>
+      <component>生</component>
+    </components>
+  </character>
+  <character>
+    <symbol>此</symbol>
+    <pinyin>cǐ</pinyin>
+    <meaning>this; these</meaning>
+    <note/>
+    <radical>止</radical>
+    <components>
+      <component>止</component>
+      <component>匕</component>
+    </components>
+  </character>
+  <character>
+    <symbol>必</symbol>
+    <pinyin>bì</pinyin>
+    <meaning>must; will</meaning>
+    <note/>
+    <radical>心</radical>
+    <components>
+      <component>心</component>
+    </components>
+  </character>
+  <character>
+    <symbol>備</symbol>
+    <!-- <symbol>备</symbol> -->
+    <pinyin>bèi</pinyin>
+    <meaning>get ready</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>艹</component>
+      <component>丆</component>
+      <component>用</component>
+    </components>
+  </character>
+  <character>
+    <symbol>合</symbol>
+    <pinyin>hé</pinyin>
+    <meaning>to close; together</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>亼</component>
+      <component>口</component>
+    </components>
+  </character>
+  <character>
+    <symbol>德</symbol>
+    <pinyin>dé</pinyin>
+    <meaning>virtue; ethics</meaning>
+    <note>Step 彳 with virtue 㥁.</note>
+    <radical>彳</radical>
+    <components>
+      <component>彳</component>
+      <component>㥁</component>
+    </components>
+  </character>
+  <character>
+    <symbol>隊</symbol>
+    <!-- <symbol>队</symbol> -->
+    <pinyin>duì</pinyin>
+    <meaning>team; group</meaning>
+    <note/>
+    <radical>阜</radical>
+    <components>
+      <component>阝</component>
+    </components>
+  </character>
+  <character>
+    <symbol>試</symbol>
+    <!-- <symbol>试</symbol> -->
+    <pinyin>shì</pinyin>
+    <meaning>to test; to try</meaning>
+    <note/>
+    <radical>言</radical>
+    <components>
+      <component>言</component>
+      <component>式</component>
+    </components>
+  </character>
+  <character>
+    <symbol>抱</symbol>
+    <pinyin>bào</pinyin>
+    <meaning>to hold; to hug; to carry in arms</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+      <component>扌</component>
+      <component>包</component>
+    </components>
+  </character>
+  <character>
+    <symbol>醫</symbol>
+    <!-- <symbol>医</symbol> -->
+    <pinyin>yī</pinyin>
+    <meaning>medical</meaning>
+    <note/>
+    <radical>酉</radical>
+    <components>
+      <component>殹</component>
+      <component>酉</component>
+    </components>
+  </character>
 <!-- 291 -->
+  <character>
+    <symbol>通</symbol>
+    <pinyin>tōng</pinyin>
+    <meaning>to connect; open</meaning>
+    <note/>
+    <radical>辵</radical>
+    <components>
+      <component>辶</component>
+      <component>甬</component>
+    </components>
+  </character>
+  <character>
+    <symbol>體</symbol>
+    <!-- <symbol>体</symbol> -->
+    <pinyin>tǐ</pinyin>
+    <meaning>body; form</meaning>
+    <note/>
+    <radical>骨</radical>
+    <components>
+      <component>骨</component>
+      <component>豊</component>
+    </components>
+  </character>
+  <character>
+    <symbol>樂</symbol>
+    <!-- <symbol>乐</symbol> -->
+    <pinyin>lè</pinyin>
+    <meaning>happy</meaning>
+    <note/>
+    <radical>木</radical>
+    <components>
+      <component>木</component>
+      <component>白</component>
+    </components>
+  </character>
+  <character>
+    <symbol>並</symbol>
+    <!-- <symbol>并</symbol> -->
+    <pinyin>bìng</pinyin>
+    <meaning>(not) at all</meaning>
+    <note/>
+    <radical>一</radical>
+    <components>
+      <component>业</component>
+    </components>
+  </character>
+  <character>
+    <symbol>三</symbol>
+    <pinyin>sān</pinyin>
+    <meaning>three</meaning>
+    <note>Three lines.</note>
+    <radical>一</radical>
+    <components>
+      <component>一</component>
+      <component>二</component>
+    </components>
+  </character>
+  <character>
+    <symbol>早</symbol>
+    <pinyin>zǎo</pinyin>
+    <meaning>early; morning</meaning>
+    <note>Sun rising over horison.</note>
+    <radical>日</radical>
+    <components>
+      <component>日</component>
+      <component>十</component>
+    </components>
+  </character>
+  <character>
+    <symbol>門</symbol>
+    <!-- <symbol>门</symbol> -->
+    <pinyin>mén</pinyin>
+    <meaning>door; gate</meaning>
+    <note>Picture of a door with two panels.</note>
+    <radical>門</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>害</symbol>
+    <pinyin>hài</pinyin>
+    <meaning>harm</meaning>
+    <note/>
+    <radical>宀</radical>
+    <components>
+      <component>宀</component>
+      <component>丰</component>
+      <component>口</component>
+    </components>
+  </character>
+  <character>
+    <symbol>歉</symbol>
+    <pinyin>qiàn</pinyin>
+    <meaning>to apologize</meaning>
+    <note/>
+    <radical>欠</radical>
+    <components>
+      <component>兼</component>
+      <component>欠</component>
+    </components>
+  </character>
+  <character>
+    <symbol>選</symbol>
+    <!-- <symbol>选</symbol> -->
+    <pinyin>xuǎn</pinyin>
+    <meaning>to choose</meaning>
+    <note/>
+    <radical>辵</radical>
+    <components>
+      <component>辶</component>
+      <component>巽</component>
+    </components>
+  </character>
 </characters>
