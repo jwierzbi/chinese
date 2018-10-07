@@ -30,36 +30,48 @@ GEN_ANKI = $(QUIET)tools/gen_ankideck.py
 
 SRCDIR := xml
 OUTDIR := out
-TARGET := characters
+TARGET_XML := notes.xml
 
-SOURCES := \
+SOURCES_WORDS := \
+	words.xml
+
+SOURCES_CHARACTERS := \
 	0001_0100.xml \
 	0101_0200.xml \
-	0201_0300.xml \
+	0201_0300.xml
+
+SOURCES_RADICALS := \
 	radicals.xml
+
+SOURCES := \
+	$(SOURCES_WORDS) \
+	$(SOURCES_CHARACTERS) \
+	$(SOURCES_RADICALS)
 
 PARAMS := --stringparam draft.mode no
 
 .PHONY = all
 all: pdf html
 
+TARGET_PDF := notes.pdf
 .PHONY = pdf
-pdf: $(OUTDIR) $(OUTDIR)/$(TARGET).pdf
+pdf: $(OUTDIR) $(OUTDIR)/$(TARGET_PDF)
 
-$(OUTDIR)/$(TARGET).pdf: $(OUTDIR)/$(TARGET).fo
+$(OUTDIR)/$(TARGET_PDF): $(OUTDIR)/$(TARGET_PDF:.pdf=.fo)
 	$(ECHO) "FOP $@"
 	$(FOP) -c config/fop.xml -fo $< -pdf $@
 
-$(OUTDIR)/$(TARGET).fo: $(OUTDIR)/$(TARGET).xml
+$(OUTDIR)/$(TARGET_PDF:.pdf=.fo): $(OUTDIR)/$(TARGET_XML)
 	$(XSLTPROC) $(PARAMS) --output $@ config/pdf_wrapper.xml $<
 
+TARGET_HTML := index.htm
 .PHONY = html
-html: $(OUTDIR) $(OUTDIR)/$(TARGET).htm
+html: $(OUTDIR) $(OUTDIR)/$(TARGET_HTML)
 
-$(OUTDIR)/$(TARGET).htm: $(OUTDIR)/$(TARGET).xml $(OUTDIR)/html_style.css
+$(OUTDIR)/$(TARGET_HTML): $(OUTDIR)/$(TARGET_XML) $(OUTDIR)/html_style.css
 	$(XSLTPROC) $(PARAMS) --output $@ config/html_wrapper.xml $<
 
-$(OUTDIR)/$(TARGET).xml: $(addprefix $(OUTDIR)/,$(SOURCES))
+$(OUTDIR)/$(TARGET_XML): $(addprefix $(OUTDIR)/,$(SOURCES))
 	$(ECHO) "GEN2 $@"
 	$(GEN2) -o $@ $^
 
@@ -67,25 +79,65 @@ $(OUTDIR)/%.css: config/%.css
 	$(ECHO) COPY $@
 	$(CP) $< $@
 
-$(OUTDIR)/%.xml: xml/%.xml
+$(addprefix $(OUTDIR)/,$(SOURCES_WORDS)): $(addprefix $(SRCDIR)/,$(SOURCES_WORDS))
 	$(ECHO) GEN $@
-	$(GEN) -i $< -o $@
+	$(GEN) -i $< -o $@ -t words
 
-.PHONY = anki
-anki: $(OUTDIR) $(OUTDIR)/anki_$(TARGET).txt
+$(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS)): $(addprefix $(SRCDIR)/,$(SOURCES_CHARACTERS))
+	$(ECHO) GEN $@
+	$(GEN) -i $< -o $@ -t chars
 
-$(OUTDIR)/anki_$(TARGET).txt: $(addprefix $(OUTDIR)/,$(SOURCES:.xml=.txt))
+$(addprefix $(OUTDIR)/,$(SOURCES_RADICALS)): $(addprefix $(SRCDIR)/,$(SOURCES_RADICALS))
+	$(ECHO) GEN $@
+	$(GEN) -i $< -o $@ -t radicals
+
+# Anki decks
+
+.PHONY: anki
+anki: anki_words anki_characters anki_radicals
+
+TARGET_ANKI_WORDS := anki_words
+.PHONY: anki_words
+anki_words: $(OUTDIR) $(OUTDIR)/$(TARGET_ANKI_WORDS).txt
+
+$(OUTDIR)/$(TARGET_ANKI_WORDS).txt: $(addprefix $(OUTDIR)/,$(SOURCES_WORDS:.xml=.txt))
 	$(ECHO) Generating deck: $@
 	$(CAT) $^ > $@
 
-$(OUTDIR)/%.txt: $(SRCDIR)/%.xml
+$(addprefix $(OUTDIR)/,$(SOURCES_WORDS:.xml=.txt)): $(addprefix $(SRCDIR)/,$(SOURCES_WORDS))
 	$(ECHO) GEN_ANKI $@
-	$(GEN_ANKI) -i $< -o $@
+	$(GEN_ANKI) -i $< -o $@ -t words
+
+TARGET_ANKI_CHARACTERS := anki_characters
+.PHONY: anki_characters
+anki_characters: $(OUTDIR) $(OUTDIR)/$(TARGET_ANKI_CHARACTERS).txt
+
+$(OUTDIR)/$(TARGET_ANKI_CHARACTERS).txt: $(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS:.xml=.txt))
+	$(ECHO) Generating deck: $@
+	$(CAT) $^ > $@
+
+$(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS:.xml=.txt)): $(addprefix $(SRCDIR)/,$(SOURCES_CHARACTERS))
+	$(ECHO) GEN_ANKI $@
+	$(GEN_ANKI) -i $< -o $@ -t chars
+
+TARGET_ANKI_RADICALS := anki_radicals
+.PHONY: anki_radicals
+anki_radicals: $(OUTDIR) $(OUTDIR)/$(TARGET_ANKI_RADICALS).txt
+
+$(OUTDIR)/$(TARGET_ANKI_RADICALS).txt: $(addprefix $(OUTDIR)/,$(SOURCES_RADICALS:.xml=.txt))
+	$(ECHO) Generating deck: $@
+	$(CAT) $^ > $@
+
+$(addprefix $(OUTDIR)/,$(SOURCES_RADICALS:.xml=.txt)): $(addprefix $(SRCDIR)/,$(SOURCES_RADICALS))
+	$(ECHO) GEN_ANKI $@
+	$(GEN_ANKI) -i $< -o $@ -t radicals
+
+# common targets
 
 $(OUTDIR):
 	$(MKDIR) out
 
-.PHONY = clean
+.PHONY: clean
 clean:
 	$(ECHO) "removing out directory"
 	$(RM) -rf out

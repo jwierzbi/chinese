@@ -46,6 +46,18 @@ table {
   margin-right: auto; */
 }
 
+col.word-col1 {
+  width: 60px;
+}
+
+col.word-col2 {
+  width: 120px;
+}
+
+col.word-col3 {
+  width: 500px;
+}
+
 col.char-col1 {
   width: 40px;
 }
