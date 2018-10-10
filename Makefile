@@ -82,15 +82,15 @@ $(OUTDIR)/%.css: config/%.css
 	$(ECHO) COPY $@
 	$(CP) $< $@
 
-$(addprefix $(OUTDIR)/,$(SOURCES_WORDS)): $(addprefix $(SRCDIR)/,$(SOURCES_WORDS))
+$(addprefix $(OUTDIR)/,$(SOURCES_WORDS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
 	$(GEN) -i $< -o $@ -t words
 
-$(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS)): $(addprefix $(SRCDIR)/,$(SOURCES_CHARACTERS))
+$(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
 	$(GEN) -i $< -o $@ -t chars
 
-$(addprefix $(OUTDIR)/,$(SOURCES_RADICALS)): $(addprefix $(SRCDIR)/,$(SOURCES_RADICALS))
+$(addprefix $(OUTDIR)/,$(SOURCES_RADICALS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
 	$(GEN) -i $< -o $@ -t radicals
 

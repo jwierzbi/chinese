@@ -26,7 +26,7 @@ div.toc dl {
   margin: 5px 0 5px 0;
 }
 
-div.section {
+div.article > div.section {
   border: 1px solid #000;
   border-radius: 5px;
   margin: 10px;
@@ -105,5 +105,5 @@ col.rad-col4 {
 }
 
 col.rad-col5 {
-  width: 120px;
+  width: 150px;
 }

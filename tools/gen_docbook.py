@@ -82,7 +82,8 @@ class RadicalsProcessor:
         for el in read_input(input_file)['radicals']:
             row = add_subelement(tbody, 'row')
             add_subelement(row, 'entry', el['number'])
-            add_subelement(row, 'entry', el['symbol'])
+            add_subelement(row, 'entry', el['symbol']) \
+                    .set('xml:id', 'r' + el['symbol'])
             add_subelement(row, 'entry', el['strokes'])
             add_subelement(row, 'entry', el['pinyin'])
             add_subelement(row, 'entry', el['meaning'])
@@ -124,9 +125,14 @@ class CharactersProcessor:
 
         for el in read_input(input_file)['characters']:
             row = add_subelement(tbody, 'row')
-            add_subelement(row, 'entry', el['symbol'])
+            add_subelement(row, 'entry', el['symbol']) \
+                    .set('xml:id', 'ch' + el['symbol'])
             add_subelement(row, 'entry', el['pinyin'])
-            add_subelement(row, 'entry', el['radical'])
+
+            r = add_subelement(row, 'entry')
+            add_subelement(r, 'link', el['radical'],
+                           linkend='r' + el['radical'])
+
             add_subelement(row, 'entry', ', '.join(el['components']) \
                     if el['components'] else '')
             add_subelement(row, 'entry', el['meaning'])
@@ -163,7 +169,11 @@ class WordsProcessor:
 
         for el in read_input(input_file)['words']:
             row = add_subelement(tbody, 'row')
-            add_subelement(row, 'entry', el['chinese'])
+
+            word = add_subelement(row, 'entry')
+            for ch in el['chinese']:
+                add_subelement(word, 'link', ch, linkend='ch' + ch)
+
             add_subelement(row, 'entry', el['pinyin'])
             add_subelement(row, 'entry', el['english'])
 
