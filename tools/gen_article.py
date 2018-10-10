@@ -13,7 +13,7 @@ def main():
     ET.register_namespace('', 'http://docbook.org/ns/docbook')
 
     root = ET.Element('article')
-    root.set('xml:id', 'characters')
+    root.set('xml:id', 'notes')
     root.set('version', '5.0')
     root.set('lang', 'en')
 

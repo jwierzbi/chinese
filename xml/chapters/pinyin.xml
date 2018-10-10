@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<article lang="en"
+         version="5.0"
+         xml:id="notes"
+         xmlns="http://docbook.org/ns/docbook">
+
+<section>
+  <title>Pinyin</title>
+
+  <section>
+    <title>Tone placing rules</title>
+
+    <para>Tones are always placed above vowels. When there are more than
+    vowels in a word the tones are placed according to below rules:
+    </para>
+    <itemizedlist>
+      <listitem>the tone is always placed over <emphasis>a</emphasis> and
+      <emphasis>e</emphasis> if they are in a word (they never appear together
+      in one sylable)</listitem>
+      <listitem>in a combination <emphasis>ou</emphasis> the tone is placed over
+      <emphasis>o</emphasis></listitem>
+      <listitem>in all other cases tone is placed above the last vowel in
+      a word</listitem>
+    </itemizedlist>
+    <informaltable>
+      <tgroup cols="7">
+        <colspec colname="pinyin-col-1" colnum="1" colwidth="1*"/>
+        <colspec colname="pinyin-col-2" colnum="2" colwidth="1*"/>
+        <colspec colname="pinyin-col-3" colnum="3" colwidth="1*"/>
+        <colspec colname="pinyin-col-4" colnum="4" colwidth="1*"/>
+        <colspec colname="pinyin-col-5" colnum="5" colwidth="1*"/>
+        <colspec colname="pinyin-col-6" colnum="6" colwidth="1*"/>
+        <colspec colname="pinyin-col-7" colnum="7" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry></entry>
+            <entry>a</entry>
+            <entry>e</entry>
+            <entry>i</entry>
+            <entry>o</entry>
+            <entry>u</entry>
+            <entry>ü</entry>
+          </row>
+          <row>
+            <entry>a</entry>
+            <entry></entry>
+            <entry></entry>
+            <entry>ái</entry>
+            <entry>áo</entry>
+            <entry></entry>
+            <entry></entry>
+          </row>
+          <row>
+            <entry>e</entry>
+            <entry></entry>
+            <entry></entry>
+            <entry>éi</entry>
+            <entry></entry>
+            <entry></entry>
+            <entry></entry>
+          </row>
+          <row>
+            <entry>i</entry>
+            <entry>iá, iáo</entry>
+            <entry>ié</entry>
+            <entry></entry>
+            <entry>ió</entry>
+            <entry>iú</entry>
+            <entry></entry>
+          </row>
+          <row>
+            <entry>o</entry>
+            <entry></entry>
+            <entry></entry>
+            <entry></entry>
+            <entry></entry>
+            <entry>óu</entry>
+            <entry></entry>
+          </row>
+          <row>
+            <entry>u</entry>
+            <entry>uá, uái</entry>
+            <entry>ué</entry>
+            <entry>uí</entry>
+            <entry>uó</entry>
+            <entry></entry>
+            <entry></entry>
+          </row>
+          <row>
+            <entry>ü</entry>
+            <entry></entry>
+            <entry>üé</entry>
+            <entry></entry>
+            <entry></entry>
+            <entry></entry>
+            <entry></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+</section>
+
+</article>

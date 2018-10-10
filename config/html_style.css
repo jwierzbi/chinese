@@ -46,6 +46,12 @@ table {
   margin-right: auto; */
 }
 
+.pinyin-col-1, .pinyin-col-2, .pinyin-col-3, .pinyin-col-4, .pinyin-col-5,
+.pinyin-col-6, .pinyin-col-7 {
+  width: 60px;
+  text-align: center;
+}
+
 col.word-col1 {
   width: 60px;
 }

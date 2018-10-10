@@ -32,6 +32,9 @@ SRCDIR := xml
 OUTDIR := out
 TARGET_XML := notes.xml
 
+SOURCES_ARTICLES := \
+	$(SRCDIR)/chapters/pinyin.xml
+
 SOURCES_WORDS := \
 	words.xml
 
@@ -71,7 +74,7 @@ html: $(OUTDIR) $(OUTDIR)/$(TARGET_HTML)
 $(OUTDIR)/$(TARGET_HTML): $(OUTDIR)/$(TARGET_XML) $(OUTDIR)/html_style.css
 	$(XSLTPROC) $(PARAMS) --output $@ config/html_wrapper.xml $<
 
-$(OUTDIR)/$(TARGET_XML): $(addprefix $(OUTDIR)/,$(SOURCES))
+$(OUTDIR)/$(TARGET_XML): $(SOURCES_ARTICLES) $(addprefix $(OUTDIR)/,$(SOURCES))
 	$(ECHO) "GEN2 $@"
 	$(GEN2) -o $@ $^
 
