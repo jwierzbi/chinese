@@ -50,153 +50,179 @@ def add_subelement(root, tag, text=None, **kwargs):
         el.text = text
     return el
 
-class RadicalsProcessor:
-    @staticmethod
-    def process(input_file, output_file):
-        root = ET.Element('article')
-        root.set('xml:id', 'notes')
-        root.set('xmlns', 'http://docbook.org/ns/docbook')
-        root.set('version', '5.0')
-        root.set('lang', 'en')
+def _process_radicals(args):
+    root = ET.Element('article')
+    root.set('xml:id', 'notes')
+    root.set('xmlns', 'http://docbook.org/ns/docbook')
+    root.set('version', '5.0')
+    root.set('lang', 'en')
 
-        sec = add_subelement(root, 'section')
+    sec = add_subelement(root, 'section')
 
-        add_subelement(sec, 'title', input_file)
+    add_subelement(sec, 'title', args.input_file)
 
-        table = add_subelement(sec, 'informaltable')
-        tgroup = add_subelement(table, 'tgroup', cols='5')
+    table = add_subelement(sec, 'informaltable')
+    tgroup = add_subelement(table, 'tgroup', cols='5')
 
-        add_subelement(tgroup, 'colspec', colnum='1', colname='rad-col1',
-                       colwidth='1*')
-        add_subelement(tgroup, 'colspec', colnum='2', colname='rad-col2',
-                       colwidth='1*')
-        add_subelement(tgroup, 'colspec', colnum='3', colname='rad-col3',
-                       colwidth='1.2*')
-        add_subelement(tgroup, 'colspec', colnum='4', colname='rad-col4',
-                       colwidth='1*')
-        add_subelement(tgroup, 'colspec', colnum='5', colname='rad-col5',
-                       colwidth='3*')
+    add_subelement(tgroup, 'colspec', colnum='1', colname='rad-col1',
+                   colwidth='1*')
+    add_subelement(tgroup, 'colspec', colnum='2', colname='rad-col2',
+                   colwidth='1*')
+    add_subelement(tgroup, 'colspec', colnum='3', colname='rad-col3',
+                   colwidth='1.2*')
+    add_subelement(tgroup, 'colspec', colnum='4', colname='rad-col4',
+                   colwidth='1*')
+    add_subelement(tgroup, 'colspec', colnum='5', colname='rad-col5',
+                   colwidth='3*')
 
-        tbody = add_subelement(tgroup, 'tbody')
+    tbody = add_subelement(tgroup, 'tbody')
 
-        for el in read_input(input_file)['radicals']:
-            row = add_subelement(tbody, 'row')
-            add_subelement(row, 'entry', el['number'])
-            add_subelement(row, 'entry', el['symbol']) \
-                    .set('xml:id', 'r' + el['symbol'])
-            add_subelement(row, 'entry', el['strokes'])
-            add_subelement(row, 'entry', el['pinyin'])
-            add_subelement(row, 'entry', el['meaning'])
+    for el in read_input(args.input_file)['radicals']:
+        row = add_subelement(tbody, 'row')
+        add_subelement(row, 'entry', el['number'])
+        add_subelement(row, 'entry', el['symbol']) \
+                .set('xml:id', 'r' + el['symbol'])
+        add_subelement(row, 'entry', el['strokes'])
+        add_subelement(row, 'entry', el['pinyin'])
+        add_subelement(row, 'entry', el['meaning'])
 
-        # ET.dump(root)
-        tree = ET.ElementTree(root)
-        tree.write(output_file, encoding='utf-8', xml_declaration=True)
+    # ET.dump(root)
+    tree = ET.ElementTree(root)
+    tree.write(args.output_file, encoding='utf-8', xml_declaration=True)
 
-class CharactersProcessor:
-    @staticmethod
-    def process(input_file, output_file):
-        root = ET.Element('article')
-        root.set('xml:id', 'notes')
-        root.set('xmlns', 'http://docbook.org/ns/docbook')
-        root.set('version', '5.0')
-        root.set('lang', 'en')
+def _process_characters(args):
+    # if provided then load radicals first
+    radicals = list()
+    if args.radicals:
+        radicals = [x['symbol'] for x in read_input(args.radicals)['radicals']]
 
-        sec = add_subelement(root, 'section')
+    root = ET.Element('article')
+    root.set('xml:id', 'notes')
+    root.set('xmlns', 'http://docbook.org/ns/docbook')
+    root.set('version', '5.0')
+    root.set('lang', 'en')
 
-        add_subelement(sec, 'title', input_file)
+    sec = add_subelement(root, 'section')
 
-        table = add_subelement(sec, 'informaltable')
-        tgroup = add_subelement(table, 'tgroup', cols='6')
+    add_subelement(sec, 'title', args.input_file)
 
-        add_subelement(tgroup, 'colspec', colnum='1', colname='char-col1',
-                       colwidth='1*')
-        add_subelement(tgroup, 'colspec', colnum='2', colname='char-col2',
-                       colwidth='1.2*')
-        add_subelement(tgroup, 'colspec', colnum='3', colname='char-col3',
-                       colwidth='1*')
-        add_subelement(tgroup, 'colspec', colnum='4', colname='char-col4',
-                       colwidth='1.2*')
-        add_subelement(tgroup, 'colspec', colnum='5', colname='char-col5',
-                       colwidth='2*')
-        add_subelement(tgroup, 'colspec', colnum='6', colname='char-col6',
-                       colwidth='3*')
+    table = add_subelement(sec, 'informaltable')
+    tgroup = add_subelement(table, 'tgroup', cols='6')
 
-        tbody = add_subelement(tgroup, 'tbody')
+    add_subelement(tgroup, 'colspec', colnum='1', colname='char-col1',
+                   colwidth='1*')
+    add_subelement(tgroup, 'colspec', colnum='2', colname='char-col2',
+                   colwidth='1.2*')
+    add_subelement(tgroup, 'colspec', colnum='3', colname='char-col3',
+                   colwidth='1*')
+    add_subelement(tgroup, 'colspec', colnum='4', colname='char-col4',
+                   colwidth='1.2*')
+    add_subelement(tgroup, 'colspec', colnum='5', colname='char-col5',
+                   colwidth='2*')
+    add_subelement(tgroup, 'colspec', colnum='6', colname='char-col6',
+                   colwidth='3*')
 
-        for el in read_input(input_file)['characters']:
-            row = add_subelement(tbody, 'row')
-            add_subelement(row, 'entry', el['symbol']) \
-                    .set('xml:id', 'ch' + el['symbol'])
-            add_subelement(row, 'entry', el['pinyin'])
+    tbody = add_subelement(tgroup, 'tbody')
 
+    for el in read_input(args.input_file)['characters']:
+        row = add_subelement(tbody, 'row')
+        add_subelement(row, 'entry', el['symbol']) \
+                .set('xml:id', 'ch' + el['symbol'])
+        add_subelement(row, 'entry', el['pinyin'])
+
+        if el['radical'] in radicals:
             r = add_subelement(row, 'entry')
             add_subelement(r, 'link', el['radical'],
-                           linkend='r' + el['radical'])
+                        linkend='r' + el['radical'])
+        else:
+            print('warning: no radical for character: {}'.format(el['symbol']))
+            add_subelement(row, 'entry', el['symbol'])
 
-            add_subelement(row, 'entry', ', '.join(el['components']) \
-                    if el['components'] else '')
-            add_subelement(row, 'entry', el['meaning'])
-            add_subelement(row, 'entry', el['note'] if 'note' in el else '')
+        add_subelement(row, 'entry', ', '.join(el['components']) \
+                if el['components'] else '')
+        add_subelement(row, 'entry', el['meaning'])
+        add_subelement(row, 'entry', el['note'] if 'note' in el else '')
 
-        # ET.dump(root)
-        tree = ET.ElementTree(root)
-        tree.write(output_file, encoding='utf-8', xml_declaration=True)
+    # ET.dump(root)
+    tree = ET.ElementTree(root)
+    tree.write(args.output_file, encoding='utf-8', xml_declaration=True)
 
-class WordsProcessor:
-    @staticmethod
-    def process(input_file, output_file):
-        root = ET.Element('article')
-        root.set('xml:id', 'notes')
-        root.set('xmlns', 'http://docbook.org/ns/docbook')
-        root.set('version', '5.0')
-        root.set('lang', 'en')
+def _process_words(args):
+    # if provided then load characters first
+    characters = list()
+    if args.characters:
+        for f in args.characters:
+            characters += [
+                x['symbol'] for x in read_input(f)['characters']
+            ]
 
-        sec = add_subelement(root, 'section')
+    root = ET.Element('article')
+    root.set('xml:id', 'notes')
+    root.set('xmlns', 'http://docbook.org/ns/docbook')
+    root.set('version', '5.0')
+    root.set('lang', 'en')
 
-        add_subelement(sec, 'title', input_file)
+    sec = add_subelement(root, 'section')
 
-        table = add_subelement(sec, 'informaltable')
-        tgroup = add_subelement(table, 'tgroup', cols='3')
+    add_subelement(sec, 'title', args.input_file)
 
-        add_subelement(tgroup, 'colspec', colnum='1', colname='word-col1',
-                       colwidth='1*')
-        add_subelement(tgroup, 'colspec', colnum='2', colname='word-col2',
-                       colwidth='2*')
-        add_subelement(tgroup, 'colspec', colnum='3', colname='word-col3',
-                       colwidth='4*')
+    table = add_subelement(sec, 'informaltable')
+    tgroup = add_subelement(table, 'tgroup', cols='3')
 
-        tbody = add_subelement(tgroup, 'tbody')
+    add_subelement(tgroup, 'colspec', colnum='1', colname='word-col1',
+                   colwidth='1*')
+    add_subelement(tgroup, 'colspec', colnum='2', colname='word-col2',
+                   colwidth='2*')
+    add_subelement(tgroup, 'colspec', colnum='3', colname='word-col3',
+                   colwidth='4*')
 
-        for el in read_input(input_file)['words']:
-            row = add_subelement(tbody, 'row')
+    tbody = add_subelement(tgroup, 'tbody')
 
-            word = add_subelement(row, 'entry')
-            for ch in el['chinese']:
-                add_subelement(word, 'link', ch, linkend='ch' + ch)
+    for el in read_input(args.input_file)['words']:
+        # skip the word if we don't know all of the characters yet
+        if not all(x in characters for x in el['chinese']):
+            print('warning: not all characters avaliable for word {}' \
+                    .format(el['chinese']))
+            continue
 
-            add_subelement(row, 'entry', el['pinyin'])
-            add_subelement(row, 'entry', el['english'])
+        row = add_subelement(tbody, 'row')
 
-        # ET.dump(root)
-        tree = ET.ElementTree(root)
-        tree.write(output_file, encoding='utf-8', xml_declaration=True)
+        word = add_subelement(row, 'entry')
+        for ch in el['chinese']:
+            add_subelement(word, 'link', ch, linkend='ch' + ch)
+
+        add_subelement(row, 'entry', el['pinyin'])
+        add_subelement(row, 'entry', el['english'])
+
+    # ET.dump(root)
+    tree = ET.ElementTree(root)
+    tree.write(args.output_file, encoding='utf-8', xml_declaration=True)
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input_file', required=True)
-    parser.add_argument('-o', '--output_file', required=True)
-    parser.add_argument('-t', '--type', required=True,
-                        choices=('radicals', 'chars', 'words'))
+    subparsers = parser.add_subparsers()
+
+    parser_radicals = subparsers.add_parser('radicals')
+    parser_radicals.add_argument('-i', '--input_file', required=True)
+    parser_radicals.add_argument('-o', '--output_file', required=True)
+    parser_radicals.set_defaults(func=_process_radicals)
+
+    parser_characters = subparsers.add_parser('characters')
+    parser_characters.add_argument('-i', '--input_file', required=True)
+    parser_characters.add_argument('-o', '--output_file', required=True)
+    parser_characters.add_argument('-r', '--radicals')
+    parser_characters.set_defaults(func=_process_characters)
+
+    parser_words = subparsers.add_parser('words')
+    parser_words.add_argument('-i', '--input_file', required=True)
+    parser_words.add_argument('-o', '--output_file', required=True)
+    parser_words.add_argument('-c', '--characters', nargs='+')
+    parser_words.set_defaults(func=_process_words)
+
     args = parser.parse_args()
 
-    processors = {
-        'radicals': RadicalsProcessor,
-        'chars': CharactersProcessor,
-        'words': WordsProcessor
-    }
-
     try:
-        processors[args.type].process(args.input_file, args.output_file)
+        args.func(args)
     except FileNotFoundError as ex:
         print(ex)
         sys.exit(1)

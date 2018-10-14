@@ -84,15 +84,15 @@ $(OUTDIR)/%.css: config/%.css
 
 $(addprefix $(OUTDIR)/,$(SOURCES_WORDS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
-	$(GEN) -i $< -o $@ -t words
+	$(GEN) words -i $< -o $@ -c $(addprefix $(SRCDIR)/,$(SOURCES_CHARACTERS))
 
 $(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
-	$(GEN) -i $< -o $@ -t chars
+	$(GEN) characters -i $< -o $@ -r $(SRCDIR)/$(SOURCES_RADICALS)
 
 $(addprefix $(OUTDIR)/,$(SOURCES_RADICALS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
-	$(GEN) -i $< -o $@ -t radicals
+	$(GEN) radicals -i $< -o $@
 
 # Anki decks
 
