@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<characters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="schemas/characters.xsd">
+<!-- 301 -->
+  <character>
+    <symbol>嗨</symbol>
+    <pinyin>hāi</pinyin>
+    <meaning>an exclamation</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>海</component>
+    </components>
+  </character>
+  <character>
+    <symbol>房</symbol>
+    <pinyin>fáng</pinyin>
+    <meaning>house; room</meaning>
+    <radical>戶</radical>
+    <components>
+      <component>戶</component>
+      <component>方</component>
+    </components>
+  </character>
+  <character>
+    <symbol>命</symbol>
+    <pinyin>mìng</pinyin>
+    <meaning>life; fate</meaning>
+    <radical>口</radical>
+    <components>
+      <component>亼</component>
+      <component>叩</component>
+    </components>
+  </character>
+  <character>
+    <symbol>且</symbol>
+    <pinyin>qiě</pinyin>
+    <meaning>moreover; both</meaning>
+    <radical>一</radical>
+    <components>
+      <component>月</component>
+      <component>一</component>
+    </components>
+  </character>
+  <character>
+    <symbol>向</symbol>
+    <pinyin>xiàng</pinyin>
+    <meaning>towards; direction</meaning>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>丶</component>
+    </components>
+  </character>
+  <character>
+    <symbol>興</symbol>
+    <!-- <symbol>兴</symbol> -->
+    <pinyin>xīng</pinyin>
+    <meaning>to rise; to flourish</meaning>
+    <radical>臼</radical>
+    <components>
+      <component>臼</component>
+      <component>同</component>
+      <component>一</component>
+      <component>八</component>
+    </components>
+  </character>
+  <character>
+    <symbol>球</symbol>
+    <pinyin>qiú</pinyin>
+    <meaning>ball; sphere</meaning>
+    <radical>玉</radical>
+    <components>
+      <component>王</component>
+      <component>求</component>
+    </components>
+  </character>
+  <character>
+    <symbol>服</symbol>
+    <pinyin>fú</pinyin>
+    <meaning>clothes; to serve</meaning>
+    <radical>月</radical>
+    <components>
+      <component>月</component>
+    </components>
+  </character>
+  <character>
+    <symbol>入</symbol>
+    <pinyin>rù</pinyin>
+    <meaning>to enter</meaning>
+    <radical>入</radical>
+    <components/>
+  </character>
+  <character>
+    <symbol>照</symbol>
+    <pinyin>zhào</pinyin>
+    <meaning>according to; to shine; photo</meaning>
+    <radical>火</radical>
+    <components>
+      <component>昭</component>
+      <component>灬</component>
+    </components>
+  </character>
+</characters>

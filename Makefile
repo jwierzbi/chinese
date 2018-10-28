@@ -41,7 +41,8 @@ SOURCES_WORDS := \
 SOURCES_CHARACTERS := \
 	0001_0100.xml \
 	0101_0200.xml \
-	0201_0300.xml
+	0201_0300.xml \
+	0301_0400.xml
 
 SOURCES_RADICALS := \
 	radicals.xml
@@ -107,7 +108,7 @@ $(OUTDIR)/$(TARGET_ANKI_WORDS).txt: $(addprefix $(OUTDIR)/,$(SOURCES_WORDS:.xml=
 	$(ECHO) Generating deck: $@
 	$(CAT) $^ > $@
 
-$(addprefix $(OUTDIR)/,$(SOURCES_WORDS:.xml=.txt)): $(addprefix $(SRCDIR)/,$(SOURCES_WORDS))
+$(addprefix $(OUTDIR)/,$(SOURCES_WORDS:.xml=.txt)): $(OUTDIR)/%.txt:$(SRCDIR)/%.xml
 	$(ECHO) GEN_ANKI $@
 	$(GEN_ANKI) -i $< -o $@ -t words
 
@@ -119,7 +120,7 @@ $(OUTDIR)/$(TARGET_ANKI_CHARACTERS).txt: $(addprefix $(OUTDIR)/,$(SOURCES_CHARAC
 	$(ECHO) Generating deck: $@
 	$(CAT) $^ > $@
 
-$(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS:.xml=.txt)): $(addprefix $(SRCDIR)/,$(SOURCES_CHARACTERS))
+$(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS:.xml=.txt)): $(OUTDIR)/%.txt:$(SRCDIR)/%.xml
 	$(ECHO) GEN_ANKI $@
 	$(GEN_ANKI) -i $< -o $@ -t chars
 
@@ -131,7 +132,7 @@ $(OUTDIR)/$(TARGET_ANKI_RADICALS).txt: $(addprefix $(OUTDIR)/,$(SOURCES_RADICALS
 	$(ECHO) Generating deck: $@
 	$(CAT) $^ > $@
 
-$(addprefix $(OUTDIR)/,$(SOURCES_RADICALS:.xml=.txt)): $(addprefix $(SRCDIR)/,$(SOURCES_RADICALS))
+$(addprefix $(OUTDIR)/,$(SOURCES_RADICALS:.xml=.txt)): $(OUTDIR)/%.txt:$(SRCDIR)/%.xml
 	$(ECHO) GEN_ANKI $@
 	$(GEN_ANKI) -i $< -o $@ -t radicals
 
