@@ -864,7 +864,8 @@
     </components>
   </character>
   <character>
-    <symbol>别</symbol>
+    <symbol>別</symbol>
+    <!-- <symbol>别</symbol> -->
     <pinyin>bié</pinyin>
     <meaning>must not; other</meaning>
     <note/>

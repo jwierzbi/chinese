@@ -6,6 +6,7 @@ import argparse
 import xml.etree.ElementTree as ET
 from functools import reduce
 from collections import OrderedDict
+from os.path import basename, splitext
 
 def is_list(element):
     return bool(reduce(lambda x,y: x if x == y else None,
@@ -156,50 +157,118 @@ def _process_words(args):
                 x['symbol'] for x in read_input(f)['characters']
             ]
 
-    root = ET.Element('article')
-    root.set('xml:id', 'notes')
-    root.set('xmlns', 'http://docbook.org/ns/docbook')
-    root.set('version', '5.0')
-    root.set('lang', 'en')
+    # load all of the words
+    words = OrderedDict()
+    root = ET.parse(args.input_file).getroot()
+    for word_el in root:
+        word = OrderedDict()
+        word['chinese'] = word_el.find('chinese').text
+        word['pinyin'] = word_el.find('pinyin').text
+        word['english'] = word_el.find('english').text
 
-    sec = add_subelement(root, 'section')
+        if word['chinese'] in words:
+            print('warning: word {} already exists, merging' \
+                    .format(word['chinese']))
 
-    add_subelement(sec, 'title', args.input_file)
+            old = words[word['chinese']]
+            new = word
 
-    table = add_subelement(sec, 'informaltable')
-    tgroup = add_subelement(table, 'tgroup', cols='3')
+            t1 = [x.strip() for x in old['english'].split(';')]
+            t2 = [x.strip() for x in new['english'].split(';')]
 
-    add_subelement(tgroup, 'colspec', colnum='1', colname='word-col1',
-                   colwidth='1*')
-    add_subelement(tgroup, 'colspec', colnum='2', colname='word-col2',
-                   colwidth='2*')
-    add_subelement(tgroup, 'colspec', colnum='3', colname='word-col3',
-                   colwidth='4*')
+            for t in t2:
+                if t not in t1:
+                    t1.append(t)
 
-    tbody = add_subelement(tgroup, 'tbody')
+            old['english'] = '; '.join(t1)
+        else:
+            words[word['chinese']] = word
 
-    for el in read_input(args.input_file)['words']:
-        # skip the word if we don't know all of the characters yet
-        if not all(x in characters for x in el['chinese']):
-            print('warning: not all characters avaliable for word {}' \
-                    .format(el['chinese']))
-            continue
+    output_basename = splitext(basename(args.output_file))[0]
 
-        row = add_subelement(tbody, 'row')
+    if args.mode == 'anki':
+        with open(args.output_file, 'w') as file_obj:
+            count = 1
+            for key in words:
+                el = words[key]
 
-        word = add_subelement(row, 'entry')
-        for ch in el['chinese']:
-            add_subelement(word, 'link', ch, linkend='ch' + ch)
+                if len(el['chinese']) <= 1:
+                    print('warning: word {} is only 1 character long' \
+                            .format(el['chinese']))
+                    continue
 
-        add_subelement(row, 'entry', el['pinyin'])
-        add_subelement(row, 'entry', el['english'])
+                # skip the word if we don't know all of the characters yet
+                if not all(x in characters for x in el['chinese']):
+                    print('warning: not all characters avaliable for word {}' \
+                            .format(el['chinese']))
+                    continue
 
-    # ET.dump(root)
-    tree = ET.ElementTree(root)
-    tree.write(args.output_file, encoding='utf-8', xml_declaration=True)
+                file_obj.write('{}\t{}\t{}\t{}\t{}\n'.format(
+                    el['chinese'],
+                    el['pinyin'],
+                    el['english'],
+                    '{}_{:04}'.format(output_basename, count),
+                    output_basename
+                ))
+                count += 1
+    elif args.mode == 'docbook':
+        root = ET.Element('article')
+        root.set('xml:id', 'notes')
+        root.set('xmlns', 'http://docbook.org/ns/docbook')
+        root.set('version', '5.0')
+        root.set('lang', 'en')
+
+        sec = add_subelement(root, 'section')
+
+        add_subelement(sec, 'title', output_basename)
+
+        table = add_subelement(sec, 'informaltable')
+        tgroup = add_subelement(table, 'tgroup', cols='3')
+
+        add_subelement(tgroup, 'colspec', colnum='1', colname='word-col1',
+                       colwidth='1*')
+        add_subelement(tgroup, 'colspec', colnum='2', colname='word-col2',
+                       colwidth='2*')
+        add_subelement(tgroup, 'colspec', colnum='3', colname='word-col3',
+                       colwidth='4*')
+
+        tbody = add_subelement(tgroup, 'tbody')
+
+        for key in words:
+            el = words[key]
+            # skip the word if it's not at least 2 characters long
+            if len(el['chinese']) <= 1:
+                print('warning: word {} is only 1 character long' \
+                        .format(el['chinese']))
+                continue
+
+            # skip the word if we don't know all of the characters yet
+            if not all(x in characters for x in el['chinese']):
+                print('warning: not all characters avaliable for word {}' \
+                        .format(el['chinese']))
+                continue
+
+            row = add_subelement(tbody, 'row')
+
+            word = add_subelement(row, 'entry')
+            for ch in el['chinese']:
+                add_subelement(word, 'link', ch, linkend='ch' + ch)
+
+            add_subelement(row, 'entry', el['pinyin'])
+            add_subelement(row, 'entry', el['english'])
+
+        # ET.dump(root)
+        tree = ET.ElementTree(root)
+        tree.write(args.output_file, encoding='utf-8', xml_declaration=True)
+    else:
+        raise RuntimeError('wrong mode "{}"'.format(args.mode))
 
 def main():
     parser = argparse.ArgumentParser()
+
+    parser.add_argument('-m', '--mode', choices=('anki', 'docbook'),
+                        required=True)
+
     subparsers = parser.add_subparsers()
 
     parser_radicals = subparsers.add_parser('radicals')

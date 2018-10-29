@@ -36,7 +36,7 @@ SOURCES_ARTICLES := \
 	$(SRCDIR)/chapters/pinyin.xml
 
 SOURCES_WORDS := \
-	words.xml
+	words_ntnu_01.xml
 
 SOURCES_CHARACTERS := \
 	0001_0100.xml \
@@ -85,15 +85,15 @@ $(OUTDIR)/%.css: config/%.css
 
 $(addprefix $(OUTDIR)/,$(SOURCES_WORDS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
-	$(GEN) words -i $< -o $@ -c $(addprefix $(SRCDIR)/,$(SOURCES_CHARACTERS))
+	$(GEN) -m docbook words -i $< -o $@ -c $(addprefix $(SRCDIR)/,$(SOURCES_CHARACTERS))
 
 $(addprefix $(OUTDIR)/,$(SOURCES_CHARACTERS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
-	$(GEN) characters -i $< -o $@ -r $(SRCDIR)/$(SOURCES_RADICALS)
+	$(GEN) -m docbook characters -i $< -o $@ -r $(SRCDIR)/$(SOURCES_RADICALS)
 
 $(addprefix $(OUTDIR)/,$(SOURCES_RADICALS)): $(OUTDIR)/%.xml:$(SRCDIR)/%.xml
 	$(ECHO) GEN $@
-	$(GEN) radicals -i $< -o $@
+	$(GEN) -m docbook radicals -i $< -o $@
 
 # Anki decks
 
@@ -109,8 +109,8 @@ $(OUTDIR)/$(TARGET_ANKI_WORDS).txt: $(addprefix $(OUTDIR)/,$(SOURCES_WORDS:.xml=
 	$(CAT) $^ > $@
 
 $(addprefix $(OUTDIR)/,$(SOURCES_WORDS:.xml=.txt)): $(OUTDIR)/%.txt:$(SRCDIR)/%.xml
-	$(ECHO) GEN_ANKI $@
-	$(GEN_ANKI) -i $< -o $@ -t words
+	$(ECHO) GEN $@
+	$(GEN) -m anki words -i $< -o $@ -c $(addprefix $(SRCDIR)/,$(SOURCES_CHARACTERS))
 
 TARGET_ANKI_CHARACTERS := anki_characters
 .PHONY: anki_characters

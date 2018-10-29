@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<words>
+  <!--Lesson 01.01-->
+  <word>
+    <chinese>你</chinese>
+    <pinyin>nǐ</pinyin>
+    <english>you</english>
+  </word>
+  <word>
+    <chinese>來</chinese>
+    <pinyin>lái</pinyin>
+    <english>to come</english>
+  </word>
+  <word>
+    <chinese>是</chinese>
+    <pinyin>shì</pinyin>
+    <english>to be</english>
+  </word>
+  <word>
+    <chinese>小姐</chinese>
+    <pinyin>xiǎo jiě</pinyin>
+    <english>Miss; Ms.</english>
+  </word>
+  <word>
+    <chinese>嗎</chinese>
+    <pinyin>ma</pinyin>
+    <english>sentence final particle - question</english>
+  </word>
+  <word>
+    <chinese>接</chinese>
+    <pinyin>jiē</pinyin>
+    <english>to pick sb up</english>
+  </word>
+  <word>
+    <chinese>我們</chinese>
+    <pinyin>wǒ men</pinyin>
+    <english>we; us</english>
+  </word>
+  <word>
+    <chinese>我</chinese>
+    <pinyin>wǒ</pinyin>
+    <english>I; me</english>
+  </word>
+  <word>
+    <chinese>這</chinese>
+    <pinyin>zhè / zhèi</pinyin>
+    <english>this</english>
+  </word>
+  <word>
+    <chinese>先生</chinese>
+    <pinyin>xiān shēng</pinyin>
+    <english>Mr.</english>
+  </word>
+  <word>
+    <chinese>好</chinese>
+    <pinyin>hǎo</pinyin>
+    <english>fine; well</english>
+  </word>
+  <word>
+    <chinese>姓</chinese>
+    <pinyin>xìng</pinyin>
+    <english>to be surnamed</english>
+  </word>
+  <word>
+    <chinese>叫</chinese>
+    <pinyin>jiào</pinyin>
+    <english>to be called, i.e. to have a first name &lt;name&gt;</english>
+  </word>
+  <word>
+    <chinese>你們</chinese>
+    <pinyin>nǐ men</pinyin>
+    <english>you (plural)</english>
+  </word>
+  <word>
+    <chinese>臺灣</chinese>
+    <pinyin>Tái wān</pinyin>
+    <english>Taiwan</english>
+  </word>
+  <word>
+    <chinese>歡迎</chinese>
+    <pinyin>huān yíng</pinyin>
+    <english>welcome</english>
+  </word>
+  <word>
+    <chinese>請問</chinese>
+    <pinyin>qǐng wèn</pinyin>
+    <english>May I ask you...; Excuse me...</english>
+  </word>
+  <word>
+    <chinese>是的</chinese>
+    <pinyin>shì de</pinyin>
+    <english>yes</english>
+  </word>
+  <word>
+    <chinese>謝謝</chinese>
+    <pinyin>xiè xie</pinyin>
+    <english>Thank you.</english>
+  </word>
+  <word>
+    <chinese>不客氣</chinese>
+    <pinyin>bú kè qì</pinyin>
+    <english>You're welcome.</english>
+  </word>
+  <word>
+    <chinese>你好</chinese>
+    <pinyin>nǐ hǎo</pinyin>
+    <english>How are you?; Hello.</english>
+  </word>
+  <!--Lesson 01.02-->
+  <word>
+    <chinese>請</chinese>
+    <pinyin>qǐng</pinyin>
+    <english>please</english>
+  </word>
+  <word>
+    <chinese>喝</chinese>
+    <pinyin>hē</pinyin>
+    <english>to drink</english>
+  </word>
+  <word>
+    <chinese>茶</chinese>
+    <pinyin>chá</pinyin>
+    <english>tea</english>
+  </word>
+  <word>
+    <chinese>很</chinese>
+    <pinyin>hěn</pinyin>
+    <english>very</english>
+  </word>
+  <word>
+    <chinese>好喝</chinese>
+    <pinyin>hǎo hē</pinyin>
+    <english>to taste good (about drinks)</english>
+  </word>
+  <word>
+    <chinese>什麼</chinese>
+    <pinyin>shén me</pinyin>
+    <english>what</english>
+  </word>
+  <word>
+    <chinese>人</chinese>
+    <pinyin>rén</pinyin>
+    <english>person; people</english>
+  </word>
+  <word>
+    <chinese>喜歡</chinese>
+    <pinyin>xǐ huān</pinyin>
+    <english>to like</english>
+  </word>
+  <word>
+    <chinese>呢</chinese>
+    <pinyin>ne</pinyin>
+    <english>sentence final particle - how about...</english>
+  </word>
+  <word>
+    <chinese>他</chinese>
+    <pinyin>tā</pinyin>
+    <english>he; him</english>
+  </word>
+  <word>
+    <chinese>不</chinese>
+    <pinyin>bù</pinyin>
+    <english>no; not</english>
+  </word>
+  <word>
+    <chinese>哪</chinese>
+    <pinyin>nǎ</pinyin>
+    <english>which</english>
+  </word>
+  <word>
+    <chinese>要</chinese>
+    <pinyin>yào</pinyin>
+    <english>to want to</english>
+  </word>
+  <word>
+    <chinese>咖啡</chinese>
+    <pinyin>kā fēi</pinyin>
+    <english>coffee</english>
+  </word>
+  <word>
+    <chinese>烏龍茶</chinese>
+    <pinyin>Wū lóng chá</pinyin>
+    <english>Oolong tea</english>
+  </word>
+  <word>
+    <chinese>日本</chinese>
+    <pinyin>Rì běn</pinyin>
+    <english>Japan</english>
+  </word>
+  <word>
+    <chinese>美國</chinese>
+    <pinyin>Měi guó</pinyin>
+    <english>America</english>
+  </word>
+  <word>
+    <chinese>對不起</chinese>
+    <pinyin>duì bù qǐ</pinyin>
+    <english>I'm sorry.</english>
+  </word>
+  <word>
+    <chinese>哪國</chinese>
+    <pinyin>nǎ guó</pinyin>
+    <english>Which country?</english>
+  </word>
+  <!--Lesson 02.01-->
+  <word>
+    <chinese>的</chinese>
+    <pinyin>de</pinyin>
+    <english>modification marker (possessive particle)</english>
+  </word>
+  <word>
+    <chinese>家人</chinese>
+    <pinyin>jiā rén</pinyin>
+    <english>family (members)</english>
+  </word>
+  <word>
+    <chinese>家</chinese>
+    <pinyin>jiā</pinyin>
+    <english>home; house</english>
+  </word>
+  <word>
+    <chinese>漂亮</chinese>
+    <pinyin>piào liàng</pinyin>
+    <english>pretty</english>
+  </word>
+  <word>
+    <chinese>房子</chinese>
+    <pinyin>fáng zi</pinyin>
+    <english>house</english>
+  </word>
+  <word>
+    <chinese>坐</chinese>
+    <pinyin>zuò</pinyin>
+    <english>to sit; to travel by train/bus</english>
+  </word>
+  <word>
+    <chinese>好</chinese>
+    <pinyin>hǎo</pinyin>
+    <english>OK</english>
+  </word>
+  <word>
+    <chinese>有</chinese>
+    <pinyin>yǒu</pinyin>
+    <english>to have</english>
+  </word>
+  <word>
+    <chinese>多</chinese>
+    <pinyin>duō</pinyin>
+    <english>many</english>
+  </word>
+  <word>
+    <chinese>照片</chinese>
+    <pinyin>zhào piàn</pinyin>
+    <english>photo</english>
+  </word>
+  <word>
+    <chinese>都</chinese>
+    <pinyin>dōu</pinyin>
+    <english>all; both</english>
+  </word>
+  <word>
+    <chinese>照相</chinese>
+    <pinyin>zhào xiàng</pinyin>
+    <english>to take a photo</english>
+  </word>
+  <word>
+    <chinese>張</chinese>
+    <pinyin>zhāng</pinyin>
+    <english>mw. for flat objects (paper, tickets, photos, etc.)</english>
+  </word>
+  <word>
+    <chinese>好看</chinese>
+    <pinyin>hǎo kàn</pinyin>
+    <english>good-looking</english>
+  </word>
+  <word>
+    <chinese>誰</chinese>
+    <pinyin>shéi</pinyin>
+    <english>who</english>
+  </word>
+  <word>
+    <chinese>姐姐</chinese>
+    <pinyin>jiě jie</pinyin>
+    <english>older sister</english>
+  </word>
+  <word>
+    <chinese>妹妹</chinese>
+    <pinyin>mèi mei</pinyin>
+    <english>younger sister</english>
+  </word>
+  <word>
+    <chinese>爸爸</chinese>
+    <pinyin>bà ba</pinyin>
+    <english>dad</english>
+  </word>
+  <word>
+    <chinese>媽媽</chinese>
+    <pinyin>mā ma</pinyin>
+    <english>mum</english>
+  </word>
+  <word>
+    <chinese>請進</chinese>
+    <pinyin>qǐng jìn</pinyin>
+    <english>Please come in!</english>
+  </word>
+  <!--Lesson 02.02-->
+  <word>
+    <chinese>伯母</chinese>
+    <pinyin>bó mǔ</pinyin>
+    <english>aunt; polite term for friend's mother</english>
+  </word>
+  <word>
+    <chinese>您</chinese>
+    <pinyin>nín</pinyin>
+    <english>you (honorific)</english>
+  </word>
+  <word>
+    <chinese>名字</chinese>
+    <pinyin>míng zi</pinyin>
+    <english>name</english>
+  </word>
+  <word>
+    <chinese>書</chinese>
+    <pinyin>shū</pinyin>
+    <english>book</english>
+  </word>
+  <word>
+    <chinese>哥哥</chinese>
+    <pinyin>gē ge</pinyin>
+    <english>older brother</english>
+  </word>
+  <word>
+    <chinese>老師</chinese>
+    <pinyin>lǎo shī</pinyin>
+    <english>teacher</english>
+  </word>
+  <word>
+    <chinese>看書</chinese>
+    <pinyin>kàn shū</pinyin>
+    <english>to read</english>
+  </word>
+  <word>
+    <chinese>幾</chinese>
+    <pinyin>jǐ</pinyin>
+    <english>how many</english>
+  </word>
+  <word>
+    <chinese>個</chinese>
+    <pinyin>ge</pinyin>
+    <english>general mw.</english>
+  </word>
+  <word>
+    <chinese>沒</chinese>
+    <pinyin>méi</pinyin>
+    <english>not</english>
+  </word>
+  <word>
+    <chinese>兄弟</chinese>
+    <pinyin>xiōng di</pinyin>
+    <english>brothers</english>
+  </word>
+  <word>
+    <chinese>姐妹</chinese>
+    <pinyin>jiě mèi</pinyin>
+    <english>sisters</english>
+  </word>
+  <word>
+    <chinese>五</chinese>
+    <pinyin>wǔ</pinyin>
+    <english>five</english>
+  </word>
+  <word>
+    <chinese>兩</chinese>
+    <pinyin>liǎng</pinyin>
+    <english>two (when used with measure word)</english>
+  </word>
+  <!--Lesson 03.01-->
+  <word>
+    <chinese>週末</chinese>
+    <pinyin>zhōu mò</pinyin>
+    <english>weekend</english>
+  </word>
+  <word>
+    <chinese>聽</chinese>
+    <pinyin>tīng</pinyin>
+    <english>to listen</english>
+  </word>
+  <word>
+    <chinese>音樂</chinese>
+    <pinyin>yīn yuè</pinyin>
+    <english>music</english>
+  </word>
+  <word>
+    <chinese>運動</chinese>
+    <pinyin>yùn dòng</pinyin>
+    <english>to exercise</english>
+  </word>
+  <word>
+    <chinese>打</chinese>
+    <pinyin>dǎ</pinyin>
+    <english>to play (ball games); to hit/punch</english>
+  </word>
+  <word>
+    <chinese>網球</chinese>
+    <pinyin>wǎng qiǔ</pinyin>
+    <english>tennis</english>
+  </word>
+  <word>
+    <chinese>棒球</chinese>
+    <pinyin>bàng qiǔ</pinyin>
+    <english>baseball</english>
+  </word>
+  <word>
+    <chinese>和</chinese>
+    <pinyin>hé/hàn</pinyin>
+    <english>and; as well as</english>
+  </word>
+  <word>
+    <chinese>游泳</chinese>
+    <pinyin>yóu yǒng</pinyin>
+    <english>to swim</english>
+  </word>
+  <word>
+    <chinese>常</chinese>
+    <pinyin>cháng</pinyin>
+    <english>often</english>
+  </word>
+  <word>
+    <chinese>籃球</chinese>
+    <pinyin>lán qiǔ</pinyin>
+    <english>basketball</english>
+  </word>
+  <word>
+    <chinese>也</chinese>
+    <pinyin>yě</pinyin>
+    <english>also</english>
+  </word>
+  <word>
+    <chinese>踢</chinese>
+    <pinyin>tī</pinyin>
+    <english>to kick</english>
+  </word>
+  <word>
+    <chinese>足球</chinese>
+    <pinyin>zú qiǔ</pinyin>
+    <english>football</english>
+  </word>
+  <word>
+    <chinese>覺得</chinese>
+    <pinyin>jué de</pinyin>
+    <english>to feel; to think</english>
+  </word>
+  <word>
+    <chinese>好玩</chinese>
+    <pinyin>hǎo wán</pinyin>
+    <english>interesting; fun</english>
+  </word>
+  <word>
+    <chinese>明天</chinese>
+    <pinyin>míng tiān</pinyin>
+    <english>tomorrow</english>
+  </word>
+  <word>
+    <chinese>早上</chinese>
+    <pinyin>zǎo shàng</pinyin>
+    <english>morning</english>
+  </word>
+  <word>
+    <chinese>去</chinese>
+    <pinyin>qù</pinyin>
+    <english>to go</english>
+  </word>
+  <word>
+    <chinese>怎麼樣</chinese>
+    <pinyin>zěn me yàng</pinyin>
+    <english>How about it?; How does that sound?; What do you think?</english>
+  </word>
+  <word>
+    <chinese>啊</chinese>
+    <pinyin>a</pinyin>
+    <english>sentence final particle</english>
+  </word>
+  <word>
+    <chinese>做什麼</chinese>
+    <pinyin>zuò shén me</pinyin>
+    <english>do what</english>
+  </word>
+  <word>
+    <chinese>好啊</chinese>
+    <pinyin>hǎo a</pinyin>
+    <english>OK</english>
+  </word>
+  <!--Lesson 03.02-->
+  <word>
+    <chinese>今天</chinese>
+    <pinyin>jīn tiān</pinyin>
+    <english>today</english>
+  </word>
+  <word>
+    <chinese>晚上</chinese>
+    <pinyin>wǎn shàng</pinyin>
+    <english>evening; night</english>
+  </word>
+  <word>
+    <chinese>看</chinese>
+    <pinyin>kàn</pinyin>
+    <english>to see; to watch</english>
+  </word>
+  <word>
+    <chinese>電影</chinese>
+    <pinyin>diàn yǐng</pinyin>
+    <english>movie</english>
+  </word>
+  <word>
+    <chinese>妳</chinese>
+    <pinyin>nǐ</pinyin>
+    <english>you (female)</english>
+  </word>
+  <word>
+    <chinese>想</chinese>
+    <pinyin>xiǎng</pinyin>
+    <english>to want; to think</english>
+  </word>
+  <word>
+    <chinese>還是</chinese>
+    <pinyin>hái shì</pinyin>
+    <english>or (in a question)</english>
+  </word>
+  <word>
+    <chinese>吧</chinese>
+    <pinyin>ba</pinyin>
+    <english>suggestion particle</english>
+  </word>
+  <word>
+    <chinese>可以</chinese>
+    <pinyin>kě yǐ</pinyin>
+    <english>could (possibility)</english>
+  </word>
+  <word>
+    <chinese>學</chinese>
+    <pinyin>xué</pinyin>
+    <english>to learn; to study</english>
+  </word>
+  <word>
+    <chinese>中文</chinese>
+    <pinyin>zhōng wén</pinyin>
+    <english>Chinese language</english>
+  </word>
+  <word>
+    <chinese>一起</chinese>
+    <pinyin>yì qǐ</pinyin>
+    <english>together</english>
+  </word>
+  <word>
+    <chinese>吃</chinese>
+    <pinyin>chī</pinyin>
+    <english>to eat</english>
+  </word>
+  <word>
+    <chinese>晚飯</chinese>
+    <pinyin>wǎn fàn</pinyin>
+    <english>dinner</english>
+  </word>
+  <word>
+    <chinese>菜</chinese>
+    <pinyin>cài</pinyin>
+    <english>cusine</english>
+  </word>
+  <word>
+    <chinese>越南</chinese>
+    <pinyin>Yuè nán</pinyin>
+    <english>Vietnam</english>
+  </word>
+  <word>
+    <chinese>好不好</chinese>
+    <pinyin>hǎo bù hǎo</pinyin>
+    <english>How about…?; How does that sound?</english>
+  </word>
+  <!--Lesson 04.01-->
+  <word>
+    <chinese>一共</chinese>
+    <pinyin>yí gòng</pinyin>
+    <english>altogether</english>
+  </word>
+  <word>
+    <chinese>多少</chinese>
+    <pinyin>duō shǎo</pinyin>
+    <english>how much; how many</english>
+  </word>
+  <word>
+    <chinese>錢</chinese>
+    <pinyin>qián</pinyin>
+    <english>money</english>
+  </word>
+  <word>
+    <chinese>老闆</chinese>
+    <pinyin>lǎo bǎn</pinyin>
+    <english>store-owner, boss</english>
+  </word>
+  <word>
+    <chinese>買</chinese>
+    <pinyin>mǎi</pinyin>
+    <english>to buy</english>
+  </word>
+  <word>
+    <chinese>杯</chinese>
+    <pinyin>bēi</pinyin>
+    <english>cup</english>
+  </word>
+  <word>
+    <chinese>熱</chinese>
+    <pinyin>rè</pinyin>
+    <english>hot</english>
+  </word>
+  <word>
+    <chinese>包子</chinese>
+    <pinyin>bāo zi</pinyin>
+    <english>steamed bun with filling</english>
+  </word>
+  <word>
+    <chinese>要</chinese>
+    <pinyin>yào</pinyin>
+    <english>to want; to need</english>
+  </word>
+  <word>
+    <chinese>大</chinese>
+    <pinyin>dà</pinyin>
+    <english>large; big</english>
+  </word>
+  <word>
+    <chinese>中</chinese>
+    <pinyin>zhōng</pinyin>
+    <english>medium</english>
+  </word>
+  <word>
+    <chinese>小</chinese>
+    <pinyin>xiǎo</pinyin>
+    <english>small</english>
+  </word>
+  <word>
+    <chinese>幫</chinese>
+    <pinyin>bāng</pinyin>
+    <english>to help</english>
+  </word>
+  <word>
+    <chinese>微波</chinese>
+    <pinyin>wéi bō</pinyin>
+    <english>to microwave</english>
+  </word>
+  <word>
+    <chinese>百</chinese>
+    <pinyin>bǎi</pinyin>
+    <english>hundred</english>
+  </word>
+  <word>
+    <chinese>塊</chinese>
+    <pinyin>kuài</pinyin>
+    <english>mw. for money</english>
+  </word>
+  <word>
+    <chinese>好的</chinese>
+    <pinyin>hǎo de</pinyin>
+    <english>OK</english>
+  </word>
+  <word>
+    <chinese>外帶</chinese>
+    <pinyin>wài dài</pinyin>
+    <english>take out, to go, takeaway</english>
+  </word>
+  <word>
+    <chinese>內用</chinese>
+    <pinyin>nèi yòng</pinyin>
+    <english>for here</english>
+  </word>
+  <!--Lesson 04.02-->
+  <word>
+    <chinese>支</chinese>
+    <pinyin>zhī</pinyin>
+    <english>mw. for mobile phones</english>
+  </word>
+  <word>
+    <chinese>新</chinese>
+    <pinyin>xīn</pinyin>
+    <english>new</english>
+  </word>
+  <word>
+    <chinese>手機</chinese>
+    <pinyin>shǒu jī</pinyin>
+    <english>mobile phone</english>
+  </word>
+  <word>
+    <chinese>太</chinese>
+    <pinyin>tài</pinyin>
+    <english>too (comparison)</english>
+  </word>
+  <word>
+    <chinese>舊</chinese>
+    <pinyin>jiù</pinyin>
+    <english>old</english>
+  </word>
+  <word>
+    <chinese>了</chinese>
+    <pinyin>le</pinyin>
+    <english>particle indicating the speaker's sense of certainty</english>
+  </word>
+  <word>
+    <chinese>種</chinese>
+    <pinyin>zhǒng</pinyin>
+    <english>kind; type</english>
+  </word>
+  <word>
+    <chinese>能</chinese>
+    <pinyin>néng</pinyin>
+    <english>can; be able to</english>
+  </word>
+  <word>
+    <chinese>上網</chinese>
+    <pinyin>shàng wǎng</pinyin>
+    <english>to access the internet; to use the internet</english>
+  </word>
+  <word>
+    <chinese>那</chinese>
+    <pinyin>nà; nèi</pinyin>
+    <english>that</english>
+  </word>
+  <word>
+    <chinese>貴</chinese>
+    <pinyin>mài</pinyin>
+    <english>expensive</english>
+  </word>
+  <word>
+    <chinese>賣</chinese>
+    <pinyin>mài</pinyin>
+    <english>to sell</english>
+  </word>
+  <word>
+    <chinese>便宜</chinese>
+    <pinyin>pián yí</pinyin>
+    <english>cheap; inexpensive</english>
+  </word>
+  <word>
+    <chinese>要</chinese>
+    <pinyin>yào</pinyin>
+    <english>to take; to require</english>
+  </word>
+  <word>
+    <chinese>萬</chinese>
+    <pinyin>wàn</pinyin>
+    <english>ten thousand</english>
+  </word>
+  <word>
+    <chinese>千</chinese>
+    <pinyin>qiān</pinyin>
+    <english>thousand</english>
+  </word>
+  <word>
+    <chinese>為什麼</chinese>
+    <pinyin>wèi shén me</pinyin>
+    <english>why</english>
+  </word>
+  <!--Lesson 05.01-->
+  <word>
+    <chinese>牛肉</chinese>
+    <pinyin>niú ròu</pinyin>
+    <english>beef</english>
+  </word>
+  <word>
+    <chinese>麵</chinese>
+    <pinyin>miàn</pinyin>
+    <english>noodles</english>
+  </word>
+  <word>
+    <chinese>真</chinese>
+    <pinyin>zhēn</pinyin>
+    <english>really</english>
+  </word>
+  <word>
+    <chinese>好吃</chinese>
+    <pinyin>hǎo chī</pinyin>
+    <english>delicious</english>
+  </word>
+  <word>
+    <chinese>說</chinese>
+    <pinyin>shuō</pinyin>
+    <english>say</english>
+  </word>
+  <word>
+    <chinese>少</chinese>
+    <pinyin>shǎo</pinyin>
+    <english>few in number</english>
+  </word>
+  <word>
+    <chinese>有名</chinese>
+    <pinyin>yoǔ míng</pinyin>
+    <english>well known; famous</english>
+  </word>
+  <word>
+    <chinese>小吃</chinese>
+    <pinyin>xiǎo chī</pinyin>
+    <english>light repast; snack</english>
+  </word>
+  <word>
+    <chinese>最</chinese>
+    <pinyin>zuì</pinyin>
+    <english>most</english>
+  </word>
+  <word>
+    <chinese>湯</chinese>
+    <pinyin>tāng</pinyin>
+    <english>soup; broth</english>
+  </word>
+  <word>
+    <chinese>這麼</chinese>
+    <pinyin>zhè me</pinyin>
+    <english>so</english>
+  </word>
+  <word>
+    <chinese>知道</chinese>
+    <pinyin>zhī daò</pinyin>
+    <english>to know</english>
+  </word>
+  <word>
+    <chinese>家</chinese>
+    <pinyin>jiā</pinyin>
+    <english>mw. for restaurants, shops, etc.</english>
+  </word>
+  <word>
+    <chinese>店</chinese>
+    <pinyin>diàn</pinyin>
+    <english>shop; store</english>
+  </word>
+  <word>
+    <chinese>一定</chinese>
+    <pinyin>yí dìng</pinyin>
+    <english>really must; definitely</english>
+  </word>
+  <word>
+    <chinese>點</chinese>
+    <pinyin>diǎn</pinyin>
+    <english>to order (meals)</english>
+  </word>
+  <word>
+    <chinese>碗</chinese>
+    <pinyin>wǎn</pinyin>
+    <english>a bowl of</english>
+  </word>
+  <word>
+    <chinese>是啊</chinese>
+    <pinyin>shì a</pinyin>
+    <english>That's right.</english>
+  </word>
+  <word>
+    <chinese>小籠包</chinese>
+    <pinyin>xiǎo lóng bāo</pinyin>
+    <english>small steamed meat a cabbage filled buns</english>
+  </word>
+  <word>
+    <chinese>臭豆腐</chinese>
+    <pinyin>chòu dòu fǔ</pinyin>
+    <english>stinky tofu</english>
+  </word>
+  <word>
+    <chinese>太好了</chinese>
+    <pinyin>tài hǎo le</pinyin>
+    <english>Excellent.; Great.</english>
+  </word>
+  <!--Lesson 05.02-->
+  <word>
+    <chinese>昨天</chinese>
+    <pinyin>zuó tiān</pinyin>
+    <english>yesterday</english>
+  </word>
+  <word>
+    <chinese>餐廳</chinese>
+    <pinyin>cān tīng</pinyin>
+    <english>restaurant</english>
+  </word>
+  <word>
+    <chinese>可是</chinese>
+    <pinyin>kě shì</pinyin>
+    <english>but; however</english>
+  </word>
+  <word>
+    <chinese>辣</chinese>
+    <pinyin>là</pinyin>
+    <english>hot (spicy)</english>
+  </word>
+  <word>
+    <chinese>怕</chinese>
+    <pinyin>pà</pinyin>
+    <english>not to like; to fear</english>
+  </word>
+  <word>
+    <chinese>所以</chinese>
+    <pinyin>suǒ yǐ</pinyin>
+    <english>therefore; so</english>
+  </word>
+  <word>
+    <chinese>自己</chinese>
+    <pinyin>zì jǐ</pinyin>
+    <english>self</english>
+  </word>
+  <word>
+    <chinese>做飯</chinese>
+    <pinyin>zuò fàn</pinyin>
+    <english>to cook</english>
+  </word>
+  <word>
+    <chinese>得</chinese>
+    <pinyin>de</pinyin>
+    <english>complement marker</english>
+  </word>
+  <word>
+    <chinese>會</chinese>
+    <pinyin>huì</pinyin>
+    <english>to be able to; can</english>
+  </word>
+  <word>
+    <chinese>甜點</chinese>
+    <pinyin>tián diǎn</pinyin>
+    <english>dessert</english>
+  </word>
+  <word>
+    <chinese>不錯</chinese>
+    <pinyin>bú cuò</pinyin>
+    <english>not bad</english>
+  </word>
+  <word>
+    <chinese>可以</chinese>
+    <pinyin>kě yǐ</pinyin>
+    <english>could (possibility)</english>
+  </word>
+  <word>
+    <chinese>教</chinese>
+    <pinyin>jiāo</pinyin>
+    <english>to teach</english>
+  </word>
+  <word>
+    <chinese>到</chinese>
+    <pinyin>dào</pinyin>
+    <english>to</english>
+  </word>
+  <word>
+    <chinese>有一點</chinese>
+    <pinyin>yǒu yì dián</pinyin>
+    <english>a little</english>
+  </word>
+  <word>
+    <chinese>不好</chinese>
+    <pinyin>bù hǎo</pinyin>
+    <english>not well</english>
+  </word>
+</words>
