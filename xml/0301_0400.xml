@@ -225,4 +225,118 @@
       <component>夬</component>
     </components>
   </character>
+<!-- 321 -->
+  <character>
+    <symbol>求</symbol>
+    <pinyin>qiú</pinyin>
+    <meaning>to look for; to request</meaning>
+    <note/>
+    <radical>水</radical>
+    <components>
+      <component>氺</component>
+      <component>丶</component>
+    </components>
+  </character>
+  <character>
+    <symbol>約</symbol>
+    <!-- <symbol>约</symbol> -->
+    <pinyin>yuē</pinyin>
+    <meaning>appointment; to invite</meaning>
+    <note/>
+    <radical>糸</radical>
+    <components>
+      <component>糹</component>
+      <component>勺</component>
+    </components>
+  </character>
+  <character>
+    <symbol>字</symbol>
+    <pinyin>zì</pinyin>
+    <meaning>word; character</meaning>
+    <note/>
+    <radical>子</radical>
+    <components>
+      <component>宀</component>
+      <component>子</component>
+    </components>
+  </character>
+  <character>
+    <symbol>呃</symbol>
+    <pinyin>è</pinyin>
+    <meaning>belch; hiccup</meaning>
+    <note/>
+    <radical>口</radical>
+    <components>
+      <component>口</component>
+      <component>厄</component>
+    </components>
+  </character>
+  <character>
+    <symbol>肯</symbol>
+    <pinyin>kěn</pinyin>
+    <meaning>to agree</meaning>
+    <note/>
+    <radical>肉</radical>
+    <components>
+      <component>止</component>
+      <component>月</component>
+    </components>
+  </character>
+  <character>
+    <symbol>目</symbol>
+    <pinyin>mù</pinyin>
+    <meaning>eye</meaning>
+    <note/>
+    <radical>目</radical>
+    <components>
+      <component>口</component>
+      <component>二</component>
+    </components>
+  </character>
+  <character>
+    <symbol>笑</symbol>
+    <pinyin>xiào</pinyin>
+    <meaning>to laugh</meaning>
+    <note/>
+    <radical>竹</radical>
+    <components>
+      <component>夭</component>
+    </components>
+  </character>
+  <character>
+    <symbol>傷</symbol>
+    <!-- <symbol>伤</symbol> -->
+    <pinyin>shāng</pinyin>
+    <meaning>wound</meaning>
+    <note/>
+    <radical>人</radical>
+    <components>
+      <component>亻</component>
+      <component>日</component>
+      <component>一</component>
+      <component>勿</component>
+    </components>
+  </character>
+  <character>
+    <symbol>神</symbol>
+    <pinyin>shén</pinyin>
+    <meaning>deity; spirit</meaning>
+    <note/>
+    <radical>示</radical>
+    <components>
+      <component>礻</component>
+      <component>申</component>
+    </components>
+  </character>
+  <character>
+    <symbol>父</symbol>
+    <pinyin>fù</pinyin>
+    <meaning>father</meaning>
+    <note/>
+    <radical>父</radical>
+    <components>
+      <component>八</component>
+      <component>乂</component>
+    </components>
+  </character>
 </characters>
