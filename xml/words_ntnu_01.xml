@@ -595,7 +595,7 @@
   <word>
     <chinese>老闆</chinese>
     <pinyin>lǎo bǎn</pinyin>
-    <english>store-owner, boss</english>
+    <english>store-owner; boss</english>
   </word>
   <word>
     <chinese>買</chinese>
@@ -665,7 +665,7 @@
   <word>
     <chinese>外帶</chinese>
     <pinyin>wài dài</pinyin>
-    <english>take out, to go, takeaway</english>
+    <english>take out; to go; takeaway</english>
   </word>
   <word>
     <chinese>內用</chinese>
@@ -949,5 +949,197 @@
     <chinese>不好</chinese>
     <pinyin>bù hǎo</pinyin>
     <english>not well</english>
+  </word>
+  <!--Lesson 06.01-->
+  <word>
+    <chinese>山上</chinese>
+    <pinyin>shān shàng</pinyin>
+    <english>on a mountain; in the mountains</english>
+  </word>
+  <word>
+    <chinese>哪裡</chinese>
+    <pinyin>nǎ lǐ</pinyin>
+    <english>where</english>
+  </word>
+  <word>
+    <chinese>遠</chinese>
+    <pinyin>yuǎn</pinyin>
+    <english>far</english>
+  </word>
+  <word>
+    <chinese>那裡</chinese>
+    <pinyin>nà lǐ</pinyin>
+    <english>that place; there</english>
+  </word>
+  <word>
+    <chinese>風景</chinese>
+    <pinyin>fēng jǐng</pinyin>
+    <english>scenery; landscape</english>
+  </word>
+  <word>
+    <chinese>美</chinese>
+    <pinyin>měi</pinyin>
+    <english>beautiful</english>
+  </word>
+  <word>
+    <chinese>前面</chinese>
+    <pinyin>qián miàn</pinyin>
+    <english>front</english>
+  </word>
+  <word>
+    <chinese>海</chinese>
+    <pinyin>hǎi</pinyin>
+    <english>ocean</english>
+  </word>
+  <word>
+    <chinese>後面</chinese>
+    <pinyin>hòu miàn</pinyin>
+    <english>back</english>
+  </word>
+  <word>
+    <chinese>山</chinese>
+    <pinyin>shān</pinyin>
+    <english>mountain</english>
+  </word>
+  <word>
+    <chinese>真的</chinese>
+    <pinyin>zhēn de</pinyin>
+    <english>really; truly</english>
+  </word>
+  <word>
+    <chinese>地方</chinese>
+    <pinyin>dì fāng</pinyin>
+    <english>place</english>
+  </word>
+  <word>
+    <chinese>現在</chinese>
+    <pinyin>xiàn zài</pinyin>
+    <english>now</english>
+  </word>
+  <word>
+    <chinese>附近</chinese>
+    <pinyin>fù jìn</pinyin>
+    <english>vicinity; near</english>
+  </word>
+  <word>
+    <chinese>樓下</chinese>
+    <pinyin>lóu xià</pinyin>
+    <english>downstairs</english>
+  </word>
+  <word>
+    <chinese>找</chinese>
+    <pinyin>zhǎo</pinyin>
+    <english>to meet; to see</english>
+  </word>
+  <word>
+    <chinese>朋友</chinese>
+    <pinyin>péng yǒu</pinyin>
+    <english>friend</english>
+  </word>
+  <word>
+    <chinese>上課</chinese>
+    <pinyin>shàng kè</pinyin>
+    <english>to go to class</english>
+  </word>
+  <word>
+    <chinese>花蓮</chinese>
+    <pinyin>huā lián</pinyin>
+    <english>Hualian</english>
+  </word>
+  <word>
+    <chinese>聽說</chinese>
+    <pinyin>tīng shuō</pinyin>
+    <english>hear that</english>
+  </word>
+  <!--Lesson 06.02-->
+  <word>
+    <chinese>近</chinese>
+    <pinyin>jìn</pinyin>
+    <english>near</english>
+  </word>
+  <word>
+    <chinese>方便</chinese>
+    <pinyin>fāng biàn</pinyin>
+    <english>convenient</english>
+  </word>
+  <word>
+    <chinese>這裡</chinese>
+    <pinyin>zhè lǐ</pinyin>
+    <english>here; this place</english>
+  </word>
+  <word>
+    <chinese>學生</chinese>
+    <pinyin>xué shēng</pinyin>
+    <english>student</english>
+  </word>
+  <word>
+    <chinese>在</chinese>
+    <pinyin>zài</pinyin>
+    <english>at</english>
+  </word>
+  <word>
+    <chinese>東西</chinese>
+    <pinyin>dōng xi</pinyin>
+    <english>things; stuff</english>
+  </word>
+  <word>
+    <chinese>外面</chinese>
+    <pinyin>wài miàn</pinyin>
+    <english>outside</english>
+  </word>
+  <word>
+    <chinese>裡面</chinese>
+    <pinyin>lǐ miàn</pinyin>
+    <english>inside</english>
+  </word>
+  <word>
+    <chinese>商店</chinese>
+    <pinyin>shāng diàn</pinyin>
+    <english>store shop</english>
+  </word>
+  <word>
+    <chinese>吃飯</chinese>
+    <pinyin>chī fàn</pinyin>
+    <english>to have a meal</english>
+  </word>
+  <word>
+    <chinese>宿舍</chinese>
+    <pinyin>sù shè</pinyin>
+    <english>dormitory</english>
+  </word>
+  <word>
+    <chinese>樓</chinese>
+    <pinyin>lóu</pinyin>
+    <english>a storey; a floor</english>
+  </word>
+  <word>
+    <chinese>棟</chinese>
+    <pinyin>dòng</pinyin>
+    <english>mw. for buildings</english>
+  </word>
+  <word>
+    <chinese>大樓</chinese>
+    <pinyin>dà lóu</pinyin>
+    <english>a multi-storey building</english>
+  </word>
+  <word>
+    <chinese>圖書館</chinese>
+    <pinyin>tú shū guǎn</pinyin>
+    <english>library</english>
+  </word>
+  <word>
+    <chinese>旁邊</chinese>
+    <pinyin>páng biàn</pinyin>
+    <english>(by the) side; next to</english>
+  </word>
+  <word>
+    <chinese>教室</chinese>
+    <pinyin>jiào shì</pinyin>
+    <english>classroom</english>
+  </word>
+  <word>
+    <chinese>游泳池</chinese>
+    <pinyin>yóu yǒng chí</pinyin>
+    <english>swimming pool</english>
   </word>
 </words>

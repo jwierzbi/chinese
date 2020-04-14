@@ -188,9 +188,11 @@ def _process_words(args):
 
     if args.mode == 'anki':
         with open(args.output_file, 'w') as file_obj:
-            count = 1
+            count = 0
             for key in words:
                 el = words[key]
+
+                count += 1
 
                 if len(el['chinese']) <= 1:
                     print('warning: word {} is only 1 character long' \
@@ -210,7 +212,6 @@ def _process_words(args):
                     '{}_{:04}'.format(output_basename, count),
                     output_basename
                 ))
-                count += 1
     elif args.mode == 'docbook':
         root = ET.Element('article')
         root.set('xml:id', 'notes')
