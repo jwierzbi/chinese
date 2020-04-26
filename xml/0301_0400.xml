@@ -339,4 +339,177 @@
       <component>乂</component>
     </components>
   </character>
+<!--331-->
+  <character>
+    <symbol>指</symbol>
+    <pinyin>zhǐ</pinyin>
+    <meaning>finger; refer to</meaning>
+    <note/>
+    <radical>手</radical>
+    <components>
+      <component>扌</component>
+      <component>旨</component>
+    </components>
+  </character>
+  <character>
+    <symbol>報</symbol>
+    <pinyin>bào</pinyin>
+    <meaning>to announce</meaning>
+    <note/>
+    <radical>土</radical>
+    <components>
+      <component>幸</component>
+    </components>
+  </character>
+  <character>
+    <symbol>留</symbol>
+    <pinyin>liú</pinyin>
+    <meaning>to stay; to remain</meaning>
+    <note/>
+    <radical>田</radical>
+    <components>
+      <component>卯</component>
+      <component>田</component>
+    </components>
+  </character>
+  <character>
+    <symbol>水</symbol>
+    <pinyin>shuǐ</pinyin>
+    <meaning>water; liquid</meaning>
+    <note/>
+    <radical>水</radical>
+    <components>
+      <component>亅</component>
+      <component>冫</component>
+    </components>
+  </character>
+  <character>
+    <symbol>教</symbol>
+    <pinyin>jiào</pinyin>
+    <meaning>to teach</meaning>
+    <note/>
+    <radical>攴</radical>
+    <components>
+      <component>孝</component>
+    </components>
+  </character>
+  <character>
+    <symbol>槍</symbol>
+    <pinyin>qiāng</pinyin>
+    <meaning>gun</meaning>
+    <note/>
+    <radical>木</radical>
+    <components>
+      <component>木</component>
+      <component>倉</component>
+    </components>
+  </character>
+  <character>
+    <symbol>清</symbol>
+    <pinyin>qīng</pinyin>
+    <meaning>clear</meaning>
+    <note/>
+    <radical>水</radical>
+    <components>
+      <component>氵</component>
+      <component>青</component>
+    </components>
+  </character>
+  <character>
+    <symbol>色</symbol>
+    <pinyin>sè</pinyin>
+    <meaning>colour</meaning>
+    <note/>
+    <radical>色</radical>
+    <components>
+      <component>巴</component>
+    </components>
+  </character>
+  <character>
+    <symbol>號</symbol>
+    <pinyin>hào</pinyin>
+    <meaning>number</meaning>
+    <note/>
+    <radical>虍</radical>
+    <components>
+      <component>号</component>
+      <component>虎</component>
+    </components>
+  </character>
+  <character>
+    <symbol>世</symbol>
+    <pinyin>shì</pinyin>
+    <meaning>life/lifetime; age/era; world</meaning>
+    <note/>
+    <radical>一</radical>
+    <components>
+      <component>廿</component>
+    </components>
+  </character>
+<!--341-->
+  <!-- <character>
+    <symbol></symbol>
+    <pinyin></pinyin>
+    <meaning></meaning>
+    <note/>
+    <radical></radical>
+    <components>
+      <component></component>
+    </components>
+  </character> -->
+<!--351-->
+  <!-- <character>
+    <symbol></symbol>
+    <pinyin></pinyin>
+    <meaning></meaning>
+    <note/>
+    <radical></radical>
+    <components>
+      <component></component>
+    </components>
+  </character> -->
+<!--361-->
+  <!-- <character>
+    <symbol></symbol>
+    <pinyin></pinyin>
+    <meaning></meaning>
+    <note/>
+    <radical></radical>
+    <components>
+      <component></component>
+    </components>
+  </character> -->
+<!--371-->
+  <!-- <character>
+    <symbol></symbol>
+    <pinyin></pinyin>
+    <meaning></meaning>
+    <note/>
+    <radical></radical>
+    <components>
+      <component></component>
+    </components>
+  </character> -->
+<!--381-->
+  <!-- <character>
+    <symbol></symbol>
+    <pinyin></pinyin>
+    <meaning></meaning>
+    <note/>
+    <radical></radical>
+    <components>
+      <component></component>
+    </components>
+  </character> -->
+<!--391-->
+  <!-- <character>
+    <symbol></symbol>
+    <pinyin></pinyin>
+    <meaning></meaning>
+    <note/>
+    <radical></radical>
+    <components>
+      <component></component>
+    </components>
+  </character> -->
 </characters>

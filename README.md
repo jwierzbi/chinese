@@ -2,6 +2,11 @@
 
 My journey of learning Chinese.
 
+## Genaral Info
+
+The list of characters was taken from:
+
+https://sensiblechinese.com/common-chinese-characters/
 
 ## Generating PDF Document
 

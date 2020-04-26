@@ -351,7 +351,7 @@
     </variants>
   </radical>
   <radical>
-    <number>65</number>
+    <number>66</number>
     <symbol>攴</symbol>
     <pinyin>pū</pinyin>
     <meaning>rap</meaning>
@@ -675,6 +675,14 @@
     <symbol>舛</symbol>
     <pinyin>chuǎn</pinyin>
     <meaning>contrary</meaning>
+    <strokes>6</strokes>
+    <variants/>
+  </radical>
+  <radical>
+    <number>139</number>
+    <symbol>色</symbol>
+    <pinyin>sè</pinyin>
+    <meaning>colour</meaning>
     <strokes>6</strokes>
     <variants/>
   </radical>
